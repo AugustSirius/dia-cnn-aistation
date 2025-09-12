@@ -123,26 +123,15 @@ class PeakGroupCNN(nn.Module):
         return x.squeeze(1)
 
 # ---- Helper Functions ----
-def process_single_batch(batch_num, data_folder, model, device, samples_per_batch=1000):
-    """Process a single batch by number"""
+def process_batch(batch_files, model, device, samples_per_batch=1000):
+    """Process a single batch and return results"""
     
-    folder_path = Path(data_folder)
-    
-    # Construct file paths
-    index_file = folder_path / f"batch_{batch_num}_index.txt"
-    rsm_file = folder_path / f"batch_{batch_num}_rsm.npy"
-    rt_file = folder_path / f"batch_{batch_num}_rt_values.npy"
-    
-    # Check if files exist
-    if not (index_file.exists() and rsm_file.exists() and rt_file.exists()):
-        return None
-    
-    # Load data for this batch only
-    rsm_data = np.load(rsm_file)
-    rt_values = np.load(rt_file)
+    # Load data
+    rsm_data = np.load(batch_files['rsm_file'])
+    rt_values = np.load(batch_files['rt_file'])
     
     # Load metadata
-    with open(index_file, 'r') as f:
+    with open(batch_files['index_file'], 'r') as f:
         lines = f.readlines()
     
     precursor_ids = []
@@ -180,11 +169,11 @@ def process_single_batch(batch_num, data_folder, model, device, samples_per_batc
     for (sample_idx, w_idx), score in zip(window_info, all_scores):
         if sample_idx not in sample_results or score > sample_results[sample_idx]['score']:
             sample_results[sample_idx] = {
-                'score': float(score),
+                'score': float(score),  # Convert to float for JSON serialization
                 'window_idx': int(w_idx),
                 'is_decoy': is_decoy[sample_idx] if sample_idx < len(is_decoy) else False,
                 'precursor_id': precursor_ids[sample_idx] if sample_idx < len(precursor_ids) else f"Sample_{sample_idx}",
-                'batch_num': int(batch_num)
+                'batch_num': int(batch_files['batch_num'])
             }
     
     return list(sample_results.values())
@@ -227,20 +216,6 @@ def prepare_windows(rsm_data, rt_values, samples_per_batch, window_size=16):
             window_info.append((sample_idx, w_idx))
     
     return np.array(all_windows) if all_windows else np.array([]), window_info
-
-def get_max_batch_number(data_folder):
-    """Find the maximum batch number in the folder"""
-    folder_path = Path(data_folder)
-    index_files = list(folder_path.glob("batch_*_index.txt"))
-    
-    max_batch = -1
-    for index_file in index_files:
-        match = re.search(r'batch_(\d+)_index', str(index_file))
-        if match:
-            batch_num = int(match.group(1))
-            max_batch = max(max_batch, batch_num)
-    
-    return max_batch
 
 if __name__ == "__main__":
     # ---- Main Processing ----
@@ -296,7 +271,10 @@ if __name__ == "__main__":
 
     # Process each batch sequentially
     for idx, batch_num in enumerate(batch_numbers):
-        print(idx)
+        # Show progress every 10 batches
+        if idx % 10 == 0:
+            print(f"Processing batch {idx}/{total_batches} (batch #{batch_num})...")
+        
         progress = (idx + 1) / total_batches * 100
         
         # Construct file paths for this batch
@@ -315,7 +293,9 @@ if __name__ == "__main__":
         batch_results = process_batch(batch_files, model, device, SAMPLES_PER_BATCH)
         all_results.extend(batch_results)
         
-        print(f"Done. {len(batch_results):4d} samples | Progress: {progress:5.1f}%")
+        # Show detailed progress every 50 batches
+        if (idx + 1) % 50 == 0:
+            print(f"  Progress: {progress:5.1f}% | Processed {idx+1}/{total_batches} batches | Total samples: {len(all_results)}")
 
     print("-" * 50)
     print(f"\nTotal samples processed: {len(all_results)}")
