@@ -293,19 +293,46 @@ print("-" * 50)
 # print("-" * 50)
 # print(f"\nTotal samples processed: {len(all_results)}")
 
+import time
+
+# Add at the top of your script
+PROGRESS_INTERVAL = max(1, len(batches) // 20)  # Show ~20 updates total
+
+# Replace the loop section with this:
+
+print(f"\nStarting processing of {len(batches)} batches...")
+print("-" * 50)
+
+start_time = time.time()
+
 for i, batch_files in enumerate(batches):
     batch_num = batch_files['batch_num']
     progress = (i + 1) / len(batches) * 100
     
-    # Only print every 10 batches or at milestones
-    if i % 100 == 0 or i == len(batches) - 1:
-        print(f"[{i+1:3d}/{len(batches):3d}] Processing batches... Progress: {progress:5.1f}%")
-    
+    # Process the batch
     batch_results = process_batch(batch_files, model, device, SAMPLES_PER_BATCH)
     all_results.extend(batch_results)
+    
+    # Show progress at intervals
+    if (i + 1) % PROGRESS_INTERVAL == 0 or i == 0 or i == len(batches) - 1:
+        elapsed = time.time() - start_time
+        batches_done = i + 1
+        batches_remaining = len(batches) - batches_done
+        
+        if batches_done > 0:
+            time_per_batch = elapsed / batches_done
+            eta_seconds = time_per_batch * batches_remaining
+            eta_minutes = eta_seconds / 60
+            
+            if batches_remaining > 0:
+                print(f"[{progress:5.1f}%] Processed {batches_done}/{len(batches)} batches | "
+                      f"ETA: {eta_minutes:.1f} min | Remaining: {batches_remaining}")
+            else:
+                total_minutes = elapsed / 60
+                print(f"[100.0%] Completed all {len(batches)} batches in {total_minutes:.1f} minutes")
 
 print("-" * 50)
-print(f"\nTotal samples processed: {len(all_results)}")
+print(f"Total samples processed: {len(all_results)}")
 
 # ------------------------------------------------------------------------------------------------
 
