@@ -248,3 +248,22 @@ def prepare_windows(rsm_data, rt_values, samples_per_batch, window_size=16):
 print("="*70)
 print("CNN MODEL BATCH PROCESSING")
 print("="*70)
+
+# ------------------------------------------------------------------------------------------------
+
+# Load model
+print(f"\nLoading model from: {MODEL_PATH}")
+model = PeakGroupCNN(complexity=MODEL_COMPLEXITY).to(device)
+
+checkpoint = torch.load(MODEL_PATH, map_location=device)
+if 'model_state_dict' in checkpoint:
+    model.load_state_dict(checkpoint['model_state_dict'])
+    print(f"Loaded model from epoch {checkpoint['epoch']}")
+    print(f"Model performance - Train Acc: {checkpoint['train_acc']:.4f}, Val Acc: {checkpoint['val_acc']:.4f}")
+else:
+    model.load_state_dict(checkpoint)
+    print("Loaded model state dict")
+
+model.eval()
+
+print(model.parameters())
