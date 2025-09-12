@@ -32,3 +32,219 @@ device = "mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is
 print(OUTPUT_FILE, MODEL_COMPLEXITY, SAMPLES_PER_BATCH, device)
 
 # ------------------------------------------------------------------------------------------------
+
+
+# Complexity presets (must match training)
+COMPLEXITY_CONFIG = {
+    "small": {
+        "channels": [16, 32, 64, 128],
+        "fc_dims": [128, 64],
+        "dropout": [0.3, 0.2]
+    },
+    "medium": {
+        "channels": [32, 64, 128, 256],
+        "fc_dims": [256, 128],
+        "dropout": [0.5, 0.3]
+    },
+    "large": {
+        "channels": [64, 128, 256, 512],
+        "fc_dims": [512, 256],
+        "dropout": [0.5, 0.3]
+    },
+    "xlarge": {
+        "channels": [128, 256, 512, 1024],
+        "fc_dims": [1024, 512],
+        "dropout": [0.5, 0.4]
+    }
+}
+
+# ---- Model Definition (must match training) ----
+class PeakGroupCNN(nn.Module):
+    def __init__(self, complexity="medium"):
+        super().__init__()
+        
+        config = COMPLEXITY_CONFIG[complexity]
+        channels = config["channels"]
+        fc_dims = config["fc_dims"]
+        dropout_rates = config["dropout"]
+        
+        # First conv block
+        self.conv1 = nn.Conv2d(1, channels[0], kernel_size=(3, 3), padding=1)
+        self.bn1 = nn.BatchNorm2d(channels[0])
+        self.conv2 = nn.Conv2d(channels[0], channels[1], kernel_size=(3, 3), padding=1)
+        self.bn2 = nn.BatchNorm2d(channels[1])
+        self.pool1 = nn.MaxPool2d((2, 2))
+        
+        # Second conv block
+        self.conv3 = nn.Conv2d(channels[1], channels[2], kernel_size=(3, 3), padding=1)
+        self.bn3 = nn.BatchNorm2d(channels[2])
+        self.conv4 = nn.Conv2d(channels[2], channels[3], kernel_size=(3, 3), padding=1)
+        self.bn4 = nn.BatchNorm2d(channels[3])
+        self.pool2 = nn.MaxPool2d((2, 2))
+        
+        # Additional conv layer
+        self.conv5 = nn.Conv2d(channels[3], channels[3], kernel_size=(3, 3), padding=1)
+        self.bn5 = nn.BatchNorm2d(channels[3])
+        
+        # Global average pooling
+        self.global_pool = nn.AdaptiveAvgPool2d((1, 1))
+        
+        # Fully connected layers
+        self.fc1 = nn.Linear(channels[3], fc_dims[0])
+        self.dropout1 = nn.Dropout(dropout_rates[0])
+        self.fc2 = nn.Linear(fc_dims[0], fc_dims[1])
+        self.dropout2 = nn.Dropout(dropout_rates[1])
+        self.fc3 = nn.Linear(fc_dims[1], 1)
+        
+    def forward(self, x):
+        # Conv block 1
+        x = F.relu(self.bn1(self.conv1(x)))
+        x = F.relu(self.bn2(self.conv2(x)))
+        x = self.pool1(x)
+        
+        # Conv block 2
+        x = F.relu(self.bn3(self.conv3(x)))
+        x = F.relu(self.bn4(self.conv4(x)))
+        x = self.pool2(x)
+        
+        # Conv block 3
+        x = F.relu(self.bn5(self.conv5(x)))
+        
+        # Global pooling and FC layers
+        x = self.global_pool(x)
+        x = x.view(x.size(0), -1)
+        
+        x = F.relu(self.fc1(x))
+        x = self.dropout1(x)
+        x = F.relu(self.fc2(x))
+        x = self.dropout2(x)
+        x = torch.sigmoid(self.fc3(x))
+        
+        return x.squeeze(1)
+
+# ---- Helper Functions ----
+def get_batch_files(data_folder):
+    """Find all batch files in the folder"""
+    folder_path = Path(data_folder)
+    
+    # Find all index files
+    index_files = sorted(folder_path.glob("batch_*_index.txt"))
+    
+    batches = []
+    for index_file in index_files:
+        # Extract batch number
+        match = re.search(r'batch_(\d+)_index', str(index_file))
+        if match:
+            batch_num = match.group(1)
+            rsm_file = folder_path / f"batch_{batch_num}_rsm.npy"
+            rt_file = folder_path / f"batch_{batch_num}_rt_values.npy"
+            
+            # Check if all files exist
+            if rsm_file.exists() and rt_file.exists():
+                batches.append({
+                    'batch_num': int(batch_num),
+                    'index_file': index_file,
+                    'rsm_file': rsm_file,
+                    'rt_file': rt_file
+                })
+    
+    return sorted(batches, key=lambda x: x['batch_num'])
+
+def process_batch(batch_files, model, device, samples_per_batch=1000):
+    """Process a single batch and return results"""
+    
+    # Load data
+    rsm_data = np.load(batch_files['rsm_file'])
+    rt_values = np.load(batch_files['rt_file'])
+    
+    # Load metadata
+    with open(batch_files['index_file'], 'r') as f:
+        lines = f.readlines()
+    
+    precursor_ids = []
+    is_decoy = []
+    for line in lines:
+        parts = line.strip().split('\t') if '\t' in line else line.strip().split()
+        if len(parts) >= 2 and parts[0].isdigit():
+            precursor_id = parts[1]
+            precursor_ids.append(precursor_id)
+            is_decoy.append('DECOY' in precursor_id.upper() or precursor_id.startswith('rev_'))
+    
+    # Process windows
+    windows, window_info = prepare_windows(rsm_data, rt_values, samples_per_batch)
+    
+    if len(windows) == 0:
+        return []
+    
+    # Add channel dimension
+    windows = np.expand_dims(windows, axis=1)
+    
+    # Score windows
+    batch_size = 512
+    all_scores = []
+    
+    with torch.no_grad():
+        for i in range(0, len(windows), batch_size):
+            batch = torch.tensor(windows[i:i+batch_size], dtype=torch.float32).to(device)
+            scores = model(batch).cpu().numpy()
+            all_scores.extend(scores)
+    
+    all_scores = np.array(all_scores)
+    
+    # Find best window for each sample
+    sample_results = {}
+    for (sample_idx, w_idx), score in zip(window_info, all_scores):
+        if sample_idx not in sample_results or score > sample_results[sample_idx]['score']:
+            sample_results[sample_idx] = {
+                'score': float(score),  # Convert to float for JSON serialization
+                'window_idx': int(w_idx),
+                'is_decoy': is_decoy[sample_idx] if sample_idx < len(is_decoy) else False,
+                'precursor_id': precursor_ids[sample_idx] if sample_idx < len(precursor_ids) else f"Sample_{sample_idx}",
+                'batch_num': int(batch_files['batch_num'])
+            }
+    
+    return list(sample_results.values())
+
+def prepare_windows(rsm_data, rt_values, samples_per_batch, window_size=16):
+    """Prepare windows from RSM data"""
+    # Sum across channels and smooth
+    aggregated = np.sum(rsm_data, axis=1)
+    smoothed = gaussian_filter1d(aggregated, sigma=1, axis=-1)
+    
+    # Aggregate RT points (factor of 3)
+    n_samples, n_mz, n_rt = smoothed.shape
+    agg_factor = 3
+    n_agg_rt = n_rt // agg_factor
+    
+    all_windows = []
+    window_info = []
+    
+    for sample_idx in range(min(samples_per_batch, n_samples)):
+        sample_rsm = smoothed[sample_idx]
+        
+        # Aggregate
+        agg_rsm = np.zeros((n_mz, n_agg_rt))
+        for i in range(n_agg_rt):
+            start = i * agg_factor
+            agg_rsm[:, i] = np.mean(sample_rsm[:, start:start+agg_factor], axis=1)
+        
+        # Create windows
+        max_windows = min(100, n_agg_rt - window_size + 1)
+        for w_idx in range(max_windows):
+            window = agg_rsm[:, w_idx:w_idx + window_size]
+            # Normalize
+            w_min, w_max = window.min(), window.max()
+            if w_max > w_min:
+                window = (window - w_min) / (w_max - w_min)
+            else:
+                window = np.zeros_like(window)
+            
+            all_windows.append(window)
+            window_info.append((sample_idx, w_idx))
+    
+    return np.array(all_windows) if all_windows else np.array([]), window_info
+
+# ---- Main Processing ----
+print("="*70)
+print("CNN MODEL BATCH PROCESSING")
+print("="*70)
