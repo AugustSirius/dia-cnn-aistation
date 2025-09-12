@@ -282,14 +282,28 @@ if __name__ == "__main__":
 
     # ------------------------------------------------------------------------------------------------
 
-    for i, batch_files in enumerate(batches):
-        print(i)
-        batch_num = batch_files['batch_num']
-        progress = (i + 1) / len(batches) * 100
-        # print(f"[{i+1:3d}/{len(batches):3d}] Processing batch {batch_num:3d} ... ", end='')
-        
-        batch_results = process_batch(batch_files, model, device, SAMPLES_PER_BATCH)
+    def batch_processor(batches, model, device, samples_per_batch):
+        """Generator to process batches one at a time"""
+        for i, batch_files in enumerate(batches):
+            if i % 20 == 0:  # Light progress indicator
+                print(f"Batch {i}/{len(batches)}")
+            yield process_batch(batch_files, model, device, samples_per_batch)
+
+    # Process using generator
+    all_results = []
+    for batch_results in batch_processor(batches, model, device, SAMPLES_PER_BATCH):
         all_results.extend(batch_results)
+
+    print(f"Total processed: {len(all_results)}")
+
+    # for i, batch_files in enumerate(batches):
+    #     print(i)
+    #     batch_num = batch_files['batch_num']
+    #     progress = (i + 1) / len(batches) * 100
+    #     # print(f"[{i+1:3d}/{len(batches):3d}] Processing batch {batch_num:3d} ... ", end='')
+        
+    #     batch_results = process_batch(batch_files, model, device, SAMPLES_PER_BATCH)
+    #     all_results.extend(batch_results)
         
         # print(f"Done. {len(batch_results):4d} samples | Progress: {progress:5.1f}%")
 
