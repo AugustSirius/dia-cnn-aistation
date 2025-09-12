@@ -298,7 +298,7 @@ for i, batch_files in enumerate(batches):
     progress = (i + 1) / len(batches) * 100
     
     # Only print every 10 batches or at milestones
-    if i % 10 == 0 or i == len(batches) - 1:
+    if i % 100 == 0 or i == len(batches) - 1:
         print(f"[{i+1:3d}/{len(batches):3d}] Processing batches... Progress: {progress:5.1f}%")
     
     batch_results = process_batch(batch_files, model, device, SAMPLES_PER_BATCH)
