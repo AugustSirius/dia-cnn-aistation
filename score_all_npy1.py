@@ -244,191 +244,195 @@ def prepare_windows(rsm_data, rt_values, samples_per_batch, window_size=16):
     
     return np.array(all_windows) if all_windows else np.array([]), window_info
 
-# ---- Main Processing ----
-print("="*70)
-print("CNN MODEL BATCH PROCESSING")
-print("="*70)
 
-# ------------------------------------------------------------------------------------------------
+if __name__ == "__main__":
+    # ---- Main Processing ----
+    print("="*70)
+    print("CNN MODEL BATCH PROCESSING")
+    print("="*70)
 
-# Load model
-print(f"\nLoading model from: {MODEL_PATH}")
-model = PeakGroupCNN(complexity=MODEL_COMPLEXITY).to(device)
+    # ------------------------------------------------------------------------------------------------
 
-checkpoint = torch.load(MODEL_PATH, map_location=device)
-if 'model_state_dict' in checkpoint:
-    model.load_state_dict(checkpoint['model_state_dict'])
-    print(f"Loaded model from epoch {checkpoint['epoch']}")
-    print(f"Model performance - Train Acc: {checkpoint['train_acc']:.4f}, Val Acc: {checkpoint['val_acc']:.4f}")
-else:
-    model.load_state_dict(checkpoint)
-    print("Loaded model state dict")
+    # Load model
+    print(f"\nLoading model from: {MODEL_PATH}")
+    model = PeakGroupCNN(complexity=MODEL_COMPLEXITY).to(device)
 
-model.eval()
+    checkpoint = torch.load(MODEL_PATH, map_location=device)
+    if 'model_state_dict' in checkpoint:
+        model.load_state_dict(checkpoint['model_state_dict'])
+        print(f"Loaded model from epoch {checkpoint['epoch']}")
+        print(f"Model performance - Train Acc: {checkpoint['train_acc']:.4f}, Val Acc: {checkpoint['val_acc']:.4f}")
+    else:
+        model.load_state_dict(checkpoint)
+        print("Loaded model state dict")
 
-# ------------------------------------------------------------------------------------------------
+    model.eval()
 
-# Find all batches
-print(f"\nScanning folder: {DATA_FOLDER}")
-batches = get_batch_files(DATA_FOLDER)
-print(f"Found {len(batches)} batches to process")
+    # ------------------------------------------------------------------------------------------------
 
-# Process all batches with progress reporting
-all_results = []
-print("\nProcessing batches:")
-print("-" * 50)
+    # Find all batches
+    print(f"\nScanning folder: {DATA_FOLDER}")
+    batches = get_batch_files(DATA_FOLDER)
+    print(f"Found {len(batches)} batches to process")
 
-# ------------------------------------------------------------------------------------------------
+    # Process all batches with progress reporting
+    all_results = []
+    print("\nProcessing batches:")
+    print("-" * 50)
 
-# for i, batch_files in enumerate(batches):
-#     batch_num = batch_files['batch_num']
-#     progress = (i + 1) / len(batches) * 100
-#     print(f"[{i+1:3d}/{len(batches):3d}] Processing batch {batch_num:3d} ... ", end='')
-    
-#     batch_results = process_batch(batch_files, model, device, SAMPLES_PER_BATCH)
-#     all_results.extend(batch_results)
-    
-#     print(f"Done. {len(batch_results):4d} samples | Progress: {progress:5.1f}%")
+    # ------------------------------------------------------------------------------------------------
 
-# print("-" * 50)
-# print(f"\nTotal samples processed: {len(all_results)}")
-
-import time
-
-# Add at the top of your script
-PROGRESS_INTERVAL = max(1, len(batches) // 20)  # Show ~20 updates total
-
-# Replace the loop section with this:
-
-print(f"\nStarting processing of {len(batches)} batches...")
-print("-" * 50)
-
-start_time = time.time()
-
-for i, batch_files in enumerate(batches):
-    batch_num = batch_files['batch_num']
-    progress = (i + 1) / len(batches) * 100
-    
-    # Process the batch
-    batch_results = process_batch(batch_files, model, device, SAMPLES_PER_BATCH)
-    all_results.extend(batch_results)
-    
-    # Show progress at intervals
-    if (i + 1) % PROGRESS_INTERVAL == 0 or i == 0 or i == len(batches) - 1:
-        elapsed = time.time() - start_time
-        batches_done = i + 1
-        batches_remaining = len(batches) - batches_done
+    for i, batch_files in enumerate(batches):
+        print(i)
+        batch_num = batch_files['batch_num']
+        progress = (i + 1) / len(batches) * 100
+        # print(f"[{i+1:3d}/{len(batches):3d}] Processing batch {batch_num:3d} ... ", end='')
         
-        if batches_done > 0:
-            time_per_batch = elapsed / batches_done
-            eta_seconds = time_per_batch * batches_remaining
-            eta_minutes = eta_seconds / 60
+        batch_results = process_batch(batch_files, model, device, SAMPLES_PER_BATCH)
+        all_results.extend(batch_results)
+        
+        # print(f"Done. {len(batch_results):4d} samples | Progress: {progress:5.1f}%")
+
+    # print("-" * 50)
+    # print(f"\nTotal samples processed: {len(all_results)}")
+
+    # ------------------------------------------------------------------------------------------------
+    # import time
+
+    # # Add at the top of your script
+    # PROGRESS_INTERVAL = max(1, len(batches) // 20)  # Show ~20 updates total
+
+    # # Replace the loop section with this:
+
+    # print(f"\nStarting processing of {len(batches)} batches...")
+    # print("-" * 50)
+
+    # start_time = time.time()
+
+    # for i, batch_files in enumerate(batches):
+    #     batch_num = batch_files['batch_num']
+    #     progress = (i + 1) / len(batches) * 100
+        
+    #     # Process the batch
+    #     batch_results = process_batch(batch_files, model, device, SAMPLES_PER_BATCH)
+    #     all_results.extend(batch_results)
+        
+    #     # Show progress at intervals
+    #     if (i + 1) % PROGRESS_INTERVAL == 0 or i == 0 or i == len(batches) - 1:
+    #         elapsed = time.time() - start_time
+    #         batches_done = i + 1
+    #         batches_remaining = len(batches) - batches_done
             
-            if batches_remaining > 0:
-                print(f"[{progress:5.1f}%] Processed {batches_done}/{len(batches)} batches | "
-                      f"ETA: {eta_minutes:.1f} min | Remaining: {batches_remaining}")
-            else:
-                total_minutes = elapsed / 60
-                print(f"[100.0%] Completed all {len(batches)} batches in {total_minutes:.1f} minutes")
+    #         if batches_done > 0:
+    #             time_per_batch = elapsed / batches_done
+    #             eta_seconds = time_per_batch * batches_remaining
+    #             eta_minutes = eta_seconds / 60
+                
+    #             if batches_remaining > 0:
+    #                 print(f"[{progress:5.1f}%] Processed {batches_done}/{len(batches)} batches | "
+    #                     f"ETA: {eta_minutes:.1f} min | Remaining: {batches_remaining}")
+    #             else:
+    #                 total_minutes = elapsed / 60
+    #                 print(f"[100.0%] Completed all {len(batches)} batches in {total_minutes:.1f} minutes")
 
-print("-" * 50)
-print(f"Total samples processed: {len(all_results)}")
+    # print("-" * 50)
+    # print(f"Total samples processed: {len(all_results)}")
 
-# ------------------------------------------------------------------------------------------------
+    # ------------------------------------------------------------------------------------------------
 
-# # Sort all results by score
-# all_results.sort(key=lambda x: x['score'], reverse=True)
+    # # Sort all results by score
+    # all_results.sort(key=lambda x: x['score'], reverse=True)
 
-# # Add rank to each result
-# for rank, result in enumerate(all_results, 1):
-#     result['rank'] = rank
+    # # Add rank to each result
+    # for rank, result in enumerate(all_results, 1):
+    #     result['rank'] = rank
 
-# # ---- Calculate Statistics ----
-# def calculate_statistics(results, top_k):
-#     """Calculate target/decoy statistics for top K results"""
-#     if len(results) < top_k:
-#         top_k = len(results)
-    
-#     top_results = results[:top_k]
-#     n_targets = sum(1 for r in top_results if not r['is_decoy'])
-#     n_decoys = top_k - n_targets
-    
-#     return {
-#         'k': top_k,
-#         'targets': n_targets,
-#         'decoys': n_decoys,
-#         'target_rate': n_targets / top_k if top_k > 0 else 0
-#     }
+    # # ---- Calculate Statistics ----
+    # def calculate_statistics(results, top_k):
+    #     """Calculate target/decoy statistics for top K results"""
+    #     if len(results) < top_k:
+    #         top_k = len(results)
+        
+    #     top_results = results[:top_k]
+    #     n_targets = sum(1 for r in top_results if not r['is_decoy'])
+    #     n_decoys = top_k - n_targets
+        
+    #     return {
+    #         'k': top_k,
+    #         'targets': n_targets,
+    #         'decoys': n_decoys,
+    #         'target_rate': n_targets / top_k if top_k > 0 else 0
+    #     }
 
-# # Calculate statistics for different K values
-# k_values = [100, 500, 1000, 2000, 5000, 10000, 100000]
-# statistics = []
+    # # Calculate statistics for different K values
+    # k_values = [100, 500, 1000, 2000, 5000, 10000, 100000]
+    # statistics = []
 
-# print("\n" + "="*70)
-# print("PERFORMANCE STATISTICS")
-# print("="*70)
-# print(f"{'Top K':<10} {'Targets':<10} {'Decoys':<10} {'Target %':<12} {'Decoy %':<12}")
-# print("-"*70)
+    # print("\n" + "="*70)
+    # print("PERFORMANCE STATISTICS")
+    # print("="*70)
+    # print(f"{'Top K':<10} {'Targets':<10} {'Decoys':<10} {'Target %':<12} {'Decoy %':<12}")
+    # print("-"*70)
 
-# for k in k_values:
-#     if k <= len(all_results):
-#         stats = calculate_statistics(all_results, k)
-#         statistics.append(stats)
-#         print(f"{stats['k']:<10} {stats['targets']:<10} {stats['decoys']:<10} "
-#               f"{stats['target_rate']*100:<12.2f} {(1-stats['target_rate'])*100:<12.2f}")
+    # for k in k_values:
+    #     if k <= len(all_results):
+    #         stats = calculate_statistics(all_results, k)
+    #         statistics.append(stats)
+    #         print(f"{stats['k']:<10} {stats['targets']:<10} {stats['decoys']:<10} "
+    #               f"{stats['target_rate']*100:<12.2f} {(1-stats['target_rate'])*100:<12.2f}")
 
-# # ---- Print Top 20 Details ----
-# print("\n" + "="*70)
-# print("TOP 20 SCORING SAMPLES")
-# print("="*70)
-# print(f"{'Rank':<6} {'Score':<8} {'Type':<8} {'Batch':<8} {'Sample ID'}")
-# print("-"*70)
+    # # ---- Print Top 20 Details ----
+    # print("\n" + "="*70)
+    # print("TOP 20 SCORING SAMPLES")
+    # print("="*70)
+    # print(f"{'Rank':<6} {'Score':<8} {'Type':<8} {'Batch':<8} {'Sample ID'}")
+    # print("-"*70)
 
-# for rank, result in enumerate(all_results[:20], 1):
-#     sample_type = 'DECOY' if result['is_decoy'] else 'TARGET'
-#     sample_name = result['precursor_id']
-#     if len(sample_name) > 35:
-#         sample_name = sample_name[:32] + '...'
-#     print(f"{rank:<6} {result['score']:<8.4f} {sample_type:<8} {result['batch_num']:<8} {sample_name}")
+    # for rank, result in enumerate(all_results[:20], 1):
+    #     sample_type = 'DECOY' if result['is_decoy'] else 'TARGET'
+    #     sample_name = result['precursor_id']
+    #     if len(sample_name) > 35:
+    #         sample_name = sample_name[:32] + '...'
+    #     print(f"{rank:<6} {result['score']:<8.4f} {sample_type:<8} {result['batch_num']:<8} {sample_name}")
 
-# # ---- Summary ----
-# print("\n" + "="*70)
-# print("SUMMARY")
-# print("="*70)
-# print(f"Total batches processed: {len(batches)}")
-# print(f"Total samples scored: {len(all_results)}")
-# if all_results:
-#     print(f"Score range: {min(r['score'] for r in all_results):.4f} - {max(r['score'] for r in all_results):.4f}")
-#     print(f"Mean score: {np.mean([r['score'] for r in all_results]):.4f}")
-#     print(f"Median score: {np.median([r['score'] for r in all_results]):.4f}")
+    # # ---- Summary ----
+    # print("\n" + "="*70)
+    # print("SUMMARY")
+    # print("="*70)
+    # print(f"Total batches processed: {len(batches)}")
+    # print(f"Total samples scored: {len(all_results)}")
+    # if all_results:
+    #     print(f"Score range: {min(r['score'] for r in all_results):.4f} - {max(r['score'] for r in all_results):.4f}")
+    #     print(f"Mean score: {np.mean([r['score'] for r in all_results]):.4f}")
+    #     print(f"Median score: {np.median([r['score'] for r in all_results]):.4f}")
 
-# # ---- Save Results to File ----
-# output_data = {
-#     'metadata': {
-#         'model_path': MODEL_PATH,
-#         'data_folder': DATA_FOLDER,
-#         'model_complexity': MODEL_COMPLEXITY,
-#         'processing_date': datetime.now().isoformat(),
-#         'total_batches': len(batches),
-#         'total_samples': len(all_results),
-#         'device': device
-#     },
-#     'statistics': statistics,
-#     'summary': {
-#         'score_range': {
-#             'min': float(min(r['score'] for r in all_results)) if all_results else 0,
-#             'max': float(max(r['score'] for r in all_results)) if all_results else 0
-#         },
-#         'mean_score': float(np.mean([r['score'] for r in all_results])) if all_results else 0,
-#         'median_score': float(np.median([r['score'] for r in all_results])) if all_results else 0
-#     },
-#     'results': all_results
-# }
+    # # ---- Save Results to File ----
+    # output_data = {
+    #     'metadata': {
+    #         'model_path': MODEL_PATH,
+    #         'data_folder': DATA_FOLDER,
+    #         'model_complexity': MODEL_COMPLEXITY,
+    #         'processing_date': datetime.now().isoformat(),
+    #         'total_batches': len(batches),
+    #         'total_samples': len(all_results),
+    #         'device': device
+    #     },
+    #     'statistics': statistics,
+    #     'summary': {
+    #         'score_range': {
+    #             'min': float(min(r['score'] for r in all_results)) if all_results else 0,
+    #             'max': float(max(r['score'] for r in all_results)) if all_results else 0
+    #         },
+    #         'mean_score': float(np.mean([r['score'] for r in all_results])) if all_results else 0,
+    #         'median_score': float(np.median([r['score'] for r in all_results])) if all_results else 0
+    #     },
+    #     'results': all_results
+    # }
 
-# # Save to JSON file
-# with open(OUTPUT_FILE, 'w') as f:
-#     json.dump(output_data, f, indent=2)
+    # # Save to JSON file
+    # with open(OUTPUT_FILE, 'w') as f:
+    #     json.dump(output_data, f, indent=2)
 
-# print(f"\n" + "="*70)
-# print(f"Results saved to: {OUTPUT_FILE}")
-# print("="*70)
+    # print(f"\n" + "="*70)
+    # print(f"Results saved to: {OUTPUT_FILE}")
+    # print("="*70)
