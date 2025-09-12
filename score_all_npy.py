@@ -29,6 +29,10 @@ SAMPLES_PER_BATCH = 1000  # Process all 1000 samples per batch
 
 device = "mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu"
 
+print(OUTPUT_FILE, MODEL_COMPLEXITY, SAMPLES_PER_BATCH, device)
+
+# ------------------------------------------------------------------------------------------------
+
 # Complexity presets (must match training)
 COMPLEXITY_CONFIG = {
     "small": {
