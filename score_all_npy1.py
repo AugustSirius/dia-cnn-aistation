@@ -266,4 +266,124 @@ else:
 
 model.eval()
 
-print(model.parameters())
+# ------------------------------------------------------------------------------------------------
+
+# Find all batches
+print(f"\nScanning folder: {DATA_FOLDER}")
+batches = get_batch_files(DATA_FOLDER)
+print(f"Found {len(batches)} batches to process")
+
+# Process all batches with progress reporting
+all_results = []
+print("\nProcessing batches:")
+print("-" * 50)
+
+for i, batch_files in enumerate(batches):
+    batch_num = batch_files['batch_num']
+    progress = (i + 1) / len(batches) * 100
+    print(f"[{i+1:3d}/{len(batches):3d}] Processing batch {batch_num:3d} ... ", end='')
+    
+    batch_results = process_batch(batch_files, model, device, SAMPLES_PER_BATCH)
+    all_results.extend(batch_results)
+    
+    print(f"Done. {len(batch_results):4d} samples | Progress: {progress:5.1f}%")
+
+print("-" * 50)
+print(f"\nTotal samples processed: {len(all_results)}")
+
+# Sort all results by score
+all_results.sort(key=lambda x: x['score'], reverse=True)
+
+# Add rank to each result
+for rank, result in enumerate(all_results, 1):
+    result['rank'] = rank
+
+# ---- Calculate Statistics ----
+def calculate_statistics(results, top_k):
+    """Calculate target/decoy statistics for top K results"""
+    if len(results) < top_k:
+        top_k = len(results)
+    
+    top_results = results[:top_k]
+    n_targets = sum(1 for r in top_results if not r['is_decoy'])
+    n_decoys = top_k - n_targets
+    
+    return {
+        'k': top_k,
+        'targets': n_targets,
+        'decoys': n_decoys,
+        'target_rate': n_targets / top_k if top_k > 0 else 0
+    }
+
+# Calculate statistics for different K values
+k_values = [100, 500, 1000, 2000, 5000, 10000, 100000]
+statistics = []
+
+print("\n" + "="*70)
+print("PERFORMANCE STATISTICS")
+print("="*70)
+print(f"{'Top K':<10} {'Targets':<10} {'Decoys':<10} {'Target %':<12} {'Decoy %':<12}")
+print("-"*70)
+
+for k in k_values:
+    if k <= len(all_results):
+        stats = calculate_statistics(all_results, k)
+        statistics.append(stats)
+        print(f"{stats['k']:<10} {stats['targets']:<10} {stats['decoys']:<10} "
+              f"{stats['target_rate']*100:<12.2f} {(1-stats['target_rate'])*100:<12.2f}")
+
+# ---- Print Top 20 Details ----
+print("\n" + "="*70)
+print("TOP 20 SCORING SAMPLES")
+print("="*70)
+print(f"{'Rank':<6} {'Score':<8} {'Type':<8} {'Batch':<8} {'Sample ID'}")
+print("-"*70)
+
+for rank, result in enumerate(all_results[:20], 1):
+    sample_type = 'DECOY' if result['is_decoy'] else 'TARGET'
+    sample_name = result['precursor_id']
+    if len(sample_name) > 35:
+        sample_name = sample_name[:32] + '...'
+    print(f"{rank:<6} {result['score']:<8.4f} {sample_type:<8} {result['batch_num']:<8} {sample_name}")
+
+# ---- Summary ----
+print("\n" + "="*70)
+print("SUMMARY")
+print("="*70)
+print(f"Total batches processed: {len(batches)}")
+print(f"Total samples scored: {len(all_results)}")
+if all_results:
+    print(f"Score range: {min(r['score'] for r in all_results):.4f} - {max(r['score'] for r in all_results):.4f}")
+    print(f"Mean score: {np.mean([r['score'] for r in all_results]):.4f}")
+    print(f"Median score: {np.median([r['score'] for r in all_results]):.4f}")
+
+# ---- Save Results to File ----
+output_data = {
+    'metadata': {
+        'model_path': MODEL_PATH,
+        'data_folder': DATA_FOLDER,
+        'model_complexity': MODEL_COMPLEXITY,
+        'processing_date': datetime.now().isoformat(),
+        'total_batches': len(batches),
+        'total_samples': len(all_results),
+        'device': device
+    },
+    'statistics': statistics,
+    'summary': {
+        'score_range': {
+            'min': float(min(r['score'] for r in all_results)) if all_results else 0,
+            'max': float(max(r['score'] for r in all_results)) if all_results else 0
+        },
+        'mean_score': float(np.mean([r['score'] for r in all_results])) if all_results else 0,
+        'median_score': float(np.median([r['score'] for r in all_results])) if all_results else 0
+    },
+    'results': all_results
+}
+
+# Save to JSON file
+with open(OUTPUT_FILE, 'w') as f:
+    json.dump(output_data, f, indent=2)
+
+print(f"\n" + "="*70)
+print(f"Results saved to: {OUTPUT_FILE}")
+print("="*70)
