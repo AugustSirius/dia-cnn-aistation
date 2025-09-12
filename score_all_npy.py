@@ -1,6 +1,3 @@
-# ------------------------------------------------------------
-# CNN model inference and RT window scoring - Multi-batch version
-# ------------------------------------------------------------
 import numpy as np
 from scipy.ndimage import gaussian_filter1d
 import torch
@@ -23,6 +20,8 @@ print(f'load successful: {MODEL_PATH}')
 DATA_FOLDER = '/wangshuaiyao/dia-bert-timstof/00.TimsTOF_Rust/02.rust_for_rsm/output_new'\
 
 print(f'load successful: {DATA_FOLDER}')
+
+# ------------------------------------------------------------------------------------------------
 
 OUTPUT_FILE = f'scoring_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.json'
 MODEL_COMPLEXITY = "medium"  # Must match the training configuration
