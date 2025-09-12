@@ -278,18 +278,18 @@ all_results = []
 print("\nProcessing batches:")
 print("-" * 50)
 
-# for i, batch_files in enumerate(batches):
-#     batch_num = batch_files['batch_num']
-#     progress = (i + 1) / len(batches) * 100
-#     print(f"[{i+1:3d}/{len(batches):3d}] Processing batch {batch_num:3d} ... ", end='')
+for i, batch_files in enumerate(batches):
+    batch_num = batch_files['batch_num']
+    progress = (i + 1) / len(batches) * 100
+    print(f"[{i+1:3d}/{len(batches):3d}] Processing batch {batch_num:3d} ... ", end='')
     
-#     batch_results = process_batch(batch_files, model, device, SAMPLES_PER_BATCH)
-#     all_results.extend(batch_results)
+    batch_results = process_batch(batch_files, model, device, SAMPLES_PER_BATCH)
+    all_results.extend(batch_results)
     
-#     print(f"Done. {len(batch_results):4d} samples | Progress: {progress:5.1f}%")
+    print(f"Done. {len(batch_results):4d} samples | Progress: {progress:5.1f}%")
 
-# print("-" * 50)
-# print(f"\nTotal samples processed: {len(all_results)}")
+print("-" * 50)
+print(f"\nTotal samples processed: {len(all_results)}")
 
 # # Sort all results by score
 # all_results.sort(key=lambda x: x['score'], reverse=True)
