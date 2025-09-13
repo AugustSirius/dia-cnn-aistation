@@ -1,0 +1,8012 @@
+{
+  "batch_num": 720,
+  "n_samples": 1000,
+  "n_targets": 493,
+  "n_decoys": 507,
+  "target_rate": 0.493,
+  "max_score": 1.0,
+  "min_score": 1.9136698483634973e-06,
+  "mean_score": 0.5901387446172468,
+  "results": [
+    {
+      "score": 1.0,
+      "window_idx": 48,
+      "is_decoy": false,
+      "precursor_id": "ELVVTQLGYDTR2",
+      "batch_num": 720,
+      "rank": 1
+    },
+    {
+      "score": 1.0,
+      "window_idx": 58,
+      "is_decoy": false,
+      "precursor_id": "ILISLATGHREEGGENLDQAR4",
+      "batch_num": 720,
+      "rank": 2
+    },
+    {
+      "score": 1.0,
+      "window_idx": 75,
+      "is_decoy": false,
+      "precursor_id": "KTTVLAMDQVPR3",
+      "batch_num": 720,
+      "rank": 3
+    },
+    {
+      "score": 0.9999997615814209,
+      "window_idx": 55,
+      "is_decoy": false,
+      "precursor_id": "YQDILNEIAK2",
+      "batch_num": 720,
+      "rank": 4
+    },
+    {
+      "score": 0.9999991655349731,
+      "window_idx": 51,
+      "is_decoy": false,
+      "precursor_id": "HVM(UniMod:35)TRLGEKLSDEEVDEMIR3",
+      "batch_num": 720,
+      "rank": 5
+    },
+    {
+      "score": 0.999998927116394,
+      "window_idx": 51,
+      "is_decoy": false,
+      "precursor_id": "DLQNVNITLR2",
+      "batch_num": 720,
+      "rank": 6
+    },
+    {
+      "score": 0.9999969005584717,
+      "window_idx": 30,
+      "is_decoy": false,
+      "precursor_id": "GPSGPVGPAGAVGPR2",
+      "batch_num": 720,
+      "rank": 7
+    },
+    {
+      "score": 0.999975323677063,
+      "window_idx": 86,
+      "is_decoy": false,
+      "precursor_id": "SGGLATGIAGGLAGMGGIQNEK2",
+      "batch_num": 720,
+      "rank": 8
+    },
+    {
+      "score": 0.9999666213989258,
+      "window_idx": 75,
+      "is_decoy": false,
+      "precursor_id": "AYQGFASGDGDK2",
+      "batch_num": 720,
+      "rank": 9
+    },
+    {
+      "score": 0.9999486207962036,
+      "window_idx": 37,
+      "is_decoy": false,
+      "precursor_id": "PQAPATVGLAFR2",
+      "batch_num": 720,
+      "rank": 10
+    },
+    {
+      "score": 0.9999480247497559,
+      "window_idx": 54,
+      "is_decoy": false,
+      "precursor_id": "KIFVGGIK2",
+      "batch_num": 720,
+      "rank": 11
+    },
+    {
+      "score": 0.9999301433563232,
+      "window_idx": 91,
+      "is_decoy": true,
+      "precursor_id": "DECOY_RLETELDGLR2",
+      "batch_num": 720,
+      "rank": 12
+    },
+    {
+      "score": 0.9999113082885742,
+      "window_idx": 53,
+      "is_decoy": false,
+      "precursor_id": "TVVLLDSVEK2",
+      "batch_num": 720,
+      "rank": 13
+    },
+    {
+      "score": 0.999869704246521,
+      "window_idx": 54,
+      "is_decoy": false,
+      "precursor_id": "YSLLPFWYTLLYQAHR3",
+      "batch_num": 720,
+      "rank": 14
+    },
+    {
+      "score": 0.9998353719711304,
+      "window_idx": 2,
+      "is_decoy": false,
+      "precursor_id": "ANQDTIYEGIGGPR2",
+      "batch_num": 720,
+      "rank": 15
+    },
+    {
+      "score": 0.9997805953025818,
+      "window_idx": 78,
+      "is_decoy": false,
+      "precursor_id": "KYVDLGGSYVGPTQNR3",
+      "batch_num": 720,
+      "rank": 16
+    },
+    {
+      "score": 0.9997460246086121,
+      "window_idx": 41,
+      "is_decoy": false,
+      "precursor_id": "AKQDM(UniMod:35)AC(UniMod:4)LLK2",
+      "batch_num": 720,
+      "rank": 17
+    },
+    {
+      "score": 0.9997362494468689,
+      "window_idx": 24,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HLPIYSEKIVDM(UniMod:35)YK3",
+      "batch_num": 720,
+      "rank": 18
+    },
+    {
+      "score": 0.9997250437736511,
+      "window_idx": 93,
+      "is_decoy": true,
+      "precursor_id": "DECOY_PMDLMVEASPR2",
+      "batch_num": 720,
+      "rank": 19
+    },
+    {
+      "score": 0.9996370077133179,
+      "window_idx": 9,
+      "is_decoy": true,
+      "precursor_id": "DECOY_MRGPGDLMGPQGLSPEEMAR3",
+      "batch_num": 720,
+      "rank": 20
+    },
+    {
+      "score": 0.9995255470275879,
+      "window_idx": 12,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VYGTVFHINHGNPFNLK3",
+      "batch_num": 720,
+      "rank": 21
+    },
+    {
+      "score": 0.999508261680603,
+      "window_idx": 33,
+      "is_decoy": false,
+      "precursor_id": "EVYQPGSVLDFPR2",
+      "batch_num": 720,
+      "rank": 22
+    },
+    {
+      "score": 0.9994598031044006,
+      "window_idx": 41,
+      "is_decoy": false,
+      "precursor_id": "KMAQELYMEQK2",
+      "batch_num": 720,
+      "rank": 23
+    },
+    {
+      "score": 0.9994279742240906,
+      "window_idx": 70,
+      "is_decoy": false,
+      "precursor_id": "IEEDFPHIR2",
+      "batch_num": 720,
+      "rank": 24
+    },
+    {
+      "score": 0.9994094371795654,
+      "window_idx": 78,
+      "is_decoy": false,
+      "precursor_id": "ERFAGVDIR2",
+      "batch_num": 720,
+      "rank": 25
+    },
+    {
+      "score": 0.9993979930877686,
+      "window_idx": 48,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SQDAEVGDGTTSVTLLAAEFLK3",
+      "batch_num": 720,
+      "rank": 26
+    },
+    {
+      "score": 0.9993852376937866,
+      "window_idx": 9,
+      "is_decoy": false,
+      "precursor_id": "SVEQTLLPLVSQITTLINHK3",
+      "batch_num": 720,
+      "rank": 27
+    },
+    {
+      "score": 0.9993639588356018,
+      "window_idx": 75,
+      "is_decoy": false,
+      "precursor_id": "ALYDTFSAFGNILSC(UniMod:4)K2",
+      "batch_num": 720,
+      "rank": 28
+    },
+    {
+      "score": 0.9992947578430176,
+      "window_idx": 72,
+      "is_decoy": false,
+      "precursor_id": "NWLEGEHHGR2",
+      "batch_num": 720,
+      "rank": 29
+    },
+    {
+      "score": 0.9991938471794128,
+      "window_idx": 59,
+      "is_decoy": false,
+      "precursor_id": "GTYTVTASNR2",
+      "batch_num": 720,
+      "rank": 30
+    },
+    {
+      "score": 0.9991924166679382,
+      "window_idx": 6,
+      "is_decoy": false,
+      "precursor_id": "KYEEALMAAEISQK2",
+      "batch_num": 720,
+      "rank": 31
+    },
+    {
+      "score": 0.9991669654846191,
+      "window_idx": 47,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ELHIVEAEAMNYEGSPIK3",
+      "batch_num": 720,
+      "rank": 32
+    },
+    {
+      "score": 0.9991068243980408,
+      "window_idx": 60,
+      "is_decoy": false,
+      "precursor_id": "GAILEDAIPSTAR2",
+      "batch_num": 720,
+      "rank": 33
+    },
+    {
+      "score": 0.9990732669830322,
+      "window_idx": 86,
+      "is_decoy": false,
+      "precursor_id": "AVMQLLVNPFVGPLTNR2",
+      "batch_num": 720,
+      "rank": 34
+    },
+    {
+      "score": 0.999038577079773,
+      "window_idx": 54,
+      "is_decoy": false,
+      "precursor_id": "TSSESIYSRPGSSIPGSPGHTIYAK3",
+      "batch_num": 720,
+      "rank": 35
+    },
+    {
+      "score": 0.9989965558052063,
+      "window_idx": 27,
+      "is_decoy": false,
+      "precursor_id": "KLHAVVETLVNHR3",
+      "batch_num": 720,
+      "rank": 36
+    },
+    {
+      "score": 0.9989842772483826,
+      "window_idx": 93,
+      "is_decoy": false,
+      "precursor_id": "EQWLNGLALPER2",
+      "batch_num": 720,
+      "rank": 37
+    },
+    {
+      "score": 0.9989738464355469,
+      "window_idx": 59,
+      "is_decoy": false,
+      "precursor_id": "LLVGAYDADVDIR2",
+      "batch_num": 720,
+      "rank": 38
+    },
+    {
+      "score": 0.9989008903503418,
+      "window_idx": 94,
+      "is_decoy": false,
+      "precursor_id": "LLERVTFVDTPGIIENR3",
+      "batch_num": 720,
+      "rank": 39
+    },
+    {
+      "score": 0.9988337159156799,
+      "window_idx": 40,
+      "is_decoy": false,
+      "precursor_id": "STLVNTLFK2",
+      "batch_num": 720,
+      "rank": 40
+    },
+    {
+      "score": 0.9987735152244568,
+      "window_idx": 61,
+      "is_decoy": false,
+      "precursor_id": "HIAEDSDRKYEEVAR3",
+      "batch_num": 720,
+      "rank": 41
+    },
+    {
+      "score": 0.9986993074417114,
+      "window_idx": 21,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ISGVALHDQGQYEC(UniMod:4)QAVNIIGSQK3",
+      "batch_num": 720,
+      "rank": 42
+    },
+    {
+      "score": 0.9986151456832886,
+      "window_idx": 75,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GLAAITMDK2",
+      "batch_num": 720,
+      "rank": 43
+    },
+    {
+      "score": 0.9985540509223938,
+      "window_idx": 81,
+      "is_decoy": true,
+      "precursor_id": "DECOY_YSNKDC(UniMod:4)PDSAEEYER3",
+      "batch_num": 720,
+      "rank": 44
+    },
+    {
+      "score": 0.9985235333442688,
+      "window_idx": 72,
+      "is_decoy": false,
+      "precursor_id": "DPEGFVGHPVNAFK3",
+      "batch_num": 720,
+      "rank": 45
+    },
+    {
+      "score": 0.9984532594680786,
+      "window_idx": 99,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EDGGFRHSEAFEALQQK3",
+      "batch_num": 720,
+      "rank": 46
+    },
+    {
+      "score": 0.9984256029129028,
+      "window_idx": 50,
+      "is_decoy": true,
+      "precursor_id": "DECOY_NHLDYRPVALLFHK3",
+      "batch_num": 720,
+      "rank": 47
+    },
+    {
+      "score": 0.9982829093933105,
+      "window_idx": 43,
+      "is_decoy": false,
+      "precursor_id": "PGPAGGGGGGSR2",
+      "batch_num": 720,
+      "rank": 48
+    },
+    {
+      "score": 0.9982441663742065,
+      "window_idx": 38,
+      "is_decoy": false,
+      "precursor_id": "QEGSSGAVSTR2",
+      "batch_num": 720,
+      "rank": 49
+    },
+    {
+      "score": 0.9980344176292419,
+      "window_idx": 16,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AGPWTPEAAVEHPE2",
+      "batch_num": 720,
+      "rank": 50
+    },
+    {
+      "score": 0.9979934692382812,
+      "window_idx": 67,
+      "is_decoy": false,
+      "precursor_id": "FMQTFVLAPEGSVPNK2",
+      "batch_num": 720,
+      "rank": 51
+    },
+    {
+      "score": 0.9977357387542725,
+      "window_idx": 80,
+      "is_decoy": false,
+      "precursor_id": "EEPIYIITEYM(UniMod:35)AK2",
+      "batch_num": 720,
+      "rank": 52
+    },
+    {
+      "score": 0.997723400592804,
+      "window_idx": 90,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VRAEPTPLPQFPFAD2",
+      "batch_num": 720,
+      "rank": 53
+    },
+    {
+      "score": 0.9977203011512756,
+      "window_idx": 2,
+      "is_decoy": false,
+      "precursor_id": "VFGNNNIPEAR2",
+      "batch_num": 720,
+      "rank": 54
+    },
+    {
+      "score": 0.9976454377174377,
+      "window_idx": 86,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HLDVDLDRQSLSSIDK2",
+      "batch_num": 720,
+      "rank": 55
+    },
+    {
+      "score": 0.9975613355636597,
+      "window_idx": 5,
+      "is_decoy": false,
+      "precursor_id": "YVGESEANIR2",
+      "batch_num": 720,
+      "rank": 56
+    },
+    {
+      "score": 0.9975333213806152,
+      "window_idx": 45,
+      "is_decoy": false,
+      "precursor_id": "MVNPTTVLESPHSLPAK3",
+      "batch_num": 720,
+      "rank": 57
+    },
+    {
+      "score": 0.9974440336227417,
+      "window_idx": 88,
+      "is_decoy": false,
+      "precursor_id": "VGSGDTNNFPYLEK2",
+      "batch_num": 720,
+      "rank": 58
+    },
+    {
+      "score": 0.9973879456520081,
+      "window_idx": 98,
+      "is_decoy": true,
+      "precursor_id": "DECOY_MLPTIIADNAGYDSAD2",
+      "batch_num": 720,
+      "rank": 59
+    },
+    {
+      "score": 0.9973095655441284,
+      "window_idx": 71,
+      "is_decoy": false,
+      "precursor_id": "ATQFNSALFTLSSHR3",
+      "batch_num": 720,
+      "rank": 60
+    },
+    {
+      "score": 0.9972163438796997,
+      "window_idx": 93,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SLLHSQLATLFFDEVVK3",
+      "batch_num": 720,
+      "rank": 61
+    },
+    {
+      "score": 0.9971597194671631,
+      "window_idx": 22,
+      "is_decoy": true,
+      "precursor_id": "DECOY_KELGDHVTNLR3",
+      "batch_num": 720,
+      "rank": 62
+    },
+    {
+      "score": 0.997123658657074,
+      "window_idx": 45,
+      "is_decoy": false,
+      "precursor_id": "LQMELMEYK2",
+      "batch_num": 720,
+      "rank": 63
+    },
+    {
+      "score": 0.9970706701278687,
+      "window_idx": 39,
+      "is_decoy": false,
+      "precursor_id": "SPPMINLISVGGQHQGVFGLPR3",
+      "batch_num": 720,
+      "rank": 64
+    },
+    {
+      "score": 0.9970604777336121,
+      "window_idx": 66,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GQWGTVC(UniMod:4)DNLWDLTDASVVC(UniMod:4)R3",
+      "batch_num": 720,
+      "rank": 65
+    },
+    {
+      "score": 0.9970459342002869,
+      "window_idx": 7,
+      "is_decoy": false,
+      "precursor_id": "LQTPNTFPK2",
+      "batch_num": 720,
+      "rank": 66
+    },
+    {
+      "score": 0.9968708157539368,
+      "window_idx": 18,
+      "is_decoy": false,
+      "precursor_id": "SSPTGPLSSC(UniMod:4)HK2",
+      "batch_num": 720,
+      "rank": 67
+    },
+    {
+      "score": 0.9968172311782837,
+      "window_idx": 23,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LEISDEFSEAIGALR3",
+      "batch_num": 720,
+      "rank": 68
+    },
+    {
+      "score": 0.9967216849327087,
+      "window_idx": 75,
+      "is_decoy": false,
+      "precursor_id": "SVLADQGKSFATASHR3",
+      "batch_num": 720,
+      "rank": 69
+    },
+    {
+      "score": 0.9966505169868469,
+      "window_idx": 75,
+      "is_decoy": true,
+      "precursor_id": "DECOY_PSQEGQVLVGIYGQYQLLGIK3",
+      "batch_num": 720,
+      "rank": 70
+    },
+    {
+      "score": 0.9966083765029907,
+      "window_idx": 81,
+      "is_decoy": true,
+      "precursor_id": "DECOY_KINLQGDIVDR2",
+      "batch_num": 720,
+      "rank": 71
+    },
+    {
+      "score": 0.9963478446006775,
+      "window_idx": 25,
+      "is_decoy": false,
+      "precursor_id": "M(UniMod:35)DDSSVLEATR2",
+      "batch_num": 720,
+      "rank": 72
+    },
+    {
+      "score": 0.9962888956069946,
+      "window_idx": 33,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AVATVGPISVAIDAGHESFLFYK3",
+      "batch_num": 720,
+      "rank": 73
+    },
+    {
+      "score": 0.9962621331214905,
+      "window_idx": 25,
+      "is_decoy": false,
+      "precursor_id": "PGFADDPTELAC(UniMod:4)R2",
+      "batch_num": 720,
+      "rank": 74
+    },
+    {
+      "score": 0.996178388595581,
+      "window_idx": 31,
+      "is_decoy": false,
+      "precursor_id": "VADYC(UniMod:4)ENNYIQATDKR3",
+      "batch_num": 720,
+      "rank": 75
+    },
+    {
+      "score": 0.9961504936218262,
+      "window_idx": 73,
+      "is_decoy": false,
+      "precursor_id": "IIPLQGPGLTTTESR2",
+      "batch_num": 720,
+      "rank": 76
+    },
+    {
+      "score": 0.9960203766822815,
+      "window_idx": 99,
+      "is_decoy": true,
+      "precursor_id": "DECOY_FPVKPGDLK2",
+      "batch_num": 720,
+      "rank": 77
+    },
+    {
+      "score": 0.9959650039672852,
+      "window_idx": 77,
+      "is_decoy": false,
+      "precursor_id": "FTVFGGSLSGAHAQK2",
+      "batch_num": 720,
+      "rank": 78
+    },
+    {
+      "score": 0.9957606196403503,
+      "window_idx": 52,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AMLQVNPEER2",
+      "batch_num": 720,
+      "rank": 79
+    },
+    {
+      "score": 0.9955887794494629,
+      "window_idx": 23,
+      "is_decoy": false,
+      "precursor_id": "LNILTRPSGILVNDTK3",
+      "batch_num": 720,
+      "rank": 80
+    },
+    {
+      "score": 0.9955037236213684,
+      "window_idx": 54,
+      "is_decoy": false,
+      "precursor_id": "TLLISSLSPALPAEHLEDR3",
+      "batch_num": 720,
+      "rank": 81
+    },
+    {
+      "score": 0.9952864050865173,
+      "window_idx": 17,
+      "is_decoy": true,
+      "precursor_id": "DECOY_M(UniMod:35)LPTIIADNAGYDSADLVAQLR3",
+      "batch_num": 720,
+      "rank": 82
+    },
+    {
+      "score": 0.9951272010803223,
+      "window_idx": 36,
+      "is_decoy": false,
+      "precursor_id": "AMHESALLEEQR3",
+      "batch_num": 720,
+      "rank": 83
+    },
+    {
+      "score": 0.9950290322303772,
+      "window_idx": 12,
+      "is_decoy": false,
+      "precursor_id": "NFLTTAIRPHGIFGPRD3",
+      "batch_num": 720,
+      "rank": 84
+    },
+    {
+      "score": 0.9948927164077759,
+      "window_idx": 8,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LLAAIDDIDRPK2",
+      "batch_num": 720,
+      "rank": 85
+    },
+    {
+      "score": 0.9946507811546326,
+      "window_idx": 93,
+      "is_decoy": false,
+      "precursor_id": "PGQEQLGLLQSYLK2",
+      "batch_num": 720,
+      "rank": 86
+    },
+    {
+      "score": 0.9946240782737732,
+      "window_idx": 48,
+      "is_decoy": false,
+      "precursor_id": "AASQPTSLAPEK2",
+      "batch_num": 720,
+      "rank": 87
+    },
+    {
+      "score": 0.994457483291626,
+      "window_idx": 36,
+      "is_decoy": false,
+      "precursor_id": "VSVSSVYEQHESTPLR3",
+      "batch_num": 720,
+      "rank": 88
+    },
+    {
+      "score": 0.9942254424095154,
+      "window_idx": 99,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EGHSPEGSTVTYHLLGPQEEGEGVVDVK4",
+      "batch_num": 720,
+      "rank": 89
+    },
+    {
+      "score": 0.9939660429954529,
+      "window_idx": 21,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VATPMSVTSQR2",
+      "batch_num": 720,
+      "rank": 90
+    },
+    {
+      "score": 0.9938803911209106,
+      "window_idx": 39,
+      "is_decoy": false,
+      "precursor_id": "LVAVINSAQDAPSEAPTEVGVK3",
+      "batch_num": 720,
+      "rank": 91
+    },
+    {
+      "score": 0.9938684105873108,
+      "window_idx": 99,
+      "is_decoy": false,
+      "precursor_id": "HQLLEADISAHEDRLK4",
+      "batch_num": 720,
+      "rank": 92
+    },
+    {
+      "score": 0.9938046932220459,
+      "window_idx": 15,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LNVDQDALFFLK2",
+      "batch_num": 720,
+      "rank": 93
+    },
+    {
+      "score": 0.9937947988510132,
+      "window_idx": 39,
+      "is_decoy": false,
+      "precursor_id": "GAYSLSIRDWDDMKGDHVK3",
+      "batch_num": 720,
+      "rank": 94
+    },
+    {
+      "score": 0.9937242865562439,
+      "window_idx": 93,
+      "is_decoy": true,
+      "precursor_id": "DECOY_PASHATWMGK2",
+      "batch_num": 720,
+      "rank": 95
+    },
+    {
+      "score": 0.9937133193016052,
+      "window_idx": 52,
+      "is_decoy": false,
+      "precursor_id": "TRLVLKAK2",
+      "batch_num": 720,
+      "rank": 96
+    },
+    {
+      "score": 0.9937000274658203,
+      "window_idx": 38,
+      "is_decoy": true,
+      "precursor_id": "DECOY_FASYIEKVR2",
+      "batch_num": 720,
+      "rank": 97
+    },
+    {
+      "score": 0.9936485886573792,
+      "window_idx": 3,
+      "is_decoy": false,
+      "precursor_id": "SQHSGNAQVTQTKFLPNAPK4",
+      "batch_num": 720,
+      "rank": 98
+    },
+    {
+      "score": 0.9935380816459656,
+      "window_idx": 64,
+      "is_decoy": false,
+      "precursor_id": "ANTGSAMLEQVAMTER2",
+      "batch_num": 720,
+      "rank": 99
+    },
+    {
+      "score": 0.9934294819831848,
+      "window_idx": 95,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VDLEPEREVM(UniMod:35)SSEGR3",
+      "batch_num": 720,
+      "rank": 100
+    },
+    {
+      "score": 0.9933913946151733,
+      "window_idx": 32,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AHDGGIYAISWSPDSTHLLSASGDKTSK4",
+      "batch_num": 720,
+      "rank": 101
+    },
+    {
+      "score": 0.9932581186294556,
+      "window_idx": 93,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EGYYGYTGAFR2",
+      "batch_num": 720,
+      "rank": 102
+    },
+    {
+      "score": 0.9932050704956055,
+      "window_idx": 20,
+      "is_decoy": false,
+      "precursor_id": "C(UniMod:4)SPHLVLSALTSDNHGATYAFSGT3",
+      "batch_num": 720,
+      "rank": 103
+    },
+    {
+      "score": 0.9931157231330872,
+      "window_idx": 71,
+      "is_decoy": false,
+      "precursor_id": "LHHELENVEEKR3",
+      "batch_num": 720,
+      "rank": 104
+    },
+    {
+      "score": 0.9930890202522278,
+      "window_idx": 28,
+      "is_decoy": false,
+      "precursor_id": "VPNLSVSKLITEALSVSQER3",
+      "batch_num": 720,
+      "rank": 105
+    },
+    {
+      "score": 0.9930636286735535,
+      "window_idx": 23,
+      "is_decoy": false,
+      "precursor_id": "YALNHPDTVEGL2",
+      "batch_num": 720,
+      "rank": 106
+    },
+    {
+      "score": 0.9930330514907837,
+      "window_idx": 12,
+      "is_decoy": false,
+      "precursor_id": "VQLVESGGGLIQPGGSLR2",
+      "batch_num": 720,
+      "rank": 107
+    },
+    {
+      "score": 0.9929178357124329,
+      "window_idx": 46,
+      "is_decoy": false,
+      "precursor_id": "ASNTADTLFQEVLGRK3",
+      "batch_num": 720,
+      "rank": 108
+    },
+    {
+      "score": 0.9928111433982849,
+      "window_idx": 97,
+      "is_decoy": false,
+      "precursor_id": "TLLNSQLEMER2",
+      "batch_num": 720,
+      "rank": 109
+    },
+    {
+      "score": 0.9927558302879333,
+      "window_idx": 46,
+      "is_decoy": true,
+      "precursor_id": "DECOY_DLGSLNGTFVNDVR2",
+      "batch_num": 720,
+      "rank": 110
+    },
+    {
+      "score": 0.9927196502685547,
+      "window_idx": 28,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VSHEFPLNGNQENPSC(UniMod:4)C(UniMod:4)GIDGILEAYHR4",
+      "batch_num": 720,
+      "rank": 111
+    },
+    {
+      "score": 0.9927102327346802,
+      "window_idx": 74,
+      "is_decoy": true,
+      "precursor_id": "DECOY_DVKDTILHDNLK2",
+      "batch_num": 720,
+      "rank": 112
+    },
+    {
+      "score": 0.9924094676971436,
+      "window_idx": 14,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ASANMDLM(UniMod:35)R2",
+      "batch_num": 720,
+      "rank": 113
+    },
+    {
+      "score": 0.99234539270401,
+      "window_idx": 63,
+      "is_decoy": false,
+      "precursor_id": "GFAPSPGEYTHR3",
+      "batch_num": 720,
+      "rank": 114
+    },
+    {
+      "score": 0.9923447966575623,
+      "window_idx": 90,
+      "is_decoy": false,
+      "precursor_id": "PSPNMFYIDPEK2",
+      "batch_num": 720,
+      "rank": 115
+    },
+    {
+      "score": 0.9922547340393066,
+      "window_idx": 87,
+      "is_decoy": false,
+      "precursor_id": "LVGVSTPLQGGSNSAAAIGQSSGELR3",
+      "batch_num": 720,
+      "rank": 116
+    },
+    {
+      "score": 0.9919541478157043,
+      "window_idx": 32,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EIGINAYGHR2",
+      "batch_num": 720,
+      "rank": 117
+    },
+    {
+      "score": 0.9919453263282776,
+      "window_idx": 53,
+      "is_decoy": false,
+      "precursor_id": "YPSLGQKPGGSDFLMK3",
+      "batch_num": 720,
+      "rank": 118
+    },
+    {
+      "score": 0.991908609867096,
+      "window_idx": 78,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AVENLIPPVQHILLDR3",
+      "batch_num": 720,
+      "rank": 119
+    },
+    {
+      "score": 0.9918882250785828,
+      "window_idx": 44,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SSQVAIEALSAMPTVR2",
+      "batch_num": 720,
+      "rank": 120
+    },
+    {
+      "score": 0.9917553663253784,
+      "window_idx": 35,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ATNGVVHVIDR2",
+      "batch_num": 720,
+      "rank": 121
+    },
+    {
+      "score": 0.9917305111885071,
+      "window_idx": 36,
+      "is_decoy": false,
+      "precursor_id": "VSANSVYGFTGAQVGK2",
+      "batch_num": 720,
+      "rank": 122
+    },
+    {
+      "score": 0.9917055368423462,
+      "window_idx": 54,
+      "is_decoy": false,
+      "precursor_id": "EDHKGLMMELSED2",
+      "batch_num": 720,
+      "rank": 123
+    },
+    {
+      "score": 0.9916492700576782,
+      "window_idx": 63,
+      "is_decoy": false,
+      "precursor_id": "NQLLPLAHQAWPSLVHR3",
+      "batch_num": 720,
+      "rank": 124
+    },
+    {
+      "score": 0.9916406869888306,
+      "window_idx": 11,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VAQVPLGPEC(UniMod:4)SR2",
+      "batch_num": 720,
+      "rank": 125
+    },
+    {
+      "score": 0.9914780259132385,
+      "window_idx": 58,
+      "is_decoy": true,
+      "precursor_id": "DECOY_MASVGLSDIAMDTTVTHA2",
+      "batch_num": 720,
+      "rank": 126
+    },
+    {
+      "score": 0.9914417862892151,
+      "window_idx": 63,
+      "is_decoy": true,
+      "precursor_id": "DECOY_MSGPLGPEEASPKPD2",
+      "batch_num": 720,
+      "rank": 127
+    },
+    {
+      "score": 0.9912823438644409,
+      "window_idx": 2,
+      "is_decoy": false,
+      "precursor_id": "SLGNVIMVC(UniMod:4)RK2",
+      "batch_num": 720,
+      "rank": 128
+    },
+    {
+      "score": 0.9912087917327881,
+      "window_idx": 66,
+      "is_decoy": false,
+      "precursor_id": "IVNVEEHYIFK2",
+      "batch_num": 720,
+      "rank": 129
+    },
+    {
+      "score": 0.9911009669303894,
+      "window_idx": 32,
+      "is_decoy": false,
+      "precursor_id": "MIEDTMTLLSLLGR2",
+      "batch_num": 720,
+      "rank": 130
+    },
+    {
+      "score": 0.9909310340881348,
+      "window_idx": 99,
+      "is_decoy": false,
+      "precursor_id": "GAHGASLTDLANLSEGVSLAER3",
+      "batch_num": 720,
+      "rank": 131
+    },
+    {
+      "score": 0.9905391931533813,
+      "window_idx": 51,
+      "is_decoy": false,
+      "precursor_id": "DRADQTVLTEDEK3",
+      "batch_num": 720,
+      "rank": 132
+    },
+    {
+      "score": 0.9905367493629456,
+      "window_idx": 55,
+      "is_decoy": false,
+      "precursor_id": "EVMILITGAHK2",
+      "batch_num": 720,
+      "rank": 133
+    },
+    {
+      "score": 0.99053555727005,
+      "window_idx": 55,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EAAEKEQELLK2",
+      "batch_num": 720,
+      "rank": 134
+    },
+    {
+      "score": 0.9904119372367859,
+      "window_idx": 26,
+      "is_decoy": false,
+      "precursor_id": "LIEAYVIQC(UniMod:4)QAEAQEVTIAR3",
+      "batch_num": 720,
+      "rank": 135
+    },
+    {
+      "score": 0.9903725385665894,
+      "window_idx": 37,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LLLTYADNILR2",
+      "batch_num": 720,
+      "rank": 136
+    },
+    {
+      "score": 0.9902149438858032,
+      "window_idx": 36,
+      "is_decoy": false,
+      "precursor_id": "GSPSLHAVLER2",
+      "batch_num": 720,
+      "rank": 137
+    },
+    {
+      "score": 0.9900257587432861,
+      "window_idx": 65,
+      "is_decoy": false,
+      "precursor_id": "TTSDLLLVMSNLYSLNAGSLTMSEK3",
+      "batch_num": 720,
+      "rank": 138
+    },
+    {
+      "score": 0.9900126457214355,
+      "window_idx": 0,
+      "is_decoy": true,
+      "precursor_id": "DECOY_(UniMod:1)GSLKEELLK2",
+      "batch_num": 720,
+      "rank": 139
+    },
+    {
+      "score": 0.9899349808692932,
+      "window_idx": 45,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TLDAQFENDER2",
+      "batch_num": 720,
+      "rank": 140
+    },
+    {
+      "score": 0.9899060130119324,
+      "window_idx": 44,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LTQQDTSVLQLK2",
+      "batch_num": 720,
+      "rank": 141
+    },
+    {
+      "score": 0.9897980690002441,
+      "window_idx": 57,
+      "is_decoy": false,
+      "precursor_id": "LGSLHPHTPYHIR3",
+      "batch_num": 720,
+      "rank": 142
+    },
+    {
+      "score": 0.9897133111953735,
+      "window_idx": 82,
+      "is_decoy": false,
+      "precursor_id": "IPAASAAAMNLASAR3",
+      "batch_num": 720,
+      "rank": 143
+    },
+    {
+      "score": 0.9896842241287231,
+      "window_idx": 85,
+      "is_decoy": false,
+      "precursor_id": "ETGVHSLLIDPLTQR3",
+      "batch_num": 720,
+      "rank": 144
+    },
+    {
+      "score": 0.9895562529563904,
+      "window_idx": 4,
+      "is_decoy": false,
+      "precursor_id": "TQASSSPAALKPPAGR3",
+      "batch_num": 720,
+      "rank": 145
+    },
+    {
+      "score": 0.989513635635376,
+      "window_idx": 2,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AGEDPHSFYFPGQFAFSK2",
+      "batch_num": 720,
+      "rank": 146
+    },
+    {
+      "score": 0.9895029067993164,
+      "window_idx": 83,
+      "is_decoy": false,
+      "precursor_id": "VDVSDEAGLDYLLSK2",
+      "batch_num": 720,
+      "rank": 147
+    },
+    {
+      "score": 0.9893380403518677,
+      "window_idx": 20,
+      "is_decoy": false,
+      "precursor_id": "GNSSLGMTVSANK2",
+      "batch_num": 720,
+      "rank": 148
+    },
+    {
+      "score": 0.9892866015434265,
+      "window_idx": 33,
+      "is_decoy": false,
+      "precursor_id": "TC(UniMod:4)SC(UniMod:4)LAPFSGNK2",
+      "batch_num": 720,
+      "rank": 149
+    },
+    {
+      "score": 0.9892637133598328,
+      "window_idx": 91,
+      "is_decoy": false,
+      "precursor_id": "NGGIPHYLR2",
+      "batch_num": 720,
+      "rank": 150
+    },
+    {
+      "score": 0.9889189600944519,
+      "window_idx": 20,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GFESNGPGLQYK2",
+      "batch_num": 720,
+      "rank": 151
+    },
+    {
+      "score": 0.988820493221283,
+      "window_idx": 1,
+      "is_decoy": false,
+      "precursor_id": "YEVPVPLNIPTTPISTYEDR3",
+      "batch_num": 720,
+      "rank": 152
+    },
+    {
+      "score": 0.9887505173683167,
+      "window_idx": 49,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AADPVSPLLHELTFQAM(UniMod:35)2",
+      "batch_num": 720,
+      "rank": 153
+    },
+    {
+      "score": 0.9887309670448303,
+      "window_idx": 19,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LKETAENSLK2",
+      "batch_num": 720,
+      "rank": 154
+    },
+    {
+      "score": 0.9885218143463135,
+      "window_idx": 99,
+      "is_decoy": false,
+      "precursor_id": "YPSPAALGHLQAEAEK3",
+      "batch_num": 720,
+      "rank": 155
+    },
+    {
+      "score": 0.9884580969810486,
+      "window_idx": 94,
+      "is_decoy": false,
+      "precursor_id": "KAALEAQNALHNMK3",
+      "batch_num": 720,
+      "rank": 156
+    },
+    {
+      "score": 0.9883588552474976,
+      "window_idx": 91,
+      "is_decoy": false,
+      "precursor_id": "QQNAQGGFSSTQDTVVALHAL2",
+      "batch_num": 720,
+      "rank": 157
+    },
+    {
+      "score": 0.9882596731185913,
+      "window_idx": 90,
+      "is_decoy": false,
+      "precursor_id": "KIEGYEDQVLITEHGDLGNSR3",
+      "batch_num": 720,
+      "rank": 158
+    },
+    {
+      "score": 0.9882289171218872,
+      "window_idx": 90,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LEGHELPADLPPHLVPPSK4",
+      "batch_num": 720,
+      "rank": 159
+    },
+    {
+      "score": 0.9879969954490662,
+      "window_idx": 25,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ISHVPAASFR2",
+      "batch_num": 720,
+      "rank": 160
+    },
+    {
+      "score": 0.9879860281944275,
+      "window_idx": 57,
+      "is_decoy": false,
+      "precursor_id": "VM(UniMod:35)LEGDSEEMGVIPSKR3",
+      "batch_num": 720,
+      "rank": 161
+    },
+    {
+      "score": 0.9879062175750732,
+      "window_idx": 69,
+      "is_decoy": true,
+      "precursor_id": "DECOY_DSEQVDSWM(UniMod:35)SR2",
+      "batch_num": 720,
+      "rank": 162
+    },
+    {
+      "score": 0.9878783822059631,
+      "window_idx": 33,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ILVDLEPGTMDSVR2",
+      "batch_num": 720,
+      "rank": 163
+    },
+    {
+      "score": 0.9878239631652832,
+      "window_idx": 49,
+      "is_decoy": true,
+      "precursor_id": "DECOY_RREEEGIQLR3",
+      "batch_num": 720,
+      "rank": 164
+    },
+    {
+      "score": 0.9876876473426819,
+      "window_idx": 52,
+      "is_decoy": false,
+      "precursor_id": "SLLNFLNNFQTAK2",
+      "batch_num": 720,
+      "rank": 165
+    },
+    {
+      "score": 0.987680196762085,
+      "window_idx": 66,
+      "is_decoy": false,
+      "precursor_id": "EAIKSSLIILK2",
+      "batch_num": 720,
+      "rank": 166
+    },
+    {
+      "score": 0.9873549342155457,
+      "window_idx": 37,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AEHTPMAPGGSTHRR3",
+      "batch_num": 720,
+      "rank": 167
+    },
+    {
+      "score": 0.9869712591171265,
+      "window_idx": 41,
+      "is_decoy": false,
+      "precursor_id": "TLPELQEQVR2",
+      "batch_num": 720,
+      "rank": 168
+    },
+    {
+      "score": 0.9868041276931763,
+      "window_idx": 67,
+      "is_decoy": true,
+      "precursor_id": "DECOY_RPVELVPPESPLAQLFLER3",
+      "batch_num": 720,
+      "rank": 169
+    },
+    {
+      "score": 0.9867575168609619,
+      "window_idx": 34,
+      "is_decoy": true,
+      "precursor_id": "DECOY_(UniMod:1)GDPDLLEVLAEEGEK2",
+      "batch_num": 720,
+      "rank": 170
+    },
+    {
+      "score": 0.9861854910850525,
+      "window_idx": 53,
+      "is_decoy": false,
+      "precursor_id": "SENILTNYENQSR2",
+      "batch_num": 720,
+      "rank": 171
+    },
+    {
+      "score": 0.985708475112915,
+      "window_idx": 51,
+      "is_decoy": false,
+      "precursor_id": "EGLESLQGGVC(UniMod:4)LTR2",
+      "batch_num": 720,
+      "rank": 172
+    },
+    {
+      "score": 0.9856296181678772,
+      "window_idx": 58,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LPPPPAEFSYPVDNQR2",
+      "batch_num": 720,
+      "rank": 173
+    },
+    {
+      "score": 0.9854182004928589,
+      "window_idx": 0,
+      "is_decoy": false,
+      "precursor_id": "KWSEALVLYDR2",
+      "batch_num": 720,
+      "rank": 174
+    },
+    {
+      "score": 0.9848383665084839,
+      "window_idx": 99,
+      "is_decoy": true,
+      "precursor_id": "DECOY_KIPSVEDSLGEGSR2",
+      "batch_num": 720,
+      "rank": 175
+    },
+    {
+      "score": 0.9848045110702515,
+      "window_idx": 81,
+      "is_decoy": false,
+      "precursor_id": "QVTAAQLHLRDPVAIVK3",
+      "batch_num": 720,
+      "rank": 176
+    },
+    {
+      "score": 0.9847053289413452,
+      "window_idx": 61,
+      "is_decoy": false,
+      "precursor_id": "EHASGSGAQSEAAGR3",
+      "batch_num": 720,
+      "rank": 177
+    },
+    {
+      "score": 0.9846634864807129,
+      "window_idx": 87,
+      "is_decoy": false,
+      "precursor_id": "DVAGLYEEIWK2",
+      "batch_num": 720,
+      "rank": 178
+    },
+    {
+      "score": 0.9843974709510803,
+      "window_idx": 70,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HRLEDM(UniMod:35)EQALSPSVFK3",
+      "batch_num": 720,
+      "rank": 179
+    },
+    {
+      "score": 0.9838862419128418,
+      "window_idx": 20,
+      "is_decoy": false,
+      "precursor_id": "VVASDKETYELR3",
+      "batch_num": 720,
+      "rank": 180
+    },
+    {
+      "score": 0.9835241436958313,
+      "window_idx": 58,
+      "is_decoy": false,
+      "precursor_id": "HLAWVNTPK2",
+      "batch_num": 720,
+      "rank": 181
+    },
+    {
+      "score": 0.983279824256897,
+      "window_idx": 55,
+      "is_decoy": true,
+      "precursor_id": "DECOY_IVEGSDAEIGMSPWQV2",
+      "batch_num": 720,
+      "rank": 182
+    },
+    {
+      "score": 0.9832252264022827,
+      "window_idx": 48,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TLHLQDNQIHHLPAFAFR4",
+      "batch_num": 720,
+      "rank": 183
+    },
+    {
+      "score": 0.9831222891807556,
+      "window_idx": 80,
+      "is_decoy": false,
+      "precursor_id": "GTMALTSVPSDR2",
+      "batch_num": 720,
+      "rank": 184
+    },
+    {
+      "score": 0.9830678105354309,
+      "window_idx": 33,
+      "is_decoy": false,
+      "precursor_id": "IVHILNMTSAK2",
+      "batch_num": 720,
+      "rank": 185
+    },
+    {
+      "score": 0.9830660820007324,
+      "window_idx": 47,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EEAHAEDSVMDHHFR3",
+      "batch_num": 720,
+      "rank": 186
+    },
+    {
+      "score": 0.9829249382019043,
+      "window_idx": 4,
+      "is_decoy": true,
+      "precursor_id": "DECOY_KVVLEAPDETTLK2",
+      "batch_num": 720,
+      "rank": 187
+    },
+    {
+      "score": 0.9828716516494751,
+      "window_idx": 81,
+      "is_decoy": true,
+      "precursor_id": "DECOY_YMSPEQISSQDYGK2",
+      "batch_num": 720,
+      "rank": 188
+    },
+    {
+      "score": 0.9827806949615479,
+      "window_idx": 33,
+      "is_decoy": false,
+      "precursor_id": "SGLVVEDHLFDTLPLEVK2",
+      "batch_num": 720,
+      "rank": 189
+    },
+    {
+      "score": 0.9826540350914001,
+      "window_idx": 54,
+      "is_decoy": false,
+      "precursor_id": "FQVAVNLAEDTAHPK2",
+      "batch_num": 720,
+      "rank": 190
+    },
+    {
+      "score": 0.9825612902641296,
+      "window_idx": 79,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AMLAETSTVFHQNDVK2",
+      "batch_num": 720,
+      "rank": 191
+    },
+    {
+      "score": 0.9822798371315002,
+      "window_idx": 12,
+      "is_decoy": true,
+      "precursor_id": "DECOY_MAPSLTQEILSHLGLASK2",
+      "batch_num": 720,
+      "rank": 192
+    },
+    {
+      "score": 0.9822781085968018,
+      "window_idx": 47,
+      "is_decoy": true,
+      "precursor_id": "DECOY_PENFVGAGIIQTK2",
+      "batch_num": 720,
+      "rank": 193
+    },
+    {
+      "score": 0.9821080565452576,
+      "window_idx": 77,
+      "is_decoy": false,
+      "precursor_id": "GGHERPPSPGLR3",
+      "batch_num": 720,
+      "rank": 194
+    },
+    {
+      "score": 0.9820916056632996,
+      "window_idx": 79,
+      "is_decoy": false,
+      "precursor_id": "TGFLQTLGHNLFGIYQK3",
+      "batch_num": 720,
+      "rank": 195
+    },
+    {
+      "score": 0.9814157485961914,
+      "window_idx": 65,
+      "is_decoy": false,
+      "precursor_id": "LHLGTTQNSLTEADFRELGR3",
+      "batch_num": 720,
+      "rank": 196
+    },
+    {
+      "score": 0.9812278151512146,
+      "window_idx": 81,
+      "is_decoy": true,
+      "precursor_id": "DECOY_NAAMGLEEETHAHYIDVAR3",
+      "batch_num": 720,
+      "rank": 197
+    },
+    {
+      "score": 0.9811310768127441,
+      "window_idx": 69,
+      "is_decoy": false,
+      "precursor_id": "NPGVQHFQR2",
+      "batch_num": 720,
+      "rank": 198
+    },
+    {
+      "score": 0.9811193943023682,
+      "window_idx": 62,
+      "is_decoy": false,
+      "precursor_id": "VILQDFTGVPAVVDFAAMRDAVKK3",
+      "batch_num": 720,
+      "rank": 199
+    },
+    {
+      "score": 0.980726420879364,
+      "window_idx": 91,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AAASATQTIAAAQHAASTPK3",
+      "batch_num": 720,
+      "rank": 200
+    },
+    {
+      "score": 0.9806868433952332,
+      "window_idx": 36,
+      "is_decoy": true,
+      "precursor_id": "DECOY_KLQGNM(UniMod:35)LLNSSM(UniMod:35)EDK2",
+      "batch_num": 720,
+      "rank": 201
+    },
+    {
+      "score": 0.9805542230606079,
+      "window_idx": 59,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GSGPGGYVAAIK2",
+      "batch_num": 720,
+      "rank": 202
+    },
+    {
+      "score": 0.9789567589759827,
+      "window_idx": 49,
+      "is_decoy": false,
+      "precursor_id": "YNREGDLLFTVAK3",
+      "batch_num": 720,
+      "rank": 203
+    },
+    {
+      "score": 0.978586733341217,
+      "window_idx": 71,
+      "is_decoy": false,
+      "precursor_id": "LPVEAFSAVFTKYPESLVR3",
+      "batch_num": 720,
+      "rank": 204
+    },
+    {
+      "score": 0.9780868887901306,
+      "window_idx": 18,
+      "is_decoy": true,
+      "precursor_id": "DECOY_PTTSHPVVVDMPEHNPGQM(UniMod:35)GGTMR4",
+      "batch_num": 720,
+      "rank": 205
+    },
+    {
+      "score": 0.977886974811554,
+      "window_idx": 92,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VYSNSIYELLENGQR3",
+      "batch_num": 720,
+      "rank": 206
+    },
+    {
+      "score": 0.9774622321128845,
+      "window_idx": 85,
+      "is_decoy": false,
+      "precursor_id": "HVVQEEEDVQTAMAC(UniMod:4)LASC(UniMod:4)PLLK3",
+      "batch_num": 720,
+      "rank": 207
+    },
+    {
+      "score": 0.9773414731025696,
+      "window_idx": 48,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SPQELLC(UniMod:4)GASLISDR3",
+      "batch_num": 720,
+      "rank": 208
+    },
+    {
+      "score": 0.9772476553916931,
+      "window_idx": 69,
+      "is_decoy": false,
+      "precursor_id": "DYELEAEK2",
+      "batch_num": 720,
+      "rank": 209
+    },
+    {
+      "score": 0.9768461585044861,
+      "window_idx": 82,
+      "is_decoy": true,
+      "precursor_id": "DECOY_NC(UniMod:4)WHLDAAMR2",
+      "batch_num": 720,
+      "rank": 210
+    },
+    {
+      "score": 0.9768427610397339,
+      "window_idx": 28,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LQPMLVQALR2",
+      "batch_num": 720,
+      "rank": 211
+    },
+    {
+      "score": 0.976671040058136,
+      "window_idx": 10,
+      "is_decoy": false,
+      "precursor_id": "VLIFQEENEIPASVFVK3",
+      "batch_num": 720,
+      "rank": 212
+    },
+    {
+      "score": 0.9765583872795105,
+      "window_idx": 74,
+      "is_decoy": false,
+      "precursor_id": "RDSLGTYSSR2",
+      "batch_num": 720,
+      "rank": 213
+    },
+    {
+      "score": 0.9764297008514404,
+      "window_idx": 36,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ILDEEVFEGDVQEL2",
+      "batch_num": 720,
+      "rank": 214
+    },
+    {
+      "score": 0.9762937426567078,
+      "window_idx": 9,
+      "is_decoy": false,
+      "precursor_id": "PPGKPVPLNITR3",
+      "batch_num": 720,
+      "rank": 215
+    },
+    {
+      "score": 0.9762732982635498,
+      "window_idx": 83,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ELALNELVTLTC(UniMod:4)LAR2",
+      "batch_num": 720,
+      "rank": 216
+    },
+    {
+      "score": 0.9761970639228821,
+      "window_idx": 50,
+      "is_decoy": false,
+      "precursor_id": "ENPNNFQEVAADSSSISGSNFK3",
+      "batch_num": 720,
+      "rank": 217
+    },
+    {
+      "score": 0.976157546043396,
+      "window_idx": 68,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TIPIVPTAEFQDR2",
+      "batch_num": 720,
+      "rank": 218
+    },
+    {
+      "score": 0.9760227203369141,
+      "window_idx": 33,
+      "is_decoy": false,
+      "precursor_id": "EGDDIEMPC(UniMod:4)AFR2",
+      "batch_num": 720,
+      "rank": 219
+    },
+    {
+      "score": 0.9759352207183838,
+      "window_idx": 45,
+      "is_decoy": false,
+      "precursor_id": "TIFTGHTAVVEDV2",
+      "batch_num": 720,
+      "rank": 220
+    },
+    {
+      "score": 0.9758731126785278,
+      "window_idx": 60,
+      "is_decoy": false,
+      "precursor_id": "TEAYLPDDK2",
+      "batch_num": 720,
+      "rank": 221
+    },
+    {
+      "score": 0.9758554697036743,
+      "window_idx": 71,
+      "is_decoy": true,
+      "precursor_id": "DECOY_QLGSILQDSLAK2",
+      "batch_num": 720,
+      "rank": 222
+    },
+    {
+      "score": 0.975402295589447,
+      "window_idx": 58,
+      "is_decoy": true,
+      "precursor_id": "DECOY_KQNEAAKEAETPQAK3",
+      "batch_num": 720,
+      "rank": 223
+    },
+    {
+      "score": 0.9749473929405212,
+      "window_idx": 61,
+      "is_decoy": false,
+      "precursor_id": "TILSDDWKDAK2",
+      "batch_num": 720,
+      "rank": 224
+    },
+    {
+      "score": 0.9749084115028381,
+      "window_idx": 52,
+      "is_decoy": false,
+      "precursor_id": "YPPQGGGGWGQPHGGGWGQPHGGGWGQPH4",
+      "batch_num": 720,
+      "rank": 225
+    },
+    {
+      "score": 0.9748839139938354,
+      "window_idx": 93,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EDQSILC(UniMod:4)TGESGAGK2",
+      "batch_num": 720,
+      "rank": 226
+    },
+    {
+      "score": 0.9748643040657043,
+      "window_idx": 3,
+      "is_decoy": false,
+      "precursor_id": "FRFNEIHSLNVLEGSWVLYELSNYR4",
+      "batch_num": 720,
+      "rank": 227
+    },
+    {
+      "score": 0.974839985370636,
+      "window_idx": 20,
+      "is_decoy": false,
+      "precursor_id": "LKGEAEYQEIR3",
+      "batch_num": 720,
+      "rank": 228
+    },
+    {
+      "score": 0.9747616648674011,
+      "window_idx": 56,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TPEKTMQAMQK2",
+      "batch_num": 720,
+      "rank": 229
+    },
+    {
+      "score": 0.9745972752571106,
+      "window_idx": 46,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EQLELFQNIRPLFINK3",
+      "batch_num": 720,
+      "rank": 230
+    },
+    {
+      "score": 0.9745427966117859,
+      "window_idx": 56,
+      "is_decoy": false,
+      "precursor_id": "VSVEDVTVLVDYTVR3",
+      "batch_num": 720,
+      "rank": 231
+    },
+    {
+      "score": 0.9743383526802063,
+      "window_idx": 79,
+      "is_decoy": true,
+      "precursor_id": "DECOY_KYEAFLQR2",
+      "batch_num": 720,
+      "rank": 232
+    },
+    {
+      "score": 0.9738882780075073,
+      "window_idx": 11,
+      "is_decoy": false,
+      "precursor_id": "GQVPSHLHGSTPIHLGATAGM(UniMod:35)R3",
+      "batch_num": 720,
+      "rank": 233
+    },
+    {
+      "score": 0.973334550857544,
+      "window_idx": 46,
+      "is_decoy": false,
+      "precursor_id": "IDTHNIIVNQLVFPDPEKPC(UniMod:4)K3",
+      "batch_num": 720,
+      "rank": 234
+    },
+    {
+      "score": 0.9725463390350342,
+      "window_idx": 21,
+      "is_decoy": true,
+      "precursor_id": "DECOY_FPLGGDDEVMSSTLQQFSK2",
+      "batch_num": 720,
+      "rank": 235
+    },
+    {
+      "score": 0.9724181294441223,
+      "window_idx": 55,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SEAGTAFIQTQQLHAAMADTFLEHMC(UniMod:4)R3",
+      "batch_num": 720,
+      "rank": 236
+    },
+    {
+      "score": 0.9719792008399963,
+      "window_idx": 52,
+      "is_decoy": true,
+      "precursor_id": "DECOY_IMGDKVASEALM(UniMod:35)K3",
+      "batch_num": 720,
+      "rank": 237
+    },
+    {
+      "score": 0.9715035557746887,
+      "window_idx": 53,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VGM(UniMod:35)VQFSTSEFR2",
+      "batch_num": 720,
+      "rank": 238
+    },
+    {
+      "score": 0.9712901711463928,
+      "window_idx": 47,
+      "is_decoy": false,
+      "precursor_id": "AHEHIFGMVLMNDWSAR3",
+      "batch_num": 720,
+      "rank": 239
+    },
+    {
+      "score": 0.9707777500152588,
+      "window_idx": 54,
+      "is_decoy": false,
+      "precursor_id": "AQIHEGFQELLR2",
+      "batch_num": 720,
+      "rank": 240
+    },
+    {
+      "score": 0.9702070355415344,
+      "window_idx": 40,
+      "is_decoy": false,
+      "precursor_id": "VLTGNAIALVLGGGGAR2",
+      "batch_num": 720,
+      "rank": 241
+    },
+    {
+      "score": 0.9697978496551514,
+      "window_idx": 6,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TAMIQTSKTEITELRR3",
+      "batch_num": 720,
+      "rank": 242
+    },
+    {
+      "score": 0.9692509174346924,
+      "window_idx": 49,
+      "is_decoy": false,
+      "precursor_id": "EEEPDSDYSVIR2",
+      "batch_num": 720,
+      "rank": 243
+    },
+    {
+      "score": 0.969165027141571,
+      "window_idx": 40,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HTLVEADIGIQAERVRGVNASAQK3",
+      "batch_num": 720,
+      "rank": 244
+    },
+    {
+      "score": 0.9690070748329163,
+      "window_idx": 80,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VHGLRNVQAEEMVEFSSGLK3",
+      "batch_num": 720,
+      "rank": 245
+    },
+    {
+      "score": 0.9687471389770508,
+      "window_idx": 88,
+      "is_decoy": true,
+      "precursor_id": "DECOY_IQDNPSGWGPC(UniMod:4)AVPEQFR2",
+      "batch_num": 720,
+      "rank": 246
+    },
+    {
+      "score": 0.9673433303833008,
+      "window_idx": 39,
+      "is_decoy": false,
+      "precursor_id": "GIFVIGFSYPVVPK2",
+      "batch_num": 720,
+      "rank": 247
+    },
+    {
+      "score": 0.9667959213256836,
+      "window_idx": 64,
+      "is_decoy": false,
+      "precursor_id": "KPVAAATIVPR2",
+      "batch_num": 720,
+      "rank": 248
+    },
+    {
+      "score": 0.9666860699653625,
+      "window_idx": 0,
+      "is_decoy": false,
+      "precursor_id": "KQLC(UniMod:4)SFEIYEVPWENR3",
+      "batch_num": 720,
+      "rank": 249
+    },
+    {
+      "score": 0.9658376574516296,
+      "window_idx": 65,
+      "is_decoy": false,
+      "precursor_id": "SNSGLATYSPPM(UniMod:35)GPVSER2",
+      "batch_num": 720,
+      "rank": 250
+    },
+    {
+      "score": 0.9653716087341309,
+      "window_idx": 17,
+      "is_decoy": false,
+      "precursor_id": "RSFSEVELHNMK3",
+      "batch_num": 720,
+      "rank": 251
+    },
+    {
+      "score": 0.9652231931686401,
+      "window_idx": 0,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LAM(UniMod:35)VKAEPDVK2",
+      "batch_num": 720,
+      "rank": 252
+    },
+    {
+      "score": 0.9647430777549744,
+      "window_idx": 1,
+      "is_decoy": false,
+      "precursor_id": "LPEDAIHTMIENLQPETK3",
+      "batch_num": 720,
+      "rank": 253
+    },
+    {
+      "score": 0.964080274105072,
+      "window_idx": 11,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HYLFDVQR2",
+      "batch_num": 720,
+      "rank": 254
+    },
+    {
+      "score": 0.964009165763855,
+      "window_idx": 47,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GLGVGFGSGGGSSSSVKFVSTTSSSRK4",
+      "batch_num": 720,
+      "rank": 255
+    },
+    {
+      "score": 0.9637387990951538,
+      "window_idx": 6,
+      "is_decoy": true,
+      "precursor_id": "DECOY_IVHIHSVIILR2",
+      "batch_num": 720,
+      "rank": 256
+    },
+    {
+      "score": 0.9634411334991455,
+      "window_idx": 43,
+      "is_decoy": false,
+      "precursor_id": "GIIEMADLVAVTK2",
+      "batch_num": 720,
+      "rank": 257
+    },
+    {
+      "score": 0.9632046222686768,
+      "window_idx": 19,
+      "is_decoy": false,
+      "precursor_id": "GQQEIQDQLSLSEALQREK3",
+      "batch_num": 720,
+      "rank": 258
+    },
+    {
+      "score": 0.9630752801895142,
+      "window_idx": 30,
+      "is_decoy": true,
+      "precursor_id": "DECOY_APSDLYQIILK2",
+      "batch_num": 720,
+      "rank": 259
+    },
+    {
+      "score": 0.9629480242729187,
+      "window_idx": 13,
+      "is_decoy": false,
+      "precursor_id": "WLDIEHADGKR2",
+      "batch_num": 720,
+      "rank": 260
+    },
+    {
+      "score": 0.962231457233429,
+      "window_idx": 8,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GPVGPSGPPGKDGTSGHPGPIGPPGPR3",
+      "batch_num": 720,
+      "rank": 261
+    },
+    {
+      "score": 0.9614143967628479,
+      "window_idx": 82,
+      "is_decoy": true,
+      "precursor_id": "DECOY_NEELDAMMK2",
+      "batch_num": 720,
+      "rank": 262
+    },
+    {
+      "score": 0.9598760008811951,
+      "window_idx": 78,
+      "is_decoy": false,
+      "precursor_id": "YGTDLSRGLTSAR2",
+      "batch_num": 720,
+      "rank": 263
+    },
+    {
+      "score": 0.9597222805023193,
+      "window_idx": 3,
+      "is_decoy": true,
+      "precursor_id": "DECOY_IFINNEWHDSVSGK3",
+      "batch_num": 720,
+      "rank": 264
+    },
+    {
+      "score": 0.9593049883842468,
+      "window_idx": 93,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AILSIREDKPPLAVK3",
+      "batch_num": 720,
+      "rank": 265
+    },
+    {
+      "score": 0.9581588506698608,
+      "window_idx": 17,
+      "is_decoy": false,
+      "precursor_id": "GHVLFRPTVSQQQ2",
+      "batch_num": 720,
+      "rank": 266
+    },
+    {
+      "score": 0.9580687880516052,
+      "window_idx": 66,
+      "is_decoy": false,
+      "precursor_id": "SDANASYLR2",
+      "batch_num": 720,
+      "rank": 267
+    },
+    {
+      "score": 0.957729697227478,
+      "window_idx": 30,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ITITNDKGRLSK3",
+      "batch_num": 720,
+      "rank": 268
+    },
+    {
+      "score": 0.9572179317474365,
+      "window_idx": 17,
+      "is_decoy": true,
+      "precursor_id": "DECOY_RQVSIEEGERK3",
+      "batch_num": 720,
+      "rank": 269
+    },
+    {
+      "score": 0.9564359784126282,
+      "window_idx": 38,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GGRKVENEDMNK3",
+      "batch_num": 720,
+      "rank": 270
+    },
+    {
+      "score": 0.9561161994934082,
+      "window_idx": 66,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LDVTSLRPFDLVIPFTIK3",
+      "batch_num": 720,
+      "rank": 271
+    },
+    {
+      "score": 0.9560562968254089,
+      "window_idx": 92,
+      "is_decoy": false,
+      "precursor_id": "ATGQSFSQGTTSR2",
+      "batch_num": 720,
+      "rank": 272
+    },
+    {
+      "score": 0.9548013806343079,
+      "window_idx": 39,
+      "is_decoy": false,
+      "precursor_id": "RTPEVTC(UniMod:4)VVVDVSHEDPEVK3",
+      "batch_num": 720,
+      "rank": 273
+    },
+    {
+      "score": 0.9547707438468933,
+      "window_idx": 20,
+      "is_decoy": true,
+      "precursor_id": "DECOY_DNFQETMEAMHIMGFSHEEILSM(UniMod:35)LK3",
+      "batch_num": 720,
+      "rank": 274
+    },
+    {
+      "score": 0.9541923999786377,
+      "window_idx": 85,
+      "is_decoy": false,
+      "precursor_id": "IQAQISALEEQLQQIR2",
+      "batch_num": 720,
+      "rank": 275
+    },
+    {
+      "score": 0.9539387226104736,
+      "window_idx": 25,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VQAANPLSLQPEGKPTMK3",
+      "batch_num": 720,
+      "rank": 276
+    },
+    {
+      "score": 0.9538524746894836,
+      "window_idx": 97,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ELEHALEK2",
+      "batch_num": 720,
+      "rank": 277
+    },
+    {
+      "score": 0.953597903251648,
+      "window_idx": 40,
+      "is_decoy": false,
+      "precursor_id": "ERGLGGEVPGSHQGPDPYR4",
+      "batch_num": 720,
+      "rank": 278
+    },
+    {
+      "score": 0.953393816947937,
+      "window_idx": 64,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ATLSSTSGLDLMSESGEGEISPQR3",
+      "batch_num": 720,
+      "rank": 279
+    },
+    {
+      "score": 0.9533542394638062,
+      "window_idx": 58,
+      "is_decoy": false,
+      "precursor_id": "VLVGEFVR2",
+      "batch_num": 720,
+      "rank": 280
+    },
+    {
+      "score": 0.9503288865089417,
+      "window_idx": 1,
+      "is_decoy": false,
+      "precursor_id": "WLKEDKLEC(UniMod:4)SEELGDLVK4",
+      "batch_num": 720,
+      "rank": 281
+    },
+    {
+      "score": 0.9503183364868164,
+      "window_idx": 30,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EC(UniMod:4)EVTGKPTPTVK3",
+      "batch_num": 720,
+      "rank": 282
+    },
+    {
+      "score": 0.950126051902771,
+      "window_idx": 89,
+      "is_decoy": true,
+      "precursor_id": "DECOY_KTGQGDYPLNNELDKEQEDVASTTR4",
+      "batch_num": 720,
+      "rank": 283
+    },
+    {
+      "score": 0.9489918947219849,
+      "window_idx": 89,
+      "is_decoy": true,
+      "precursor_id": "DECOY_YQVEQC(UniMod:4)VNEASIIIR2",
+      "batch_num": 720,
+      "rank": 284
+    },
+    {
+      "score": 0.9488336443901062,
+      "window_idx": 64,
+      "is_decoy": true,
+      "precursor_id": "DECOY_NALAVRGDC(UniMod:4)GDTLAATQSLLMK3",
+      "batch_num": 720,
+      "rank": 285
+    },
+    {
+      "score": 0.9485482573509216,
+      "window_idx": 36,
+      "is_decoy": false,
+      "precursor_id": "KLM(UniMod:35)LQEPLEK2",
+      "batch_num": 720,
+      "rank": 286
+    },
+    {
+      "score": 0.9481374025344849,
+      "window_idx": 40,
+      "is_decoy": false,
+      "precursor_id": "MPPGEIKVDDAK2",
+      "batch_num": 720,
+      "rank": 287
+    },
+    {
+      "score": 0.9479948282241821,
+      "window_idx": 93,
+      "is_decoy": true,
+      "precursor_id": "DECOY_PAEYEDGLSLPFGWTPGK2",
+      "batch_num": 720,
+      "rank": 288
+    },
+    {
+      "score": 0.9479878544807434,
+      "window_idx": 84,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VYFLPITPHYVTQVIR3",
+      "batch_num": 720,
+      "rank": 289
+    },
+    {
+      "score": 0.947440505027771,
+      "window_idx": 31,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LLHVSEC(UniMod:4)M(UniMod:35)GTVDVR3",
+      "batch_num": 720,
+      "rank": 290
+    },
+    {
+      "score": 0.9466073513031006,
+      "window_idx": 97,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VTGQRLVSPGSANETSSILVESVTR3",
+      "batch_num": 720,
+      "rank": 291
+    },
+    {
+      "score": 0.9462710618972778,
+      "window_idx": 8,
+      "is_decoy": false,
+      "precursor_id": "FKPLVEEPQNLIK3",
+      "batch_num": 720,
+      "rank": 292
+    },
+    {
+      "score": 0.9451165795326233,
+      "window_idx": 1,
+      "is_decoy": true,
+      "precursor_id": "DECOY_QVMMFSATLSK2",
+      "batch_num": 720,
+      "rank": 293
+    },
+    {
+      "score": 0.94455486536026,
+      "window_idx": 16,
+      "is_decoy": false,
+      "precursor_id": "ALLEVVQSGGKNIELAVMR3",
+      "batch_num": 720,
+      "rank": 294
+    },
+    {
+      "score": 0.9445396661758423,
+      "window_idx": 99,
+      "is_decoy": false,
+      "precursor_id": "FSSELEQIELHNSIR3",
+      "batch_num": 720,
+      "rank": 295
+    },
+    {
+      "score": 0.9440549612045288,
+      "window_idx": 30,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GIDMIEFPKK2",
+      "batch_num": 720,
+      "rank": 296
+    },
+    {
+      "score": 0.9440491199493408,
+      "window_idx": 0,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LLLFDRHPDGVASVSFRD3",
+      "batch_num": 720,
+      "rank": 297
+    },
+    {
+      "score": 0.943397045135498,
+      "window_idx": 8,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TMPALEVFAHALR3",
+      "batch_num": 720,
+      "rank": 298
+    },
+    {
+      "score": 0.943284273147583,
+      "window_idx": 99,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ELLTTMGDRFTDEEVDEM(UniMod:35)YR3",
+      "batch_num": 720,
+      "rank": 299
+    },
+    {
+      "score": 0.9428434371948242,
+      "window_idx": 64,
+      "is_decoy": false,
+      "precursor_id": "LREENLELKK3",
+      "batch_num": 720,
+      "rank": 300
+    },
+    {
+      "score": 0.9419043660163879,
+      "window_idx": 80,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ESNMPGAGLGIWTK2",
+      "batch_num": 720,
+      "rank": 301
+    },
+    {
+      "score": 0.9418203234672546,
+      "window_idx": 31,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AGKEPGLQIWRVEK4",
+      "batch_num": 720,
+      "rank": 302
+    },
+    {
+      "score": 0.9416388869285583,
+      "window_idx": 9,
+      "is_decoy": false,
+      "precursor_id": "LC(UniMod:4)AAAASILGKPADR3",
+      "batch_num": 720,
+      "rank": 303
+    },
+    {
+      "score": 0.9415438771247864,
+      "window_idx": 0,
+      "is_decoy": true,
+      "precursor_id": "DECOY_FEGLTGNVQFNEK2",
+      "batch_num": 720,
+      "rank": 304
+    },
+    {
+      "score": 0.9408795237541199,
+      "window_idx": 89,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VPHLEEVMSPVTTPTDEDVGHR3",
+      "batch_num": 720,
+      "rank": 305
+    },
+    {
+      "score": 0.9406808614730835,
+      "window_idx": 94,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SLPMNYYTVFYHVQEQLPR3",
+      "batch_num": 720,
+      "rank": 306
+    },
+    {
+      "score": 0.9400531053543091,
+      "window_idx": 9,
+      "is_decoy": false,
+      "precursor_id": "EPSNSIFPVGSEDKK3",
+      "batch_num": 720,
+      "rank": 307
+    },
+    {
+      "score": 0.9388970136642456,
+      "window_idx": 91,
+      "is_decoy": true,
+      "precursor_id": "DECOY_RNMVVDDDSPEMYK3",
+      "batch_num": 720,
+      "rank": 308
+    },
+    {
+      "score": 0.938612699508667,
+      "window_idx": 73,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AM(UniMod:35)DLDQDVLSALAEVEQLSK2",
+      "batch_num": 720,
+      "rank": 309
+    },
+    {
+      "score": 0.9385693669319153,
+      "window_idx": 39,
+      "is_decoy": false,
+      "precursor_id": "PLLDWLRTENELHGEK3",
+      "batch_num": 720,
+      "rank": 310
+    },
+    {
+      "score": 0.9380065202713013,
+      "window_idx": 58,
+      "is_decoy": false,
+      "precursor_id": "ETLLHQVEELR3",
+      "batch_num": 720,
+      "rank": 311
+    },
+    {
+      "score": 0.9377034902572632,
+      "window_idx": 68,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SAVGNLALR2",
+      "batch_num": 720,
+      "rank": 312
+    },
+    {
+      "score": 0.9374601244926453,
+      "window_idx": 96,
+      "is_decoy": false,
+      "precursor_id": "VTFDDHDPVDK3",
+      "batch_num": 720,
+      "rank": 313
+    },
+    {
+      "score": 0.9367690086364746,
+      "window_idx": 98,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TDGWTNDIPIC(UniMod:4)EVVK2",
+      "batch_num": 720,
+      "rank": 314
+    },
+    {
+      "score": 0.9367547631263733,
+      "window_idx": 28,
+      "is_decoy": true,
+      "precursor_id": "DECOY_KDDHSFELDETALNR3",
+      "batch_num": 720,
+      "rank": 315
+    },
+    {
+      "score": 0.9364568591117859,
+      "window_idx": 70,
+      "is_decoy": false,
+      "precursor_id": "ALGMKLPETNLFETEETRK4",
+      "batch_num": 720,
+      "rank": 316
+    },
+    {
+      "score": 0.9362888932228088,
+      "window_idx": 2,
+      "is_decoy": false,
+      "precursor_id": "LLDIAC(UniMod:4)WIHHK2",
+      "batch_num": 720,
+      "rank": 317
+    },
+    {
+      "score": 0.9339439272880554,
+      "window_idx": 96,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AMTLSPQEEVAAGQMAS2",
+      "batch_num": 720,
+      "rank": 318
+    },
+    {
+      "score": 0.9337295889854431,
+      "window_idx": 62,
+      "is_decoy": false,
+      "precursor_id": "QQSHFAM(UniMod:35)MHGGTGFAGIDSSSPEVK4",
+      "batch_num": 720,
+      "rank": 319
+    },
+    {
+      "score": 0.9334092736244202,
+      "window_idx": 52,
+      "is_decoy": false,
+      "precursor_id": "LQAALDDEEAGGRPAMEPGNG2",
+      "batch_num": 720,
+      "rank": 320
+    },
+    {
+      "score": 0.9329457879066467,
+      "window_idx": 97,
+      "is_decoy": false,
+      "precursor_id": "NQTLTENLLK2",
+      "batch_num": 720,
+      "rank": 321
+    },
+    {
+      "score": 0.9323396682739258,
+      "window_idx": 88,
+      "is_decoy": true,
+      "precursor_id": "DECOY_IDAAYEHPSHDLIFIFR3",
+      "batch_num": 720,
+      "rank": 322
+    },
+    {
+      "score": 0.9322572946548462,
+      "window_idx": 75,
+      "is_decoy": false,
+      "precursor_id": "RQEMAIQQSLGMR3",
+      "batch_num": 720,
+      "rank": 323
+    },
+    {
+      "score": 0.9319983720779419,
+      "window_idx": 1,
+      "is_decoy": false,
+      "precursor_id": "NTLSLVNDFIIRD2",
+      "batch_num": 720,
+      "rank": 324
+    },
+    {
+      "score": 0.929298460483551,
+      "window_idx": 33,
+      "is_decoy": true,
+      "precursor_id": "DECOY_MEETPTEYLQR2",
+      "batch_num": 720,
+      "rank": 325
+    },
+    {
+      "score": 0.9283921718597412,
+      "window_idx": 41,
+      "is_decoy": false,
+      "precursor_id": "EVDALLHLAR2",
+      "batch_num": 720,
+      "rank": 326
+    },
+    {
+      "score": 0.9282540678977966,
+      "window_idx": 44,
+      "is_decoy": true,
+      "precursor_id": "DECOY_(UniMod:1)ASQPPPPPKPWETR2",
+      "batch_num": 720,
+      "rank": 327
+    },
+    {
+      "score": 0.9279015064239502,
+      "window_idx": 93,
+      "is_decoy": false,
+      "precursor_id": "KLGAAPPPAK2",
+      "batch_num": 720,
+      "rank": 328
+    },
+    {
+      "score": 0.9273936152458191,
+      "window_idx": 41,
+      "is_decoy": true,
+      "precursor_id": "DECOY_STHETWAYGK2",
+      "batch_num": 720,
+      "rank": 329
+    },
+    {
+      "score": 0.9253273606300354,
+      "window_idx": 58,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VNAIEHVIIPR3",
+      "batch_num": 720,
+      "rank": 330
+    },
+    {
+      "score": 0.9249440431594849,
+      "window_idx": 19,
+      "is_decoy": false,
+      "precursor_id": "FDENGLPTHDMEGK2",
+      "batch_num": 720,
+      "rank": 331
+    },
+    {
+      "score": 0.924523651599884,
+      "window_idx": 77,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VQLVESGGGLVKPGGSLR2",
+      "batch_num": 720,
+      "rank": 332
+    },
+    {
+      "score": 0.923442006111145,
+      "window_idx": 58,
+      "is_decoy": true,
+      "precursor_id": "DECOY_KFFNVLTTNTDGK2",
+      "batch_num": 720,
+      "rank": 333
+    },
+    {
+      "score": 0.9233473539352417,
+      "window_idx": 10,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EVGTPHGIILDSVDAAF2",
+      "batch_num": 720,
+      "rank": 334
+    },
+    {
+      "score": 0.9215531349182129,
+      "window_idx": 42,
+      "is_decoy": false,
+      "precursor_id": "GGHGSYGSGSSSGGYR2",
+      "batch_num": 720,
+      "rank": 335
+    },
+    {
+      "score": 0.9212600588798523,
+      "window_idx": 32,
+      "is_decoy": false,
+      "precursor_id": "NAMPEDIAEYAVEIEGKR3",
+      "batch_num": 720,
+      "rank": 336
+    },
+    {
+      "score": 0.9211743474006653,
+      "window_idx": 0,
+      "is_decoy": false,
+      "precursor_id": "IEEVRDAM(UniMod:35)ENEMR3",
+      "batch_num": 720,
+      "rank": 337
+    },
+    {
+      "score": 0.9208614826202393,
+      "window_idx": 32,
+      "is_decoy": false,
+      "precursor_id": "IVYREYEPYFK3",
+      "batch_num": 720,
+      "rank": 338
+    },
+    {
+      "score": 0.9208152890205383,
+      "window_idx": 56,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VEDSAEEESTLTK2",
+      "batch_num": 720,
+      "rank": 339
+    },
+    {
+      "score": 0.9207754731178284,
+      "window_idx": 22,
+      "is_decoy": false,
+      "precursor_id": "TGLVYDQNMMNHC(UniMod:4)NLWDSHHPEVPQR4",
+      "batch_num": 720,
+      "rank": 340
+    },
+    {
+      "score": 0.9206246137619019,
+      "window_idx": 92,
+      "is_decoy": false,
+      "precursor_id": "SVNGQIESLISPDGSR2",
+      "batch_num": 720,
+      "rank": 341
+    },
+    {
+      "score": 0.920596718788147,
+      "window_idx": 20,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ELLSNSEQLN2",
+      "batch_num": 720,
+      "rank": 342
+    },
+    {
+      "score": 0.9203096032142639,
+      "window_idx": 6,
+      "is_decoy": false,
+      "precursor_id": "LLTMVVDYR2",
+      "batch_num": 720,
+      "rank": 343
+    },
+    {
+      "score": 0.920106053352356,
+      "window_idx": 87,
+      "is_decoy": false,
+      "precursor_id": "VIEDGPEPRPNLRGESR3",
+      "batch_num": 720,
+      "rank": 344
+    },
+    {
+      "score": 0.9181904196739197,
+      "window_idx": 29,
+      "is_decoy": false,
+      "precursor_id": "SC(UniMod:4)VQDPMASFR2",
+      "batch_num": 720,
+      "rank": 345
+    },
+    {
+      "score": 0.9181863069534302,
+      "window_idx": 25,
+      "is_decoy": false,
+      "precursor_id": "YFGC(UniMod:4)ELGAQTQFDVK2",
+      "batch_num": 720,
+      "rank": 346
+    },
+    {
+      "score": 0.9176563620567322,
+      "window_idx": 18,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EKTHINIVVIGHVDSGK4",
+      "batch_num": 720,
+      "rank": 347
+    },
+    {
+      "score": 0.9174655675888062,
+      "window_idx": 61,
+      "is_decoy": false,
+      "precursor_id": "EYAQNIWNVEPSDLK2",
+      "batch_num": 720,
+      "rank": 348
+    },
+    {
+      "score": 0.9159914255142212,
+      "window_idx": 37,
+      "is_decoy": false,
+      "precursor_id": "KVEILENEIVQEK2",
+      "batch_num": 720,
+      "rank": 349
+    },
+    {
+      "score": 0.9159820675849915,
+      "window_idx": 34,
+      "is_decoy": false,
+      "precursor_id": "IAALNALAAC(UniMod:4)NYLPQSR2",
+      "batch_num": 720,
+      "rank": 350
+    },
+    {
+      "score": 0.9149693250656128,
+      "window_idx": 39,
+      "is_decoy": false,
+      "precursor_id": "LPSADVYR2",
+      "batch_num": 720,
+      "rank": 351
+    },
+    {
+      "score": 0.9146591424942017,
+      "window_idx": 15,
+      "is_decoy": false,
+      "precursor_id": "VSYFPTVPGVYIVSTK3",
+      "batch_num": 720,
+      "rank": 352
+    },
+    {
+      "score": 0.9139108061790466,
+      "window_idx": 0,
+      "is_decoy": false,
+      "precursor_id": "VPDVLFTTIDLPTDATVIGK2",
+      "batch_num": 720,
+      "rank": 353
+    },
+    {
+      "score": 0.9136711955070496,
+      "window_idx": 36,
+      "is_decoy": true,
+      "precursor_id": "DECOY_FEVGDIM(UniMod:35)LIR2",
+      "batch_num": 720,
+      "rank": 354
+    },
+    {
+      "score": 0.9126277565956116,
+      "window_idx": 2,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HHPEWFNVYNK2",
+      "batch_num": 720,
+      "rank": 355
+    },
+    {
+      "score": 0.9122143983840942,
+      "window_idx": 17,
+      "is_decoy": false,
+      "precursor_id": "GNPITIFQERDPSK3",
+      "batch_num": 720,
+      "rank": 356
+    },
+    {
+      "score": 0.911980390548706,
+      "window_idx": 38,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ASGSENEGDYNPGRK2",
+      "batch_num": 720,
+      "rank": 357
+    },
+    {
+      "score": 0.9115320444107056,
+      "window_idx": 28,
+      "is_decoy": true,
+      "precursor_id": "DECOY_FSTFAGSITGPLYTHR2",
+      "batch_num": 720,
+      "rank": 358
+    },
+    {
+      "score": 0.9113932251930237,
+      "window_idx": 57,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LFEQLGEYK2",
+      "batch_num": 720,
+      "rank": 359
+    },
+    {
+      "score": 0.9104900360107422,
+      "window_idx": 2,
+      "is_decoy": true,
+      "precursor_id": "DECOY_C(UniMod:4)C(UniMod:4)QANAQFAEISENLR2",
+      "batch_num": 720,
+      "rank": 360
+    },
+    {
+      "score": 0.9104638695716858,
+      "window_idx": 37,
+      "is_decoy": false,
+      "precursor_id": "LDTKWTLLQEQGTK2",
+      "batch_num": 720,
+      "rank": 361
+    },
+    {
+      "score": 0.9103964567184448,
+      "window_idx": 85,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ELEDATETADAMNREV2",
+      "batch_num": 720,
+      "rank": 362
+    },
+    {
+      "score": 0.909398078918457,
+      "window_idx": 12,
+      "is_decoy": false,
+      "precursor_id": "KFDVSIDMPDLLDINHLR3",
+      "batch_num": 720,
+      "rank": 363
+    },
+    {
+      "score": 0.9089980721473694,
+      "window_idx": 35,
+      "is_decoy": false,
+      "precursor_id": "EVLLLAHNLPQNR2",
+      "batch_num": 720,
+      "rank": 364
+    },
+    {
+      "score": 0.908719003200531,
+      "window_idx": 57,
+      "is_decoy": false,
+      "precursor_id": "LYILGGEVAESAQK2",
+      "batch_num": 720,
+      "rank": 365
+    },
+    {
+      "score": 0.9068955779075623,
+      "window_idx": 59,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HSVNNPYSQFQDEYSLDEVMASK3",
+      "batch_num": 720,
+      "rank": 366
+    },
+    {
+      "score": 0.9067094326019287,
+      "window_idx": 68,
+      "is_decoy": true,
+      "precursor_id": "DECOY_DHFALDRPSETHADYLLR3",
+      "batch_num": 720,
+      "rank": 367
+    },
+    {
+      "score": 0.9059875011444092,
+      "window_idx": 68,
+      "is_decoy": true,
+      "precursor_id": "DECOY_FQAALALSR2",
+      "batch_num": 720,
+      "rank": 368
+    },
+    {
+      "score": 0.9030138850212097,
+      "window_idx": 29,
+      "is_decoy": true,
+      "precursor_id": "DECOY_QSATVEAIEADEAIK2",
+      "batch_num": 720,
+      "rank": 369
+    },
+    {
+      "score": 0.9028312563896179,
+      "window_idx": 43,
+      "is_decoy": false,
+      "precursor_id": "VIYGNTDGPSGPFVGK2",
+      "batch_num": 720,
+      "rank": 370
+    },
+    {
+      "score": 0.902622401714325,
+      "window_idx": 35,
+      "is_decoy": false,
+      "precursor_id": "RSESLQQNLLHGYAFSQDENGIVSQSEVIR4",
+      "batch_num": 720,
+      "rank": 371
+    },
+    {
+      "score": 0.9015527963638306,
+      "window_idx": 53,
+      "is_decoy": false,
+      "precursor_id": "KYHGWIVQK2",
+      "batch_num": 720,
+      "rank": 372
+    },
+    {
+      "score": 0.9007374048233032,
+      "window_idx": 94,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HIDEVVYPPPVD2",
+      "batch_num": 720,
+      "rank": 373
+    },
+    {
+      "score": 0.9007283449172974,
+      "window_idx": 88,
+      "is_decoy": false,
+      "precursor_id": "QYLLEKGDYK2",
+      "batch_num": 720,
+      "rank": 374
+    },
+    {
+      "score": 0.9006329774856567,
+      "window_idx": 6,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LYRPVAVALDTK3",
+      "batch_num": 720,
+      "rank": 375
+    },
+    {
+      "score": 0.9005877375602722,
+      "window_idx": 24,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SLTQMEDVLK2",
+      "batch_num": 720,
+      "rank": 376
+    },
+    {
+      "score": 0.9004027843475342,
+      "window_idx": 31,
+      "is_decoy": false,
+      "precursor_id": "KEESEESDDDM(UniMod:35)GFGL2",
+      "batch_num": 720,
+      "rank": 377
+    },
+    {
+      "score": 0.8997830152511597,
+      "window_idx": 5,
+      "is_decoy": false,
+      "precursor_id": "DIEIAAYRK2",
+      "batch_num": 720,
+      "rank": 378
+    },
+    {
+      "score": 0.8992303609848022,
+      "window_idx": 53,
+      "is_decoy": false,
+      "precursor_id": "IDQTFYPNHK2",
+      "batch_num": 720,
+      "rank": 379
+    },
+    {
+      "score": 0.8987177610397339,
+      "window_idx": 58,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VFLHSDEHPGSSVASK2",
+      "batch_num": 720,
+      "rank": 380
+    },
+    {
+      "score": 0.8971984386444092,
+      "window_idx": 35,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VLQSQLDTLLQGQESIK2",
+      "batch_num": 720,
+      "rank": 381
+    },
+    {
+      "score": 0.8966829776763916,
+      "window_idx": 33,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ISM(UniMod:35)PEVDLNLK2",
+      "batch_num": 720,
+      "rank": 382
+    },
+    {
+      "score": 0.8962913155555725,
+      "window_idx": 47,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TILEWEPKPVNQVYTVQ2",
+      "batch_num": 720,
+      "rank": 383
+    },
+    {
+      "score": 0.894935667514801,
+      "window_idx": 33,
+      "is_decoy": true,
+      "precursor_id": "DECOY_NLKPIKPMQFLGDEETVR2",
+      "batch_num": 720,
+      "rank": 384
+    },
+    {
+      "score": 0.8917951583862305,
+      "window_idx": 6,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HC(UniMod:4)HVTDHIHAGM(UniMod:35)ETTYTVLQNEDTK4",
+      "batch_num": 720,
+      "rank": 385
+    },
+    {
+      "score": 0.8909783959388733,
+      "window_idx": 5,
+      "is_decoy": true,
+      "precursor_id": "DECOY_PHFDLSHGSAQVK2",
+      "batch_num": 720,
+      "rank": 386
+    },
+    {
+      "score": 0.8906691670417786,
+      "window_idx": 92,
+      "is_decoy": false,
+      "precursor_id": "(UniMod:1)MDVHDLFR2",
+      "batch_num": 720,
+      "rank": 387
+    },
+    {
+      "score": 0.8903579711914062,
+      "window_idx": 90,
+      "is_decoy": false,
+      "precursor_id": "FFAPDNLDPIPK2",
+      "batch_num": 720,
+      "rank": 388
+    },
+    {
+      "score": 0.8894475698471069,
+      "window_idx": 28,
+      "is_decoy": false,
+      "precursor_id": "LAVNNIAGIEEVNMIKDDGTVIHFNNPK4",
+      "batch_num": 720,
+      "rank": 389
+    },
+    {
+      "score": 0.8893131613731384,
+      "window_idx": 47,
+      "is_decoy": false,
+      "precursor_id": "ATFIITNGVSLLK2",
+      "batch_num": 720,
+      "rank": 390
+    },
+    {
+      "score": 0.8889383673667908,
+      "window_idx": 38,
+      "is_decoy": false,
+      "precursor_id": "FEEPLANLLNEQHR2",
+      "batch_num": 720,
+      "rank": 391
+    },
+    {
+      "score": 0.8888309001922607,
+      "window_idx": 73,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EVHVLC(UniMod:4)LGLDNSGK3",
+      "batch_num": 720,
+      "rank": 392
+    },
+    {
+      "score": 0.8870552182197571,
+      "window_idx": 83,
+      "is_decoy": true,
+      "precursor_id": "DECOY_QMVQEDLEK2",
+      "batch_num": 720,
+      "rank": 393
+    },
+    {
+      "score": 0.8867337107658386,
+      "window_idx": 6,
+      "is_decoy": false,
+      "precursor_id": "GETHQGIGLFPSNFVTADLTAEPEMIK3",
+      "batch_num": 720,
+      "rank": 394
+    },
+    {
+      "score": 0.8860434293746948,
+      "window_idx": 86,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ITTFEHAHNMR2",
+      "batch_num": 720,
+      "rank": 395
+    },
+    {
+      "score": 0.8839643597602844,
+      "window_idx": 12,
+      "is_decoy": false,
+      "precursor_id": "GSPAEGC(UniMod:4)AEAEGC(UniMod:4)LR2",
+      "batch_num": 720,
+      "rank": 396
+    },
+    {
+      "score": 0.8826684951782227,
+      "window_idx": 81,
+      "is_decoy": true,
+      "precursor_id": "DECOY_PM(UniMod:35)VSAQESQAQAILQQAR3",
+      "batch_num": 720,
+      "rank": 397
+    },
+    {
+      "score": 0.8816753029823303,
+      "window_idx": 78,
+      "is_decoy": true,
+      "precursor_id": "DECOY_FSLFAER2",
+      "batch_num": 720,
+      "rank": 398
+    },
+    {
+      "score": 0.8801195621490479,
+      "window_idx": 69,
+      "is_decoy": true,
+      "precursor_id": "DECOY_DENVIVPEEIKK2",
+      "batch_num": 720,
+      "rank": 399
+    },
+    {
+      "score": 0.8791540265083313,
+      "window_idx": 40,
+      "is_decoy": false,
+      "precursor_id": "LVEIAQVPKAHVDEFKSVSK4",
+      "batch_num": 720,
+      "rank": 400
+    },
+    {
+      "score": 0.8779319524765015,
+      "window_idx": 69,
+      "is_decoy": false,
+      "precursor_id": "KGDNLQPVTLILSK2",
+      "batch_num": 720,
+      "rank": 401
+    },
+    {
+      "score": 0.8757460117340088,
+      "window_idx": 54,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ALQYEDVSTAVQNLQK2",
+      "batch_num": 720,
+      "rank": 402
+    },
+    {
+      "score": 0.8746250867843628,
+      "window_idx": 77,
+      "is_decoy": false,
+      "precursor_id": "RLDEEEEDNEGGEWER3",
+      "batch_num": 720,
+      "rank": 403
+    },
+    {
+      "score": 0.8739342093467712,
+      "window_idx": 29,
+      "is_decoy": false,
+      "precursor_id": "TLDPNSAFLHTLDQQKPR3",
+      "batch_num": 720,
+      "rank": 404
+    },
+    {
+      "score": 0.8732974529266357,
+      "window_idx": 48,
+      "is_decoy": false,
+      "precursor_id": "TSSPSSTGSVSLGR2",
+      "batch_num": 720,
+      "rank": 405
+    },
+    {
+      "score": 0.872528076171875,
+      "window_idx": 78,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AMHTPKPSVGEEK3",
+      "batch_num": 720,
+      "rank": 406
+    },
+    {
+      "score": 0.8715172410011292,
+      "window_idx": 44,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GM(UniMod:35)GNEIDLHTVHFHGHSFQYK3",
+      "batch_num": 720,
+      "rank": 407
+    },
+    {
+      "score": 0.8699971437454224,
+      "window_idx": 5,
+      "is_decoy": false,
+      "precursor_id": "SDLFPTSTSLSPFYLRPPSFLR3",
+      "batch_num": 720,
+      "rank": 408
+    },
+    {
+      "score": 0.869701623916626,
+      "window_idx": 14,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HLFSQVLDINQADAGTLPLDSSQK3",
+      "batch_num": 720,
+      "rank": 409
+    },
+    {
+      "score": 0.8674424886703491,
+      "window_idx": 89,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AHGSKVVAAVGDAVK3",
+      "batch_num": 720,
+      "rank": 410
+    },
+    {
+      "score": 0.8674424290657043,
+      "window_idx": 7,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TQSVSAHGQAGSHQQSHQESAR4",
+      "batch_num": 720,
+      "rank": 411
+    },
+    {
+      "score": 0.865969717502594,
+      "window_idx": 92,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SFVYGSHLARHR2",
+      "batch_num": 720,
+      "rank": 412
+    },
+    {
+      "score": 0.865031898021698,
+      "window_idx": 2,
+      "is_decoy": false,
+      "precursor_id": "SRTSVQTEDDQLIAGQSAR3",
+      "batch_num": 720,
+      "rank": 413
+    },
+    {
+      "score": 0.8648746013641357,
+      "window_idx": 31,
+      "is_decoy": false,
+      "precursor_id": "RYLESAR2",
+      "batch_num": 720,
+      "rank": 414
+    },
+    {
+      "score": 0.8646840453147888,
+      "window_idx": 66,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LVALNSPLSGGM(UniMod:35)R2",
+      "batch_num": 720,
+      "rank": 415
+    },
+    {
+      "score": 0.8645520210266113,
+      "window_idx": 57,
+      "is_decoy": false,
+      "precursor_id": "VINQPMM(UniMod:35)MAAR2",
+      "batch_num": 720,
+      "rank": 416
+    },
+    {
+      "score": 0.8645468950271606,
+      "window_idx": 60,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SFNRVATPFGGFEK3",
+      "batch_num": 720,
+      "rank": 417
+    },
+    {
+      "score": 0.864010751247406,
+      "window_idx": 32,
+      "is_decoy": true,
+      "precursor_id": "DECOY_QFTTLDRDHDVYTGNC(UniMod:4)AHYQK4",
+      "batch_num": 720,
+      "rank": 418
+    },
+    {
+      "score": 0.8636670708656311,
+      "window_idx": 22,
+      "is_decoy": false,
+      "precursor_id": "EETPSFLITC(UniMod:4)R2",
+      "batch_num": 720,
+      "rank": 419
+    },
+    {
+      "score": 0.8623710870742798,
+      "window_idx": 21,
+      "is_decoy": false,
+      "precursor_id": "SPAPAAAAPAVQPLTQVGI2",
+      "batch_num": 720,
+      "rank": 420
+    },
+    {
+      "score": 0.8615204095840454,
+      "window_idx": 27,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LQLEQQVATGPALDNK2",
+      "batch_num": 720,
+      "rank": 421
+    },
+    {
+      "score": 0.8613727688789368,
+      "window_idx": 20,
+      "is_decoy": false,
+      "precursor_id": "RYFAKFEEK2",
+      "batch_num": 720,
+      "rank": 422
+    },
+    {
+      "score": 0.8610514998435974,
+      "window_idx": 95,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SMMTPINDLHTADSLNLAK3",
+      "batch_num": 720,
+      "rank": 423
+    },
+    {
+      "score": 0.8607787489891052,
+      "window_idx": 35,
+      "is_decoy": false,
+      "precursor_id": "DALQEIYNQKG2",
+      "batch_num": 720,
+      "rank": 424
+    },
+    {
+      "score": 0.8577029705047607,
+      "window_idx": 97,
+      "is_decoy": true,
+      "precursor_id": "DECOY_QC(UniMod:4)KNVQDAIADAEQR2",
+      "batch_num": 720,
+      "rank": 425
+    },
+    {
+      "score": 0.8564038276672363,
+      "window_idx": 18,
+      "is_decoy": true,
+      "precursor_id": "DECOY_IFEYETQRR2",
+      "batch_num": 720,
+      "rank": 426
+    },
+    {
+      "score": 0.8558962345123291,
+      "window_idx": 83,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VIEVHGKHEERQDEHGFISR3",
+      "batch_num": 720,
+      "rank": 427
+    },
+    {
+      "score": 0.855114221572876,
+      "window_idx": 98,
+      "is_decoy": false,
+      "precursor_id": "AVQSGHVNLK2",
+      "batch_num": 720,
+      "rank": 428
+    },
+    {
+      "score": 0.8546498417854309,
+      "window_idx": 76,
+      "is_decoy": false,
+      "precursor_id": "LRPEMEGPGSFTIFAPSNEAW2",
+      "batch_num": 720,
+      "rank": 429
+    },
+    {
+      "score": 0.8535455465316772,
+      "window_idx": 51,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LYLNVLNRH2",
+      "batch_num": 720,
+      "rank": 430
+    },
+    {
+      "score": 0.8531365990638733,
+      "window_idx": 58,
+      "is_decoy": false,
+      "precursor_id": "LFNHLSAVSESIQALGWVAMAPKPGPYVK4",
+      "batch_num": 720,
+      "rank": 431
+    },
+    {
+      "score": 0.8519705533981323,
+      "window_idx": 60,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LPHLWDAMVGPLR3",
+      "batch_num": 720,
+      "rank": 432
+    },
+    {
+      "score": 0.8509739637374878,
+      "window_idx": 12,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SVQQDSPGAQEGC(UniMod:4)GPGR2",
+      "batch_num": 720,
+      "rank": 433
+    },
+    {
+      "score": 0.8504729866981506,
+      "window_idx": 63,
+      "is_decoy": false,
+      "precursor_id": "TPGNERPPR2",
+      "batch_num": 720,
+      "rank": 434
+    },
+    {
+      "score": 0.8504536151885986,
+      "window_idx": 81,
+      "is_decoy": true,
+      "precursor_id": "DECOY_QNADVALQNLR2",
+      "batch_num": 720,
+      "rank": 435
+    },
+    {
+      "score": 0.8504254221916199,
+      "window_idx": 45,
+      "is_decoy": false,
+      "precursor_id": "EGSVSIVGAVSPPG2",
+      "batch_num": 720,
+      "rank": 436
+    },
+    {
+      "score": 0.8464033603668213,
+      "window_idx": 52,
+      "is_decoy": true,
+      "precursor_id": "DECOY_DGRTGHPGTVGPAGIR3",
+      "batch_num": 720,
+      "rank": 437
+    },
+    {
+      "score": 0.845953106880188,
+      "window_idx": 65,
+      "is_decoy": false,
+      "precursor_id": "SFHVNFEDNDNRSVLK3",
+      "batch_num": 720,
+      "rank": 438
+    },
+    {
+      "score": 0.8452896475791931,
+      "window_idx": 21,
+      "is_decoy": false,
+      "precursor_id": "SPLEGGWEEVSIMDEK2",
+      "batch_num": 720,
+      "rank": 439
+    },
+    {
+      "score": 0.8439817428588867,
+      "window_idx": 62,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VTTATEQAEREEIMK3",
+      "batch_num": 720,
+      "rank": 440
+    },
+    {
+      "score": 0.8437123894691467,
+      "window_idx": 73,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LPSGKNILVFGEDGSGK3",
+      "batch_num": 720,
+      "rank": 441
+    },
+    {
+      "score": 0.8425455689430237,
+      "window_idx": 7,
+      "is_decoy": false,
+      "precursor_id": "GNIHLKPSFSDGLK2",
+      "batch_num": 720,
+      "rank": 442
+    },
+    {
+      "score": 0.8421562314033508,
+      "window_idx": 62,
+      "is_decoy": false,
+      "precursor_id": "IEAQNKPFDAK3",
+      "batch_num": 720,
+      "rank": 443
+    },
+    {
+      "score": 0.8400282859802246,
+      "window_idx": 4,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SSSLGSGESPFSR2",
+      "batch_num": 720,
+      "rank": 444
+    },
+    {
+      "score": 0.8394882082939148,
+      "window_idx": 0,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EHSPRPAEEPMEQEPAL3",
+      "batch_num": 720,
+      "rank": 445
+    },
+    {
+      "score": 0.8392645120620728,
+      "window_idx": 79,
+      "is_decoy": false,
+      "precursor_id": "LDGHTISDLSR2",
+      "batch_num": 720,
+      "rank": 446
+    },
+    {
+      "score": 0.8353476524353027,
+      "window_idx": 55,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GSEHLNSYEAEWDMVNTVSFK3",
+      "batch_num": 720,
+      "rank": 447
+    },
+    {
+      "score": 0.8353107571601868,
+      "window_idx": 37,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HKPGGGDVKIESQK3",
+      "batch_num": 720,
+      "rank": 448
+    },
+    {
+      "score": 0.8342711329460144,
+      "window_idx": 99,
+      "is_decoy": false,
+      "precursor_id": "GVDIYPENLNSK2",
+      "batch_num": 720,
+      "rank": 449
+    },
+    {
+      "score": 0.8338790535926819,
+      "window_idx": 66,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ALWEEEEERLR2",
+      "batch_num": 720,
+      "rank": 450
+    },
+    {
+      "score": 0.8324305415153503,
+      "window_idx": 60,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ALRFPSLPDGVR2",
+      "batch_num": 720,
+      "rank": 451
+    },
+    {
+      "score": 0.831815242767334,
+      "window_idx": 45,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VLEATGPGGSQAINNLR2",
+      "batch_num": 720,
+      "rank": 452
+    },
+    {
+      "score": 0.8314488530158997,
+      "window_idx": 98,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SIVHMTDAAR2",
+      "batch_num": 720,
+      "rank": 453
+    },
+    {
+      "score": 0.8307193517684937,
+      "window_idx": 70,
+      "is_decoy": true,
+      "precursor_id": "DECOY_NGYELSPTAAANFT2",
+      "batch_num": 720,
+      "rank": 454
+    },
+    {
+      "score": 0.830460250377655,
+      "window_idx": 58,
+      "is_decoy": false,
+      "precursor_id": "KNDMANMYVLLR2",
+      "batch_num": 720,
+      "rank": 455
+    },
+    {
+      "score": 0.8292509317398071,
+      "window_idx": 24,
+      "is_decoy": true,
+      "precursor_id": "DECOY_KPALELLHYLK3",
+      "batch_num": 720,
+      "rank": 456
+    },
+    {
+      "score": 0.8285755515098572,
+      "window_idx": 33,
+      "is_decoy": true,
+      "precursor_id": "DECOY_DRFTAESYTVLGDTLIDGGEHYWEVR4",
+      "batch_num": 720,
+      "rank": 457
+    },
+    {
+      "score": 0.8250830769538879,
+      "window_idx": 76,
+      "is_decoy": false,
+      "precursor_id": "SLPSGGYTVIPFYR2",
+      "batch_num": 720,
+      "rank": 458
+    },
+    {
+      "score": 0.8239954113960266,
+      "window_idx": 80,
+      "is_decoy": false,
+      "precursor_id": "LEVSMVKPTPGLTPR3",
+      "batch_num": 720,
+      "rank": 459
+    },
+    {
+      "score": 0.8232333660125732,
+      "window_idx": 26,
+      "is_decoy": false,
+      "precursor_id": "EETVNDPEEAGHR3",
+      "batch_num": 720,
+      "rank": 460
+    },
+    {
+      "score": 0.8221330046653748,
+      "window_idx": 17,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TAANTDM(UniMod:35)ATSEALK2",
+      "batch_num": 720,
+      "rank": 461
+    },
+    {
+      "score": 0.8218482136726379,
+      "window_idx": 7,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GSGHPAYAEVEPVGEK3",
+      "batch_num": 720,
+      "rank": 462
+    },
+    {
+      "score": 0.8207538723945618,
+      "window_idx": 73,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LAHQPVDLR2",
+      "batch_num": 720,
+      "rank": 463
+    },
+    {
+      "score": 0.8206585645675659,
+      "window_idx": 48,
+      "is_decoy": true,
+      "precursor_id": "DECOY_IQESFTSEEER2",
+      "batch_num": 720,
+      "rank": 464
+    },
+    {
+      "score": 0.8199617266654968,
+      "window_idx": 30,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SVRFSEAEQR3",
+      "batch_num": 720,
+      "rank": 465
+    },
+    {
+      "score": 0.8172136545181274,
+      "window_idx": 0,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TVTEYKIDEDGKK3",
+      "batch_num": 720,
+      "rank": 466
+    },
+    {
+      "score": 0.814882218837738,
+      "window_idx": 34,
+      "is_decoy": false,
+      "precursor_id": "LSLSPEVLDLTSN2",
+      "batch_num": 720,
+      "rank": 467
+    },
+    {
+      "score": 0.8148046731948853,
+      "window_idx": 19,
+      "is_decoy": false,
+      "precursor_id": "YGVGEGLKSEPIVAR2",
+      "batch_num": 720,
+      "rank": 468
+    },
+    {
+      "score": 0.8139172196388245,
+      "window_idx": 83,
+      "is_decoy": false,
+      "precursor_id": "DLTTNLAEEEEK2",
+      "batch_num": 720,
+      "rank": 469
+    },
+    {
+      "score": 0.8131405115127563,
+      "window_idx": 89,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TPEVTC(UniMod:4)VVVDVSHED2",
+      "batch_num": 720,
+      "rank": 470
+    },
+    {
+      "score": 0.8121673464775085,
+      "window_idx": 5,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SFMISADMAHAVHPN2",
+      "batch_num": 720,
+      "rank": 471
+    },
+    {
+      "score": 0.8103891015052795,
+      "window_idx": 9,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HSFM(UniMod:35)PIVLELIPLK3",
+      "batch_num": 720,
+      "rank": 472
+    },
+    {
+      "score": 0.8090395331382751,
+      "window_idx": 8,
+      "is_decoy": true,
+      "precursor_id": "DECOY_NPSYQGIWKPR2",
+      "batch_num": 720,
+      "rank": 473
+    },
+    {
+      "score": 0.8088760375976562,
+      "window_idx": 60,
+      "is_decoy": true,
+      "precursor_id": "DECOY_KDVIATDKEDVAFK2",
+      "batch_num": 720,
+      "rank": 474
+    },
+    {
+      "score": 0.8061885833740234,
+      "window_idx": 95,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HLNINAIR2",
+      "batch_num": 720,
+      "rank": 475
+    },
+    {
+      "score": 0.8054406642913818,
+      "window_idx": 27,
+      "is_decoy": true,
+      "precursor_id": "DECOY_QLPPTVVKPLILATEATSSLLGGM(UniMod:35)R3",
+      "batch_num": 720,
+      "rank": 476
+    },
+    {
+      "score": 0.805159330368042,
+      "window_idx": 98,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GM(UniMod:35)HLQAATPK2",
+      "batch_num": 720,
+      "rank": 477
+    },
+    {
+      "score": 0.7982393503189087,
+      "window_idx": 97,
+      "is_decoy": false,
+      "precursor_id": "IHSMTIEAPITK3",
+      "batch_num": 720,
+      "rank": 478
+    },
+    {
+      "score": 0.7951152324676514,
+      "window_idx": 36,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ATFMEVLTK2",
+      "batch_num": 720,
+      "rank": 479
+    },
+    {
+      "score": 0.7943763136863708,
+      "window_idx": 33,
+      "is_decoy": true,
+      "precursor_id": "DECOY_KLHEEEIQELQAQIQEQHVQID4",
+      "batch_num": 720,
+      "rank": 480
+    },
+    {
+      "score": 0.7939173579216003,
+      "window_idx": 10,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HVDSAAEYYR2",
+      "batch_num": 720,
+      "rank": 481
+    },
+    {
+      "score": 0.7925058603286743,
+      "window_idx": 53,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LYLSAFTSK2",
+      "batch_num": 720,
+      "rank": 482
+    },
+    {
+      "score": 0.7896081209182739,
+      "window_idx": 35,
+      "is_decoy": false,
+      "precursor_id": "IAMATVTALR2",
+      "batch_num": 720,
+      "rank": 483
+    },
+    {
+      "score": 0.7893925905227661,
+      "window_idx": 24,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TQNDVLHAENVK2",
+      "batch_num": 720,
+      "rank": 484
+    },
+    {
+      "score": 0.7887312769889832,
+      "window_idx": 75,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ETDPLGKPR2",
+      "batch_num": 720,
+      "rank": 485
+    },
+    {
+      "score": 0.787430465221405,
+      "window_idx": 64,
+      "is_decoy": true,
+      "precursor_id": "DECOY_RSIVVIHPDTGRELSPEEAHR4",
+      "batch_num": 720,
+      "rank": 486
+    },
+    {
+      "score": 0.7863753437995911,
+      "window_idx": 54,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AAAGALTC(UniMod:4)ATPGTWK2",
+      "batch_num": 720,
+      "rank": 487
+    },
+    {
+      "score": 0.7863733768463135,
+      "window_idx": 64,
+      "is_decoy": false,
+      "precursor_id": "LLSDSLPPSTGTFQEAQSR2",
+      "batch_num": 720,
+      "rank": 488
+    },
+    {
+      "score": 0.7860474586486816,
+      "window_idx": 98,
+      "is_decoy": true,
+      "precursor_id": "DECOY_DTVQC(UniMod:4)LC(UniMod:4)VVK2",
+      "batch_num": 720,
+      "rank": 489
+    },
+    {
+      "score": 0.7855400443077087,
+      "window_idx": 73,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VASVM(UniMod:35)QEYTQSGGVRPF2",
+      "batch_num": 720,
+      "rank": 490
+    },
+    {
+      "score": 0.784726619720459,
+      "window_idx": 48,
+      "is_decoy": true,
+      "precursor_id": "DECOY_IVNNNPYGNGTAIFTTNGATAR3",
+      "batch_num": 720,
+      "rank": 491
+    },
+    {
+      "score": 0.7829716801643372,
+      "window_idx": 74,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LDYYTKPQGLDK2",
+      "batch_num": 720,
+      "rank": 492
+    },
+    {
+      "score": 0.7824293375015259,
+      "window_idx": 0,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LAAAGLADAATEIVER2",
+      "batch_num": 720,
+      "rank": 493
+    },
+    {
+      "score": 0.7814906239509583,
+      "window_idx": 87,
+      "is_decoy": true,
+      "precursor_id": "DECOY_IKTDGAAPNVAPSDVGGG2",
+      "batch_num": 720,
+      "rank": 494
+    },
+    {
+      "score": 0.7794718146324158,
+      "window_idx": 8,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LENQEGIDFIK2",
+      "batch_num": 720,
+      "rank": 495
+    },
+    {
+      "score": 0.7787988781929016,
+      "window_idx": 3,
+      "is_decoy": true,
+      "precursor_id": "DECOY_FYQVPVPLPDRR2",
+      "batch_num": 720,
+      "rank": 496
+    },
+    {
+      "score": 0.7731720805168152,
+      "window_idx": 25,
+      "is_decoy": true,
+      "precursor_id": "DECOY_PTGGLPETAR2",
+      "batch_num": 720,
+      "rank": 497
+    },
+    {
+      "score": 0.7714641690254211,
+      "window_idx": 0,
+      "is_decoy": true,
+      "precursor_id": "DECOY_QIESLKEELAYLKK2",
+      "batch_num": 720,
+      "rank": 498
+    },
+    {
+      "score": 0.7698792815208435,
+      "window_idx": 27,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EDFTSLSLVLYSRK2",
+      "batch_num": 720,
+      "rank": 499
+    },
+    {
+      "score": 0.7692722082138062,
+      "window_idx": 98,
+      "is_decoy": true,
+      "precursor_id": "DECOY_NDTKEDVFVHQTAI3",
+      "batch_num": 720,
+      "rank": 500
+    },
+    {
+      "score": 0.7678655385971069,
+      "window_idx": 89,
+      "is_decoy": false,
+      "precursor_id": "QNLEGDHSDAPMETETSFK3",
+      "batch_num": 720,
+      "rank": 501
+    },
+    {
+      "score": 0.767096757888794,
+      "window_idx": 70,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VTQNNFHNYFGGSEIVVAGK3",
+      "batch_num": 720,
+      "rank": 502
+    },
+    {
+      "score": 0.7661083340644836,
+      "window_idx": 79,
+      "is_decoy": true,
+      "precursor_id": "DECOY_DLYANNVMSGGTTM(UniMod:35)YPGIAD2",
+      "batch_num": 720,
+      "rank": 503
+    },
+    {
+      "score": 0.7655689120292664,
+      "window_idx": 70,
+      "is_decoy": true,
+      "precursor_id": "DECOY_IVIRPEPNLFHDGREHSVHVER4",
+      "batch_num": 720,
+      "rank": 504
+    },
+    {
+      "score": 0.7633029818534851,
+      "window_idx": 77,
+      "is_decoy": false,
+      "precursor_id": "KQIFQQLTER2",
+      "batch_num": 720,
+      "rank": 505
+    },
+    {
+      "score": 0.7591400146484375,
+      "window_idx": 94,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LDFHEAQQK2",
+      "batch_num": 720,
+      "rank": 506
+    },
+    {
+      "score": 0.758425235748291,
+      "window_idx": 2,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GVTQIDNDLKSR2",
+      "batch_num": 720,
+      "rank": 507
+    },
+    {
+      "score": 0.755722165107727,
+      "window_idx": 6,
+      "is_decoy": false,
+      "precursor_id": "VDSSSGLGDYLELHIHQGK2",
+      "batch_num": 720,
+      "rank": 508
+    },
+    {
+      "score": 0.7556456923484802,
+      "window_idx": 27,
+      "is_decoy": false,
+      "precursor_id": "GTVEEQRPPELSPGAGDR3",
+      "batch_num": 720,
+      "rank": 509
+    },
+    {
+      "score": 0.7548863291740417,
+      "window_idx": 72,
+      "is_decoy": false,
+      "precursor_id": "GVLRPGTALVLLEAQ2",
+      "batch_num": 720,
+      "rank": 510
+    },
+    {
+      "score": 0.7538121938705444,
+      "window_idx": 67,
+      "is_decoy": true,
+      "precursor_id": "DECOY_APVGGGAFPTIVER2",
+      "batch_num": 720,
+      "rank": 511
+    },
+    {
+      "score": 0.751369297504425,
+      "window_idx": 59,
+      "is_decoy": false,
+      "precursor_id": "EHGTHQQLLAQK3",
+      "batch_num": 720,
+      "rank": 512
+    },
+    {
+      "score": 0.7499731183052063,
+      "window_idx": 69,
+      "is_decoy": true,
+      "precursor_id": "DECOY_RGDTSGETLHSLIQQGQQIASK3",
+      "batch_num": 720,
+      "rank": 513
+    },
+    {
+      "score": 0.7493634819984436,
+      "window_idx": 71,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AC(UniMod:4)IPTGPYPC(UniMod:4)2",
+      "batch_num": 720,
+      "rank": 514
+    },
+    {
+      "score": 0.7481396794319153,
+      "window_idx": 61,
+      "is_decoy": false,
+      "precursor_id": "FSSPTAAGTPNK2",
+      "batch_num": 720,
+      "rank": 515
+    },
+    {
+      "score": 0.7466798424720764,
+      "window_idx": 92,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ELLSC(UniMod:4)SHPFSK2",
+      "batch_num": 720,
+      "rank": 516
+    },
+    {
+      "score": 0.7453672885894775,
+      "window_idx": 61,
+      "is_decoy": false,
+      "precursor_id": "VDIEVLSVLASLGASVHK2",
+      "batch_num": 720,
+      "rank": 517
+    },
+    {
+      "score": 0.7432931661605835,
+      "window_idx": 31,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ENELPLPEPEEQSRPR3",
+      "batch_num": 720,
+      "rank": 518
+    },
+    {
+      "score": 0.7369928956031799,
+      "window_idx": 22,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VHVTQEDFEMAVAK2",
+      "batch_num": 720,
+      "rank": 519
+    },
+    {
+      "score": 0.7354815006256104,
+      "window_idx": 89,
+      "is_decoy": false,
+      "precursor_id": "YPIEHGIITNWDDM(UniMod:35)EKI2",
+      "batch_num": 720,
+      "rank": 520
+    },
+    {
+      "score": 0.732415497303009,
+      "window_idx": 13,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GDLPAFHAHRDR3",
+      "batch_num": 720,
+      "rank": 521
+    },
+    {
+      "score": 0.7318006753921509,
+      "window_idx": 88,
+      "is_decoy": false,
+      "precursor_id": "LTLFVNGQPRPLESSQVK2",
+      "batch_num": 720,
+      "rank": 522
+    },
+    {
+      "score": 0.7317575812339783,
+      "window_idx": 3,
+      "is_decoy": true,
+      "precursor_id": "DECOY_MPVC(UniMod:4)YQC(UniMod:4)LEEGK2",
+      "batch_num": 720,
+      "rank": 523
+    },
+    {
+      "score": 0.7307672500610352,
+      "window_idx": 20,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TTMPLEMPEK2",
+      "batch_num": 720,
+      "rank": 524
+    },
+    {
+      "score": 0.7283263802528381,
+      "window_idx": 29,
+      "is_decoy": true,
+      "precursor_id": "DECOY_IIDEGEDDLGR2",
+      "batch_num": 720,
+      "rank": 525
+    },
+    {
+      "score": 0.7280934453010559,
+      "window_idx": 8,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LLHIEELRELQTK2",
+      "batch_num": 720,
+      "rank": 526
+    },
+    {
+      "score": 0.7267624735832214,
+      "window_idx": 12,
+      "is_decoy": false,
+      "precursor_id": "TM(UniMod:35)TGLDTPVLMVIK2",
+      "batch_num": 720,
+      "rank": 527
+    },
+    {
+      "score": 0.7262293100357056,
+      "window_idx": 97,
+      "is_decoy": false,
+      "precursor_id": "VMQEQGTHPKFQKPK3",
+      "batch_num": 720,
+      "rank": 528
+    },
+    {
+      "score": 0.7235248684883118,
+      "window_idx": 38,
+      "is_decoy": false,
+      "precursor_id": "KVDLIIWEIEVPK3",
+      "batch_num": 720,
+      "rank": 529
+    },
+    {
+      "score": 0.7222406268119812,
+      "window_idx": 58,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AQDIIGHHQSEDR2",
+      "batch_num": 720,
+      "rank": 530
+    },
+    {
+      "score": 0.7209854125976562,
+      "window_idx": 27,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ELLEQMER2",
+      "batch_num": 720,
+      "rank": 531
+    },
+    {
+      "score": 0.7196841239929199,
+      "window_idx": 39,
+      "is_decoy": false,
+      "precursor_id": "KIVDLVSELK2",
+      "batch_num": 720,
+      "rank": 532
+    },
+    {
+      "score": 0.7175328135490417,
+      "window_idx": 42,
+      "is_decoy": false,
+      "precursor_id": "AALENGSTVATAASPAPEEPK2",
+      "batch_num": 720,
+      "rank": 533
+    },
+    {
+      "score": 0.7150524258613586,
+      "window_idx": 75,
+      "is_decoy": false,
+      "precursor_id": "GPPM(UniMod:35)M(UniMod:35)GAGYVHGAAR3",
+      "batch_num": 720,
+      "rank": 534
+    },
+    {
+      "score": 0.7131267189979553,
+      "window_idx": 7,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VWPHKDYPLIPVGK2",
+      "batch_num": 720,
+      "rank": 535
+    },
+    {
+      "score": 0.7115179896354675,
+      "window_idx": 84,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ENC(UniMod:4)GLNDHGDFVTPPFR3",
+      "batch_num": 720,
+      "rank": 536
+    },
+    {
+      "score": 0.7077157497406006,
+      "window_idx": 52,
+      "is_decoy": false,
+      "precursor_id": "PSAIGGSITVVAPDSC(UniMod:4)APC(UniMod:4)QPR2",
+      "batch_num": 720,
+      "rank": 537
+    },
+    {
+      "score": 0.7073973417282104,
+      "window_idx": 66,
+      "is_decoy": true,
+      "precursor_id": "DECOY_WDRQGENGQMM(UniMod:35)SC(UniMod:4)TC(UniMod:4)LGNGK3",
+      "batch_num": 720,
+      "rank": 538
+    },
+    {
+      "score": 0.697140634059906,
+      "window_idx": 13,
+      "is_decoy": true,
+      "precursor_id": "DECOY_DPQQEPMEEIENLK2",
+      "batch_num": 720,
+      "rank": 539
+    },
+    {
+      "score": 0.6963590979576111,
+      "window_idx": 56,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AITM(UniMod:35)TANSGFVR2",
+      "batch_num": 720,
+      "rank": 540
+    },
+    {
+      "score": 0.6947574019432068,
+      "window_idx": 97,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SESLELPQAAPPQIYHEK3",
+      "batch_num": 720,
+      "rank": 541
+    },
+    {
+      "score": 0.6939395070075989,
+      "window_idx": 24,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SLHSIAVSSIQK2",
+      "batch_num": 720,
+      "rank": 542
+    },
+    {
+      "score": 0.6934307813644409,
+      "window_idx": 35,
+      "is_decoy": true,
+      "precursor_id": "DECOY_MDWLVPATC(UniMod:4)EPIQS2",
+      "batch_num": 720,
+      "rank": 543
+    },
+    {
+      "score": 0.692607581615448,
+      "window_idx": 0,
+      "is_decoy": false,
+      "precursor_id": "FLDELEDEAK2",
+      "batch_num": 720,
+      "rank": 544
+    },
+    {
+      "score": 0.6905462741851807,
+      "window_idx": 40,
+      "is_decoy": false,
+      "precursor_id": "GHLVLTPFGIGDGR3",
+      "batch_num": 720,
+      "rank": 545
+    },
+    {
+      "score": 0.6898269057273865,
+      "window_idx": 13,
+      "is_decoy": true,
+      "precursor_id": "DECOY_PIRPDIVNFVHTNLRK4",
+      "batch_num": 720,
+      "rank": 546
+    },
+    {
+      "score": 0.6881788969039917,
+      "window_idx": 63,
+      "is_decoy": false,
+      "precursor_id": "DNEYFFVDPDLK2",
+      "batch_num": 720,
+      "rank": 547
+    },
+    {
+      "score": 0.6864674091339111,
+      "window_idx": 87,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LYQQHGAGLFDV2",
+      "batch_num": 720,
+      "rank": 548
+    },
+    {
+      "score": 0.6844660639762878,
+      "window_idx": 35,
+      "is_decoy": false,
+      "precursor_id": "RTLSLQPGGGGGGGEDAPR3",
+      "batch_num": 720,
+      "rank": 549
+    },
+    {
+      "score": 0.683377206325531,
+      "window_idx": 91,
+      "is_decoy": true,
+      "precursor_id": "DECOY_KFVFFNIPQIQYK3",
+      "batch_num": 720,
+      "rank": 550
+    },
+    {
+      "score": 0.6833451986312866,
+      "window_idx": 48,
+      "is_decoy": false,
+      "precursor_id": "FLNEHPGGEEVLLEQAGVDA2",
+      "batch_num": 720,
+      "rank": 551
+    },
+    {
+      "score": 0.682318925857544,
+      "window_idx": 26,
+      "is_decoy": true,
+      "precursor_id": "DECOY_DVKKPVAAAAAAPAPAPAPAPAPAPAK4",
+      "batch_num": 720,
+      "rank": 552
+    },
+    {
+      "score": 0.6806135773658752,
+      "window_idx": 41,
+      "is_decoy": false,
+      "precursor_id": "SIIAEVKAQYEDIANR3",
+      "batch_num": 720,
+      "rank": 553
+    },
+    {
+      "score": 0.6796500086784363,
+      "window_idx": 99,
+      "is_decoy": false,
+      "precursor_id": "VGGGSWAELGR2",
+      "batch_num": 720,
+      "rank": 554
+    },
+    {
+      "score": 0.6763284802436829,
+      "window_idx": 77,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VKFNEEHIPDSPFVVPVASPSGDAR3",
+      "batch_num": 720,
+      "rank": 555
+    },
+    {
+      "score": 0.6746662855148315,
+      "window_idx": 67,
+      "is_decoy": false,
+      "precursor_id": "LQVIIIGSR2",
+      "batch_num": 720,
+      "rank": 556
+    },
+    {
+      "score": 0.674355685710907,
+      "window_idx": 28,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GSVGSEPQAFDVFPENPRADS3",
+      "batch_num": 720,
+      "rank": 557
+    },
+    {
+      "score": 0.6726073622703552,
+      "window_idx": 89,
+      "is_decoy": false,
+      "precursor_id": "IIQEQDAGLDALSSIISR2",
+      "batch_num": 720,
+      "rank": 558
+    },
+    {
+      "score": 0.6662009358406067,
+      "window_idx": 76,
+      "is_decoy": false,
+      "precursor_id": "YTGFRDRPHEER3",
+      "batch_num": 720,
+      "rank": 559
+    },
+    {
+      "score": 0.6640469431877136,
+      "window_idx": 13,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GDNQILQHHVLTR2",
+      "batch_num": 720,
+      "rank": 560
+    },
+    {
+      "score": 0.6634279489517212,
+      "window_idx": 85,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LAELEEALQKAK3",
+      "batch_num": 720,
+      "rank": 561
+    },
+    {
+      "score": 0.6591474413871765,
+      "window_idx": 36,
+      "is_decoy": false,
+      "precursor_id": "VTSSM(UniMod:35)SSPSMQPK2",
+      "batch_num": 720,
+      "rank": 562
+    },
+    {
+      "score": 0.6579387187957764,
+      "window_idx": 23,
+      "is_decoy": false,
+      "precursor_id": "NDVLAHQATVETV2",
+      "batch_num": 720,
+      "rank": 563
+    },
+    {
+      "score": 0.6535268425941467,
+      "window_idx": 51,
+      "is_decoy": false,
+      "precursor_id": "AAQGFVGC(UniMod:4)ALSSTIQR2",
+      "batch_num": 720,
+      "rank": 564
+    },
+    {
+      "score": 0.6533858180046082,
+      "window_idx": 0,
+      "is_decoy": true,
+      "precursor_id": "DECOY_MTLDTLSIYETPSM(UniMod:35)GLLDK2",
+      "batch_num": 720,
+      "rank": 565
+    },
+    {
+      "score": 0.6531145572662354,
+      "window_idx": 81,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VSYPLC(UniMod:4)FIFSSPVGC(UniMod:4)KPEQQM(UniMod:35)MYAGSK3",
+      "batch_num": 720,
+      "rank": 566
+    },
+    {
+      "score": 0.6527291536331177,
+      "window_idx": 93,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HHQEEVGELLGQIQG2",
+      "batch_num": 720,
+      "rank": 567
+    },
+    {
+      "score": 0.6524319052696228,
+      "window_idx": 77,
+      "is_decoy": false,
+      "precursor_id": "VYESIGQYGGETVK2",
+      "batch_num": 720,
+      "rank": 568
+    },
+    {
+      "score": 0.6519644260406494,
+      "window_idx": 18,
+      "is_decoy": true,
+      "precursor_id": "DECOY_QAVINGPNVHPGASMVINEDGSR3",
+      "batch_num": 720,
+      "rank": 569
+    },
+    {
+      "score": 0.647345781326294,
+      "window_idx": 77,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VTLNGVPC(UniMod:4)K2",
+      "batch_num": 720,
+      "rank": 570
+    },
+    {
+      "score": 0.6424033641815186,
+      "window_idx": 2,
+      "is_decoy": false,
+      "precursor_id": "AYVPIAQVKDVYVVTDQIPVFVTM(UniMod:35)FQK3",
+      "batch_num": 720,
+      "rank": 571
+    },
+    {
+      "score": 0.6367504596710205,
+      "window_idx": 82,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SLDGMESYNLPFGMNIIK2",
+      "batch_num": 720,
+      "rank": 572
+    },
+    {
+      "score": 0.6328239440917969,
+      "window_idx": 79,
+      "is_decoy": true,
+      "precursor_id": "DECOY_PVAAAPRPLPAGGR3",
+      "batch_num": 720,
+      "rank": 573
+    },
+    {
+      "score": 0.6312218904495239,
+      "window_idx": 83,
+      "is_decoy": false,
+      "precursor_id": "NC(UniMod:4)YVSGFHPSDIEVDLLK3",
+      "batch_num": 720,
+      "rank": 574
+    },
+    {
+      "score": 0.6308400630950928,
+      "window_idx": 88,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VGNEYVTKGQTVQQVYNAVGALAK3",
+      "batch_num": 720,
+      "rank": 575
+    },
+    {
+      "score": 0.6251791715621948,
+      "window_idx": 30,
+      "is_decoy": true,
+      "precursor_id": "DECOY_KDVIELTDDSFDK3",
+      "batch_num": 720,
+      "rank": 576
+    },
+    {
+      "score": 0.6180092692375183,
+      "window_idx": 87,
+      "is_decoy": false,
+      "precursor_id": "RMQNDTAENETTEK3",
+      "batch_num": 720,
+      "rank": 577
+    },
+    {
+      "score": 0.6161258816719055,
+      "window_idx": 25,
+      "is_decoy": false,
+      "precursor_id": "ASASLNGDLR2",
+      "batch_num": 720,
+      "rank": 578
+    },
+    {
+      "score": 0.6134352684020996,
+      "window_idx": 19,
+      "is_decoy": true,
+      "precursor_id": "DECOY_MELEVAERK2",
+      "batch_num": 720,
+      "rank": 579
+    },
+    {
+      "score": 0.6133631467819214,
+      "window_idx": 4,
+      "is_decoy": false,
+      "precursor_id": "NKPSDLGTK2",
+      "batch_num": 720,
+      "rank": 580
+    },
+    {
+      "score": 0.6130528450012207,
+      "window_idx": 89,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ALSKPGTAAELR2",
+      "batch_num": 720,
+      "rank": 581
+    },
+    {
+      "score": 0.6078630089759827,
+      "window_idx": 30,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HPFAGDVVFPR2",
+      "batch_num": 720,
+      "rank": 582
+    },
+    {
+      "score": 0.6068270802497864,
+      "window_idx": 57,
+      "is_decoy": false,
+      "precursor_id": "SGVLQALLGR2",
+      "batch_num": 720,
+      "rank": 583
+    },
+    {
+      "score": 0.5969632267951965,
+      "window_idx": 63,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HTLVEADIGIQAER2",
+      "batch_num": 720,
+      "rank": 584
+    },
+    {
+      "score": 0.5936509370803833,
+      "window_idx": 61,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LELQGPR2",
+      "batch_num": 720,
+      "rank": 585
+    },
+    {
+      "score": 0.5935571789741516,
+      "window_idx": 79,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ALWEIEVVHHD2",
+      "batch_num": 720,
+      "rank": 586
+    },
+    {
+      "score": 0.586952269077301,
+      "window_idx": 57,
+      "is_decoy": false,
+      "precursor_id": "AC(UniMod:4)GC(UniMod:4)DLAEGGFFVR2",
+      "batch_num": 720,
+      "rank": 587
+    },
+    {
+      "score": 0.586336612701416,
+      "window_idx": 63,
+      "is_decoy": false,
+      "precursor_id": "NTLTNIAMRPGLEGY2",
+      "batch_num": 720,
+      "rank": 588
+    },
+    {
+      "score": 0.5778413414955139,
+      "window_idx": 35,
+      "is_decoy": false,
+      "precursor_id": "QKPDGVFQEDAPVIHQEMIG3",
+      "batch_num": 720,
+      "rank": 589
+    },
+    {
+      "score": 0.5578720569610596,
+      "window_idx": 70,
+      "is_decoy": true,
+      "precursor_id": "DECOY_YVIWSADM(UniMod:35)SHVALLAK2",
+      "batch_num": 720,
+      "rank": 590
+    },
+    {
+      "score": 0.5517789125442505,
+      "window_idx": 74,
+      "is_decoy": false,
+      "precursor_id": "VSTHDQELGHLNN3",
+      "batch_num": 720,
+      "rank": 591
+    },
+    {
+      "score": 0.5510631799697876,
+      "window_idx": 56,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TLLAQTLAK2",
+      "batch_num": 720,
+      "rank": 592
+    },
+    {
+      "score": 0.5503324866294861,
+      "window_idx": 93,
+      "is_decoy": true,
+      "precursor_id": "DECOY_WTPVGMADLVAPEQVKK2",
+      "batch_num": 720,
+      "rank": 593
+    },
+    {
+      "score": 0.5463687777519226,
+      "window_idx": 41,
+      "is_decoy": false,
+      "precursor_id": "KTLC(UniMod:4)SMEEAINER2",
+      "batch_num": 720,
+      "rank": 594
+    },
+    {
+      "score": 0.5349249243736267,
+      "window_idx": 93,
+      "is_decoy": false,
+      "precursor_id": "LQTEAGEYSR2",
+      "batch_num": 720,
+      "rank": 595
+    },
+    {
+      "score": 0.5323644876480103,
+      "window_idx": 25,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HSFINPQPK2",
+      "batch_num": 720,
+      "rank": 596
+    },
+    {
+      "score": 0.5319883227348328,
+      "window_idx": 33,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SEEETSPLVTHQNPAGPVASAPELE3",
+      "batch_num": 720,
+      "rank": 597
+    },
+    {
+      "score": 0.5289345383644104,
+      "window_idx": 35,
+      "is_decoy": true,
+      "precursor_id": "DECOY_QMESLKEELLSLK2",
+      "batch_num": 720,
+      "rank": 598
+    },
+    {
+      "score": 0.5256829857826233,
+      "window_idx": 44,
+      "is_decoy": true,
+      "precursor_id": "DECOY_RNSVFQQGM(UniMod:35)K2",
+      "batch_num": 720,
+      "rank": 599
+    },
+    {
+      "score": 0.5219125151634216,
+      "window_idx": 81,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SAWPPPGPIPAGHWEAGPK3",
+      "batch_num": 720,
+      "rank": 600
+    },
+    {
+      "score": 0.5177686214447021,
+      "window_idx": 4,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GIWQC(UniMod:4)LSPQK2",
+      "batch_num": 720,
+      "rank": 601
+    },
+    {
+      "score": 0.5161553025245667,
+      "window_idx": 82,
+      "is_decoy": false,
+      "precursor_id": "PITMTIPVPPPSGEGVSNGYK2",
+      "batch_num": 720,
+      "rank": 602
+    },
+    {
+      "score": 0.5153804421424866,
+      "window_idx": 69,
+      "is_decoy": true,
+      "precursor_id": "DECOY_STPLSQPSANGVQTEGLDYDR2",
+      "batch_num": 720,
+      "rank": 603
+    },
+    {
+      "score": 0.5121088624000549,
+      "window_idx": 99,
+      "is_decoy": false,
+      "precursor_id": "GLHQSIEEFRAKIER3",
+      "batch_num": 720,
+      "rank": 604
+    },
+    {
+      "score": 0.5111601948738098,
+      "window_idx": 18,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LPEGHLPEGAGLK2",
+      "batch_num": 720,
+      "rank": 605
+    },
+    {
+      "score": 0.5107936263084412,
+      "window_idx": 99,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ALRTDLVSPK2",
+      "batch_num": 720,
+      "rank": 606
+    },
+    {
+      "score": 0.5089245438575745,
+      "window_idx": 2,
+      "is_decoy": true,
+      "precursor_id": "DECOY_KPTEFIGGVTSTSQSWVQK2",
+      "batch_num": 720,
+      "rank": 607
+    },
+    {
+      "score": 0.499103844165802,
+      "window_idx": 78,
+      "is_decoy": false,
+      "precursor_id": "AC(UniMod:4)EDPLITPVPTSENPFR3",
+      "batch_num": 720,
+      "rank": 608
+    },
+    {
+      "score": 0.49905580282211304,
+      "window_idx": 37,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LAAGHYASDEVR3",
+      "batch_num": 720,
+      "rank": 609
+    },
+    {
+      "score": 0.49854642152786255,
+      "window_idx": 41,
+      "is_decoy": true,
+      "precursor_id": "DECOY_DYEEVGVDSVEGEG2",
+      "batch_num": 720,
+      "rank": 610
+    },
+    {
+      "score": 0.4920751750469208,
+      "window_idx": 17,
+      "is_decoy": true,
+      "precursor_id": "DECOY_YYSYGLEK2",
+      "batch_num": 720,
+      "rank": 611
+    },
+    {
+      "score": 0.4899961054325104,
+      "window_idx": 27,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LQVLKSTGDVAGGR2",
+      "batch_num": 720,
+      "rank": 612
+    },
+    {
+      "score": 0.48469430208206177,
+      "window_idx": 77,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HNDDEQYAWESSAGG2",
+      "batch_num": 720,
+      "rank": 613
+    },
+    {
+      "score": 0.4798334538936615,
+      "window_idx": 88,
+      "is_decoy": false,
+      "precursor_id": "YIQHMEQELK2",
+      "batch_num": 720,
+      "rank": 614
+    },
+    {
+      "score": 0.4793168306350708,
+      "window_idx": 18,
+      "is_decoy": true,
+      "precursor_id": "DECOY_FETPGVMQFSSEEK2",
+      "batch_num": 720,
+      "rank": 615
+    },
+    {
+      "score": 0.4793092608451843,
+      "window_idx": 34,
+      "is_decoy": false,
+      "precursor_id": "PIVTDSTLR2",
+      "batch_num": 720,
+      "rank": 616
+    },
+    {
+      "score": 0.47888678312301636,
+      "window_idx": 54,
+      "is_decoy": true,
+      "precursor_id": "DECOY_WLSDEHTGNSDNWR3",
+      "batch_num": 720,
+      "rank": 617
+    },
+    {
+      "score": 0.4779815077781677,
+      "window_idx": 43,
+      "is_decoy": false,
+      "precursor_id": "PAASGPLSHPTPLSAPPSSVPLK3",
+      "batch_num": 720,
+      "rank": 618
+    },
+    {
+      "score": 0.47158119082450867,
+      "window_idx": 55,
+      "is_decoy": false,
+      "precursor_id": "DTQLHLDDALRSQEDLK2",
+      "batch_num": 720,
+      "rank": 619
+    },
+    {
+      "score": 0.4699310064315796,
+      "window_idx": 45,
+      "is_decoy": true,
+      "precursor_id": "DECOY_FMDQHPEM(UniMod:35)DFSK3",
+      "batch_num": 720,
+      "rank": 620
+    },
+    {
+      "score": 0.46854957938194275,
+      "window_idx": 99,
+      "is_decoy": false,
+      "precursor_id": "VASM(UniMod:35)AQSAPSEAPSC(UniMod:4)SPFGK2",
+      "batch_num": 720,
+      "rank": 621
+    },
+    {
+      "score": 0.46787503361701965,
+      "window_idx": 3,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VYNTSGAVTPQDDLSEFTSK2",
+      "batch_num": 720,
+      "rank": 622
+    },
+    {
+      "score": 0.4673735797405243,
+      "window_idx": 0,
+      "is_decoy": true,
+      "precursor_id": "DECOY_MTC(UniMod:4)TQNVAPDM(UniMod:35)FR2",
+      "batch_num": 720,
+      "rank": 623
+    },
+    {
+      "score": 0.46348246932029724,
+      "window_idx": 51,
+      "is_decoy": false,
+      "precursor_id": "AAHWTEGSVVSLTR2",
+      "batch_num": 720,
+      "rank": 624
+    },
+    {
+      "score": 0.45853209495544434,
+      "window_idx": 23,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LVQASEELLREHYAE2",
+      "batch_num": 720,
+      "rank": 625
+    },
+    {
+      "score": 0.4580192565917969,
+      "window_idx": 54,
+      "is_decoy": true,
+      "precursor_id": "DECOY_FTVTIGEDER2",
+      "batch_num": 720,
+      "rank": 626
+    },
+    {
+      "score": 0.4503845274448395,
+      "window_idx": 28,
+      "is_decoy": false,
+      "precursor_id": "ANQGDEAC(UniMod:4)THC(UniMod:4)PINSR3",
+      "batch_num": 720,
+      "rank": 627
+    },
+    {
+      "score": 0.4378284811973572,
+      "window_idx": 48,
+      "is_decoy": true,
+      "precursor_id": "DECOY_M(UniMod:35)MYLTTR2",
+      "batch_num": 720,
+      "rank": 628
+    },
+    {
+      "score": 0.4356168806552887,
+      "window_idx": 8,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AVFDEAILTIFHPK2",
+      "batch_num": 720,
+      "rank": 629
+    },
+    {
+      "score": 0.43268612027168274,
+      "window_idx": 36,
+      "is_decoy": false,
+      "precursor_id": "TYTESYISTIGVDFK2",
+      "batch_num": 720,
+      "rank": 630
+    },
+    {
+      "score": 0.429291307926178,
+      "window_idx": 63,
+      "is_decoy": false,
+      "precursor_id": "ETNISYSQEADDRVFR3",
+      "batch_num": 720,
+      "rank": 631
+    },
+    {
+      "score": 0.4282058775424957,
+      "window_idx": 73,
+      "is_decoy": false,
+      "precursor_id": "AAQLEPITYMQGLSAC(UniMod:4)EQIR2",
+      "batch_num": 720,
+      "rank": 632
+    },
+    {
+      "score": 0.4247017502784729,
+      "window_idx": 35,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VFLQMPSEQAAGLYAGQYVHS2",
+      "batch_num": 720,
+      "rank": 633
+    },
+    {
+      "score": 0.41080114245414734,
+      "window_idx": 85,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ISVYYNEASSH2",
+      "batch_num": 720,
+      "rank": 634
+    },
+    {
+      "score": 0.4084155261516571,
+      "window_idx": 73,
+      "is_decoy": true,
+      "precursor_id": "DECOY_KNDPYALASLVSFEVK3",
+      "batch_num": 720,
+      "rank": 635
+    },
+    {
+      "score": 0.40117570757865906,
+      "window_idx": 55,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LQINSPPFDQPMSR2",
+      "batch_num": 720,
+      "rank": 636
+    },
+    {
+      "score": 0.4008592963218689,
+      "window_idx": 87,
+      "is_decoy": true,
+      "precursor_id": "DECOY_MELPIISNAM(UniMod:35)LIGDQR2",
+      "batch_num": 720,
+      "rank": 637
+    },
+    {
+      "score": 0.39755621552467346,
+      "window_idx": 76,
+      "is_decoy": false,
+      "precursor_id": "DTLYPGFEGTEMWNPNR2",
+      "batch_num": 720,
+      "rank": 638
+    },
+    {
+      "score": 0.39684778451919556,
+      "window_idx": 85,
+      "is_decoy": false,
+      "precursor_id": "FQPASAPAEDC(UniMod:4)ISSSTEPKPD2",
+      "batch_num": 720,
+      "rank": 639
+    },
+    {
+      "score": 0.39527469873428345,
+      "window_idx": 11,
+      "is_decoy": false,
+      "precursor_id": "KGDGLQLPAADGAAASNAADSANASLVNGK3",
+      "batch_num": 720,
+      "rank": 640
+    },
+    {
+      "score": 0.3947543203830719,
+      "window_idx": 87,
+      "is_decoy": false,
+      "precursor_id": "C(UniMod:4)RIEPHTGLLLLSVQK2",
+      "batch_num": 720,
+      "rank": 641
+    },
+    {
+      "score": 0.3946995437145233,
+      "window_idx": 84,
+      "is_decoy": true,
+      "precursor_id": "DECOY_QLAEFVPLDYSVPIEIPTIK2",
+      "batch_num": 720,
+      "rank": 642
+    },
+    {
+      "score": 0.39188653230667114,
+      "window_idx": 36,
+      "is_decoy": true,
+      "precursor_id": "DECOY_IPSKEEEADM(UniMod:35)SSPTQR3",
+      "batch_num": 720,
+      "rank": 643
+    },
+    {
+      "score": 0.38989484310150146,
+      "window_idx": 39,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TRLPLELETSSTQK2",
+      "batch_num": 720,
+      "rank": 644
+    },
+    {
+      "score": 0.3880608081817627,
+      "window_idx": 97,
+      "is_decoy": false,
+      "precursor_id": "C(UniMod:4)ALENWPLTR2",
+      "batch_num": 720,
+      "rank": 645
+    },
+    {
+      "score": 0.38557320833206177,
+      "window_idx": 78,
+      "is_decoy": false,
+      "precursor_id": "LDGQISSAYPSQEGQVLVGIYGQYQLLGIK4",
+      "batch_num": 720,
+      "rank": 646
+    },
+    {
+      "score": 0.38359779119491577,
+      "window_idx": 66,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EATLQHEATAAALRK3",
+      "batch_num": 720,
+      "rank": 647
+    },
+    {
+      "score": 0.3799538016319275,
+      "window_idx": 24,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SWIEEMPSER2",
+      "batch_num": 720,
+      "rank": 648
+    },
+    {
+      "score": 0.376142680644989,
+      "window_idx": 54,
+      "is_decoy": false,
+      "precursor_id": "FSGSNPGNTATLTISR3",
+      "batch_num": 720,
+      "rank": 649
+    },
+    {
+      "score": 0.3649817109107971,
+      "window_idx": 22,
+      "is_decoy": false,
+      "precursor_id": "YLNDLIHSVR3",
+      "batch_num": 720,
+      "rank": 650
+    },
+    {
+      "score": 0.36201703548431396,
+      "window_idx": 74,
+      "is_decoy": true,
+      "precursor_id": "DECOY_YHC(UniMod:4)SGAPAAPLQ2",
+      "batch_num": 720,
+      "rank": 651
+    },
+    {
+      "score": 0.35699012875556946,
+      "window_idx": 15,
+      "is_decoy": false,
+      "precursor_id": "LSAQAHPAGK2",
+      "batch_num": 720,
+      "rank": 652
+    },
+    {
+      "score": 0.3560865819454193,
+      "window_idx": 46,
+      "is_decoy": false,
+      "precursor_id": "SVTSTFSK2",
+      "batch_num": 720,
+      "rank": 653
+    },
+    {
+      "score": 0.3553399443626404,
+      "window_idx": 97,
+      "is_decoy": false,
+      "precursor_id": "AIGAVPLIQGEYMIPC(UniMod:4)EK2",
+      "batch_num": 720,
+      "rank": 654
+    },
+    {
+      "score": 0.35422736406326294,
+      "window_idx": 3,
+      "is_decoy": false,
+      "precursor_id": "AALPAAELVQAC(UniMod:4)R2",
+      "batch_num": 720,
+      "rank": 655
+    },
+    {
+      "score": 0.3536955416202545,
+      "window_idx": 67,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AFTFSHDYK2",
+      "batch_num": 720,
+      "rank": 656
+    },
+    {
+      "score": 0.35021287202835083,
+      "window_idx": 26,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GSATIPFDQVNDDYC(UniMod:4)DC(UniMod:4)K2",
+      "batch_num": 720,
+      "rank": 657
+    },
+    {
+      "score": 0.3488239347934723,
+      "window_idx": 6,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HRPDLVDFSK2",
+      "batch_num": 720,
+      "rank": 658
+    },
+    {
+      "score": 0.34429559111595154,
+      "window_idx": 57,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SSTLATSYSSGDYTDQR2",
+      "batch_num": 720,
+      "rank": 659
+    },
+    {
+      "score": 0.34218496084213257,
+      "window_idx": 17,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SARPVLLQVAESAYR3",
+      "batch_num": 720,
+      "rank": 660
+    },
+    {
+      "score": 0.34000298380851746,
+      "window_idx": 9,
+      "is_decoy": false,
+      "precursor_id": "GSAM(UniMod:35)QDLAEVNNFPPQSWQ2",
+      "batch_num": 720,
+      "rank": 661
+    },
+    {
+      "score": 0.33760207891464233,
+      "window_idx": 20,
+      "is_decoy": false,
+      "precursor_id": "GSFTYFAPSNEAWD2",
+      "batch_num": 720,
+      "rank": 662
+    },
+    {
+      "score": 0.3362096846103668,
+      "window_idx": 92,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AEYVVESTGVFTTM(UniMod:35)EK2",
+      "batch_num": 720,
+      "rank": 663
+    },
+    {
+      "score": 0.3324723541736603,
+      "window_idx": 37,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VKPTVAPPLAEPGAGK2",
+      "batch_num": 720,
+      "rank": 664
+    },
+    {
+      "score": 0.3270873725414276,
+      "window_idx": 86,
+      "is_decoy": true,
+      "precursor_id": "DECOY_QSILVLWDINK2",
+      "batch_num": 720,
+      "rank": 665
+    },
+    {
+      "score": 0.3214690089225769,
+      "window_idx": 26,
+      "is_decoy": false,
+      "precursor_id": "C(UniMod:4)VDPWLTK2",
+      "batch_num": 720,
+      "rank": 666
+    },
+    {
+      "score": 0.3202594816684723,
+      "window_idx": 22,
+      "is_decoy": false,
+      "precursor_id": "EGAQFSSHLI2",
+      "batch_num": 720,
+      "rank": 667
+    },
+    {
+      "score": 0.31554579734802246,
+      "window_idx": 64,
+      "is_decoy": false,
+      "precursor_id": "ILC(UniMod:4)EELGAPANSAV2",
+      "batch_num": 720,
+      "rank": 668
+    },
+    {
+      "score": 0.31127744913101196,
+      "window_idx": 41,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TLYELATGR2",
+      "batch_num": 720,
+      "rank": 669
+    },
+    {
+      "score": 0.30933627486228943,
+      "window_idx": 71,
+      "is_decoy": true,
+      "precursor_id": "DECOY_RAAEDDEDDDVDTK2",
+      "batch_num": 720,
+      "rank": 670
+    },
+    {
+      "score": 0.3065153658390045,
+      "window_idx": 47,
+      "is_decoy": false,
+      "precursor_id": "ETYGSGTQYHM(UniMod:35)QLAK2",
+      "batch_num": 720,
+      "rank": 671
+    },
+    {
+      "score": 0.3050466477870941,
+      "window_idx": 0,
+      "is_decoy": false,
+      "precursor_id": "SSYLTGAWKPDTEHAVIR2",
+      "batch_num": 720,
+      "rank": 672
+    },
+    {
+      "score": 0.2963281273841858,
+      "window_idx": 97,
+      "is_decoy": false,
+      "precursor_id": "TSWPDHGVPEDPHLLLK3",
+      "batch_num": 720,
+      "rank": 673
+    },
+    {
+      "score": 0.29292210936546326,
+      "window_idx": 12,
+      "is_decoy": false,
+      "precursor_id": "FDKIEDM(UniMod:35)AM(UniMod:35)MTHLHEPAVLYNLK4",
+      "batch_num": 720,
+      "rank": 674
+    },
+    {
+      "score": 0.2922901511192322,
+      "window_idx": 67,
+      "is_decoy": false,
+      "precursor_id": "SLNSTPPPPPAPAPAPPPALAR3",
+      "batch_num": 720,
+      "rank": 675
+    },
+    {
+      "score": 0.2912438213825226,
+      "window_idx": 88,
+      "is_decoy": false,
+      "precursor_id": "RVQLYDLGLQIHK2",
+      "batch_num": 720,
+      "rank": 676
+    },
+    {
+      "score": 0.2847163677215576,
+      "window_idx": 99,
+      "is_decoy": false,
+      "precursor_id": "NALAHVGAK2",
+      "batch_num": 720,
+      "rank": 677
+    },
+    {
+      "score": 0.28283461928367615,
+      "window_idx": 67,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AATVHLMQ2",
+      "batch_num": 720,
+      "rank": 678
+    },
+    {
+      "score": 0.2783520519733429,
+      "window_idx": 35,
+      "is_decoy": false,
+      "precursor_id": "YGGGRPGR2",
+      "batch_num": 720,
+      "rank": 679
+    },
+    {
+      "score": 0.2745766341686249,
+      "window_idx": 70,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HTTLEHSDC(UniMod:4)AFMVDNEAIYDIC(UniMod:4)RR4",
+      "batch_num": 720,
+      "rank": 680
+    },
+    {
+      "score": 0.26904526352882385,
+      "window_idx": 84,
+      "is_decoy": false,
+      "precursor_id": "YGDFQYC(UniMod:4)EQAK2",
+      "batch_num": 720,
+      "rank": 681
+    },
+    {
+      "score": 0.26665911078453064,
+      "window_idx": 96,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ALFPPEPLVLR2",
+      "batch_num": 720,
+      "rank": 682
+    },
+    {
+      "score": 0.26605451107025146,
+      "window_idx": 11,
+      "is_decoy": true,
+      "precursor_id": "DECOY_FVHDNYVIRR2",
+      "batch_num": 720,
+      "rank": 683
+    },
+    {
+      "score": 0.26426899433135986,
+      "window_idx": 30,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SAPLAAGC(UniMod:4)PDRC(UniMod:4)EPARC(UniMod:4)PPQPEHC(UniMod:4)EGGR4",
+      "batch_num": 720,
+      "rank": 684
+    },
+    {
+      "score": 0.26403099298477173,
+      "window_idx": 96,
+      "is_decoy": true,
+      "precursor_id": "DECOY_YNTLPSR2",
+      "batch_num": 720,
+      "rank": 685
+    },
+    {
+      "score": 0.261327862739563,
+      "window_idx": 39,
+      "is_decoy": true,
+      "precursor_id": "DECOY_RGMQDLVEDFK2",
+      "batch_num": 720,
+      "rank": 686
+    },
+    {
+      "score": 0.2602079510688782,
+      "window_idx": 99,
+      "is_decoy": false,
+      "precursor_id": "KVAFC(UniMod:4)GAPEEGR2",
+      "batch_num": 720,
+      "rank": 687
+    },
+    {
+      "score": 0.25998541712760925,
+      "window_idx": 62,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EPISSYIFFC(UniMod:4)FPHIHTIYYGEQR3",
+      "batch_num": 720,
+      "rank": 688
+    },
+    {
+      "score": 0.2589500844478607,
+      "window_idx": 35,
+      "is_decoy": false,
+      "precursor_id": "AVTPSPEQVFAEC(UniMod:4)SQK2",
+      "batch_num": 720,
+      "rank": 689
+    },
+    {
+      "score": 0.2580539286136627,
+      "window_idx": 23,
+      "is_decoy": false,
+      "precursor_id": "FM(UniMod:35)GM(UniMod:35)SVGVSM(UniMod:35)IGEGVLR2",
+      "batch_num": 720,
+      "rank": 690
+    },
+    {
+      "score": 0.2498336285352707,
+      "window_idx": 74,
+      "is_decoy": false,
+      "precursor_id": "LIQNWPHYR2",
+      "batch_num": 720,
+      "rank": 691
+    },
+    {
+      "score": 0.24715614318847656,
+      "window_idx": 46,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GAFGSGALPTGPDYYSQLLTK2",
+      "batch_num": 720,
+      "rank": 692
+    },
+    {
+      "score": 0.24680012464523315,
+      "window_idx": 23,
+      "is_decoy": true,
+      "precursor_id": "DECOY_PQDWISAAR2",
+      "batch_num": 720,
+      "rank": 693
+    },
+    {
+      "score": 0.24539798498153687,
+      "window_idx": 9,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LC(UniMod:4)VC(UniMod:4)QSGTYGENC(UniMod:4)EK2",
+      "batch_num": 720,
+      "rank": 694
+    },
+    {
+      "score": 0.24492669105529785,
+      "window_idx": 40,
+      "is_decoy": false,
+      "precursor_id": "EVGGQGAGNTGGLEPVHPASLPD2",
+      "batch_num": 720,
+      "rank": 695
+    },
+    {
+      "score": 0.24206732213497162,
+      "window_idx": 3,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HVSLPSFNQLFGLSD2",
+      "batch_num": 720,
+      "rank": 696
+    },
+    {
+      "score": 0.24114654958248138,
+      "window_idx": 90,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LVQSVHQSLAALSK3",
+      "batch_num": 720,
+      "rank": 697
+    },
+    {
+      "score": 0.23635460436344147,
+      "window_idx": 35,
+      "is_decoy": false,
+      "precursor_id": "YDAEVVAIAQK2",
+      "batch_num": 720,
+      "rank": 698
+    },
+    {
+      "score": 0.235390305519104,
+      "window_idx": 20,
+      "is_decoy": false,
+      "precursor_id": "KPADLQNLAPGTNPP2",
+      "batch_num": 720,
+      "rank": 699
+    },
+    {
+      "score": 0.23428413271903992,
+      "window_idx": 10,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GIQDKLDYITALNIK3",
+      "batch_num": 720,
+      "rank": 700
+    },
+    {
+      "score": 0.23167210817337036,
+      "window_idx": 32,
+      "is_decoy": false,
+      "precursor_id": "SIPTDNQIKAR2",
+      "batch_num": 720,
+      "rank": 701
+    },
+    {
+      "score": 0.22903218865394592,
+      "window_idx": 68,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EKDRDPEAQFEMPYVVR4",
+      "batch_num": 720,
+      "rank": 702
+    },
+    {
+      "score": 0.22076483070850372,
+      "window_idx": 0,
+      "is_decoy": true,
+      "precursor_id": "DECOY_DGFNPADVEAGLYGSHLY2",
+      "batch_num": 720,
+      "rank": 703
+    },
+    {
+      "score": 0.21798808872699738,
+      "window_idx": 49,
+      "is_decoy": false,
+      "precursor_id": "LPHGLGNLR2",
+      "batch_num": 720,
+      "rank": 704
+    },
+    {
+      "score": 0.2179209291934967,
+      "window_idx": 10,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TASVLVGAPK2",
+      "batch_num": 720,
+      "rank": 705
+    },
+    {
+      "score": 0.21747438609600067,
+      "window_idx": 69,
+      "is_decoy": false,
+      "precursor_id": "LGPPGAALELTFR2",
+      "batch_num": 720,
+      "rank": 706
+    },
+    {
+      "score": 0.21232427656650543,
+      "window_idx": 8,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TWLGYLFYR2",
+      "batch_num": 720,
+      "rank": 707
+    },
+    {
+      "score": 0.2111440747976303,
+      "window_idx": 93,
+      "is_decoy": false,
+      "precursor_id": "FAAYFQQGDMESN2",
+      "batch_num": 720,
+      "rank": 708
+    },
+    {
+      "score": 0.21074455976486206,
+      "window_idx": 6,
+      "is_decoy": false,
+      "precursor_id": "PRDVSSVELLMNNHQGIK2",
+      "batch_num": 720,
+      "rank": 709
+    },
+    {
+      "score": 0.20951183140277863,
+      "window_idx": 19,
+      "is_decoy": true,
+      "precursor_id": "DECOY_KHFPSVNWLISYSK2",
+      "batch_num": 720,
+      "rank": 710
+    },
+    {
+      "score": 0.20880722999572754,
+      "window_idx": 40,
+      "is_decoy": false,
+      "precursor_id": "SLAGKHGDDLR2",
+      "batch_num": 720,
+      "rank": 711
+    },
+    {
+      "score": 0.20683026313781738,
+      "window_idx": 12,
+      "is_decoy": false,
+      "precursor_id": "YAAC(UniMod:4)NAVGQMATDFAPGFQK3",
+      "batch_num": 720,
+      "rank": 712
+    },
+    {
+      "score": 0.20644789934158325,
+      "window_idx": 76,
+      "is_decoy": true,
+      "precursor_id": "DECOY_RVSQTDNSITLEWR2",
+      "batch_num": 720,
+      "rank": 713
+    },
+    {
+      "score": 0.20550723373889923,
+      "window_idx": 54,
+      "is_decoy": false,
+      "precursor_id": "FFNLQSLYPLLK2",
+      "batch_num": 720,
+      "rank": 714
+    },
+    {
+      "score": 0.2040673941373825,
+      "window_idx": 90,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EQHLRDSADLKTLLSK3",
+      "batch_num": 720,
+      "rank": 715
+    },
+    {
+      "score": 0.20139829814434052,
+      "window_idx": 20,
+      "is_decoy": true,
+      "precursor_id": "DECOY_FC(UniMod:4)SPEPPAK2",
+      "batch_num": 720,
+      "rank": 716
+    },
+    {
+      "score": 0.19853246212005615,
+      "window_idx": 46,
+      "is_decoy": true,
+      "precursor_id": "DECOY_RDLEEATLQHEATAAT2",
+      "batch_num": 720,
+      "rank": 717
+    },
+    {
+      "score": 0.197819784283638,
+      "window_idx": 30,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EGSQELNPAK2",
+      "batch_num": 720,
+      "rank": 718
+    },
+    {
+      "score": 0.19584958255290985,
+      "window_idx": 28,
+      "is_decoy": false,
+      "precursor_id": "KPWFLTNEVEEC(UniMod:4)ENYFSK3",
+      "batch_num": 720,
+      "rank": 719
+    },
+    {
+      "score": 0.19579921662807465,
+      "window_idx": 86,
+      "is_decoy": true,
+      "precursor_id": "DECOY_DYYEESYFTTR2",
+      "batch_num": 720,
+      "rank": 720
+    },
+    {
+      "score": 0.19350092113018036,
+      "window_idx": 7,
+      "is_decoy": false,
+      "precursor_id": "RVSQGHNGDLYFSNVMLQDM(UniMod:35)QTDYSC(UniMod:4)NAR4",
+      "batch_num": 720,
+      "rank": 721
+    },
+    {
+      "score": 0.19093912839889526,
+      "window_idx": 23,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LSGGSHSYGGESPR2",
+      "batch_num": 720,
+      "rank": 722
+    },
+    {
+      "score": 0.18819381296634674,
+      "window_idx": 5,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VVAYHC(UniMod:4)QHEAYEEALAV3",
+      "batch_num": 720,
+      "rank": 723
+    },
+    {
+      "score": 0.18774284422397614,
+      "window_idx": 78,
+      "is_decoy": false,
+      "precursor_id": "NSC(UniMod:4)IVC(UniMod:4)NMGH2",
+      "batch_num": 720,
+      "rank": 724
+    },
+    {
+      "score": 0.18463647365570068,
+      "window_idx": 60,
+      "is_decoy": false,
+      "precursor_id": "QTHISDTSVVLSMDNNR2",
+      "batch_num": 720,
+      "rank": 725
+    },
+    {
+      "score": 0.1818293184041977,
+      "window_idx": 32,
+      "is_decoy": false,
+      "precursor_id": "LVLAGDHMQVTPR2",
+      "batch_num": 720,
+      "rank": 726
+    },
+    {
+      "score": 0.18145708739757538,
+      "window_idx": 82,
+      "is_decoy": false,
+      "precursor_id": "QGPDFLQSLIK2",
+      "batch_num": 720,
+      "rank": 727
+    },
+    {
+      "score": 0.1798827052116394,
+      "window_idx": 22,
+      "is_decoy": false,
+      "precursor_id": "LLPYVGLLQHMD2",
+      "batch_num": 720,
+      "rank": 728
+    },
+    {
+      "score": 0.17736780643463135,
+      "window_idx": 51,
+      "is_decoy": true,
+      "precursor_id": "DECOY_NC(UniMod:4)LHDDGFLR3",
+      "batch_num": 720,
+      "rank": 729
+    },
+    {
+      "score": 0.173789381980896,
+      "window_idx": 66,
+      "is_decoy": false,
+      "precursor_id": "VGLSEMAQK2",
+      "batch_num": 720,
+      "rank": 730
+    },
+    {
+      "score": 0.17206208407878876,
+      "window_idx": 56,
+      "is_decoy": true,
+      "precursor_id": "DECOY_DRDPEAQFEMPYVVR2",
+      "batch_num": 720,
+      "rank": 731
+    },
+    {
+      "score": 0.16435106098651886,
+      "window_idx": 73,
+      "is_decoy": false,
+      "precursor_id": "TFSEPGDHPGMLTSGK2",
+      "batch_num": 720,
+      "rank": 732
+    },
+    {
+      "score": 0.15806396305561066,
+      "window_idx": 27,
+      "is_decoy": false,
+      "precursor_id": "DDDPHANDLVGGLMSDGLR3",
+      "batch_num": 720,
+      "rank": 733
+    },
+    {
+      "score": 0.15604127943515778,
+      "window_idx": 85,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AAYNVTLLNFMD2",
+      "batch_num": 720,
+      "rank": 734
+    },
+    {
+      "score": 0.1541978418827057,
+      "window_idx": 40,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AAGAARIIAVDINK3",
+      "batch_num": 720,
+      "rank": 735
+    },
+    {
+      "score": 0.1516493707895279,
+      "window_idx": 23,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SFPIASITK2",
+      "batch_num": 720,
+      "rank": 736
+    },
+    {
+      "score": 0.1471603363752365,
+      "window_idx": 92,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SNTIQSIM(UniMod:35)AIVK2",
+      "batch_num": 720,
+      "rank": 737
+    },
+    {
+      "score": 0.14366252720355988,
+      "window_idx": 30,
+      "is_decoy": false,
+      "precursor_id": "YVAVMPPHIGDQPLTGAYTVT2",
+      "batch_num": 720,
+      "rank": 738
+    },
+    {
+      "score": 0.1435924619436264,
+      "window_idx": 17,
+      "is_decoy": false,
+      "precursor_id": "ENDEDDVHQRPLPQPALLPM(UniMod:35)SS3",
+      "batch_num": 720,
+      "rank": 739
+    },
+    {
+      "score": 0.14205022156238556,
+      "window_idx": 32,
+      "is_decoy": false,
+      "precursor_id": "HSLPLQSFLLK2",
+      "batch_num": 720,
+      "rank": 740
+    },
+    {
+      "score": 0.1404743194580078,
+      "window_idx": 47,
+      "is_decoy": false,
+      "precursor_id": "PDLPSPPMEAPAPASNPSGR2",
+      "batch_num": 720,
+      "rank": 741
+    },
+    {
+      "score": 0.1374528408050537,
+      "window_idx": 59,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LDSLHPDLI2",
+      "batch_num": 720,
+      "rank": 742
+    },
+    {
+      "score": 0.13364508748054504,
+      "window_idx": 53,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TSADGNEKKIEM(UniMod:35)VR3",
+      "batch_num": 720,
+      "rank": 743
+    },
+    {
+      "score": 0.13208262622356415,
+      "window_idx": 57,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LLDPLLR2",
+      "batch_num": 720,
+      "rank": 744
+    },
+    {
+      "score": 0.13106033205986023,
+      "window_idx": 44,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AHSPFYQEGVSNALLK3",
+      "batch_num": 720,
+      "rank": 745
+    },
+    {
+      "score": 0.12975631654262543,
+      "window_idx": 52,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AEYM(UniMod:35)GQTSDHESQVTFTHR3",
+      "batch_num": 720,
+      "rank": 746
+    },
+    {
+      "score": 0.1276770383119583,
+      "window_idx": 7,
+      "is_decoy": true,
+      "precursor_id": "DECOY_FTQPLQPR2",
+      "batch_num": 720,
+      "rank": 747
+    },
+    {
+      "score": 0.1272832453250885,
+      "window_idx": 21,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EDHEVEVGVLK2",
+      "batch_num": 720,
+      "rank": 748
+    },
+    {
+      "score": 0.12616489827632904,
+      "window_idx": 50,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GDGLLLLGTR2",
+      "batch_num": 720,
+      "rank": 749
+    },
+    {
+      "score": 0.1254700869321823,
+      "window_idx": 28,
+      "is_decoy": true,
+      "precursor_id": "DECOY_DC(UniMod:4)SSLPNVPGSC(UniMod:4)K2",
+      "batch_num": 720,
+      "rank": 750
+    },
+    {
+      "score": 0.1246122270822525,
+      "window_idx": 9,
+      "is_decoy": false,
+      "precursor_id": "DLQIYSR2",
+      "batch_num": 720,
+      "rank": 751
+    },
+    {
+      "score": 0.12238350510597229,
+      "window_idx": 45,
+      "is_decoy": true,
+      "precursor_id": "DECOY_DTAPVLEGLKEEEITK3",
+      "batch_num": 720,
+      "rank": 752
+    },
+    {
+      "score": 0.12209859490394592,
+      "window_idx": 53,
+      "is_decoy": false,
+      "precursor_id": "VTYPEENRIFYLQAK3",
+      "batch_num": 720,
+      "rank": 753
+    },
+    {
+      "score": 0.12130191922187805,
+      "window_idx": 80,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EHYDFLTELTEVLNGK2",
+      "batch_num": 720,
+      "rank": 754
+    },
+    {
+      "score": 0.12006369233131409,
+      "window_idx": 93,
+      "is_decoy": false,
+      "precursor_id": "SQLVRVSK2",
+      "batch_num": 720,
+      "rank": 755
+    },
+    {
+      "score": 0.12002976983785629,
+      "window_idx": 38,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LGNNPVSK2",
+      "batch_num": 720,
+      "rank": 756
+    },
+    {
+      "score": 0.11800909787416458,
+      "window_idx": 51,
+      "is_decoy": false,
+      "precursor_id": "LKEVAGLPDDC(UniMod:4)AVTER3",
+      "batch_num": 720,
+      "rank": 757
+    },
+    {
+      "score": 0.11737515777349472,
+      "window_idx": 57,
+      "is_decoy": false,
+      "precursor_id": "STPLEENVVDR2",
+      "batch_num": 720,
+      "rank": 758
+    },
+    {
+      "score": 0.1172214075922966,
+      "window_idx": 38,
+      "is_decoy": false,
+      "precursor_id": "YEALHGPPK2",
+      "batch_num": 720,
+      "rank": 759
+    },
+    {
+      "score": 0.11537814885377884,
+      "window_idx": 76,
+      "is_decoy": false,
+      "precursor_id": "LTYLPYSMLNLK2",
+      "batch_num": 720,
+      "rank": 760
+    },
+    {
+      "score": 0.11497800797224045,
+      "window_idx": 96,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GNNYVYIDPTQLPYDHK2",
+      "batch_num": 720,
+      "rank": 761
+    },
+    {
+      "score": 0.11387313157320023,
+      "window_idx": 26,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VGITAEGLGR2",
+      "batch_num": 720,
+      "rank": 762
+    },
+    {
+      "score": 0.10979782044887543,
+      "window_idx": 12,
+      "is_decoy": true,
+      "precursor_id": "DECOY_RPGAPGPAGAR2",
+      "batch_num": 720,
+      "rank": 763
+    },
+    {
+      "score": 0.10942693054676056,
+      "window_idx": 46,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LAYNENDNTYYAM(UniMod:35)K2",
+      "batch_num": 720,
+      "rank": 764
+    },
+    {
+      "score": 0.10843232274055481,
+      "window_idx": 3,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ELDSGLAESVSTL2",
+      "batch_num": 720,
+      "rank": 765
+    },
+    {
+      "score": 0.10128509998321533,
+      "window_idx": 63,
+      "is_decoy": true,
+      "precursor_id": "DECOY_YLYLTPQDYKR3",
+      "batch_num": 720,
+      "rank": 766
+    },
+    {
+      "score": 0.10078839957714081,
+      "window_idx": 95,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ENDPVRGPDGK2",
+      "batch_num": 720,
+      "rank": 767
+    },
+    {
+      "score": 0.09870459139347076,
+      "window_idx": 89,
+      "is_decoy": false,
+      "precursor_id": "APVLVALALIEGGMK2",
+      "batch_num": 720,
+      "rank": 768
+    },
+    {
+      "score": 0.09718570113182068,
+      "window_idx": 85,
+      "is_decoy": false,
+      "precursor_id": "ILYFHENQLIYPVKK4",
+      "batch_num": 720,
+      "rank": 769
+    },
+    {
+      "score": 0.09563478082418442,
+      "window_idx": 31,
+      "is_decoy": true,
+      "precursor_id": "DECOY_MFLGDNAHLSII2",
+      "batch_num": 720,
+      "rank": 770
+    },
+    {
+      "score": 0.09187457710504532,
+      "window_idx": 4,
+      "is_decoy": false,
+      "precursor_id": "C(UniMod:4)SVAVVELPR2",
+      "batch_num": 720,
+      "rank": 771
+    },
+    {
+      "score": 0.09164866805076599,
+      "window_idx": 30,
+      "is_decoy": false,
+      "precursor_id": "LNQPQPDFTKNR2",
+      "batch_num": 720,
+      "rank": 772
+    },
+    {
+      "score": 0.09139421582221985,
+      "window_idx": 94,
+      "is_decoy": false,
+      "precursor_id": "DILIPPEGELDADLR2",
+      "batch_num": 720,
+      "rank": 773
+    },
+    {
+      "score": 0.091196708381176,
+      "window_idx": 85,
+      "is_decoy": false,
+      "precursor_id": "VFQSLPHENKPLTLSNYQTNKA3",
+      "batch_num": 720,
+      "rank": 774
+    },
+    {
+      "score": 0.09102166444063187,
+      "window_idx": 66,
+      "is_decoy": true,
+      "precursor_id": "DECOY_YPADIVVQFK2",
+      "batch_num": 720,
+      "rank": 775
+    },
+    {
+      "score": 0.0893479511141777,
+      "window_idx": 51,
+      "is_decoy": false,
+      "precursor_id": "YGGDNYRPFC(UniMod:4)TEALPLLVR3",
+      "batch_num": 720,
+      "rank": 776
+    },
+    {
+      "score": 0.08672328293323517,
+      "window_idx": 70,
+      "is_decoy": true,
+      "precursor_id": "DECOY_IMM(UniMod:35)FIGGPATQGPGMVVGDELK2",
+      "batch_num": 720,
+      "rank": 777
+    },
+    {
+      "score": 0.08629453927278519,
+      "window_idx": 64,
+      "is_decoy": false,
+      "precursor_id": "LAGKPTHVNVSVVMA3",
+      "batch_num": 720,
+      "rank": 778
+    },
+    {
+      "score": 0.08525645732879639,
+      "window_idx": 40,
+      "is_decoy": true,
+      "precursor_id": "DECOY_IQVPQDDDAR2",
+      "batch_num": 720,
+      "rank": 779
+    },
+    {
+      "score": 0.08522356301546097,
+      "window_idx": 96,
+      "is_decoy": true,
+      "precursor_id": "DECOY_YNANLTK2",
+      "batch_num": 720,
+      "rank": 780
+    },
+    {
+      "score": 0.08509558439254761,
+      "window_idx": 18,
+      "is_decoy": false,
+      "precursor_id": "KEWLVGMLGAESTK3",
+      "batch_num": 720,
+      "rank": 781
+    },
+    {
+      "score": 0.08456455916166306,
+      "window_idx": 22,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SYLC(UniMod:4)C(UniMod:4)EHHK2",
+      "batch_num": 720,
+      "rank": 782
+    },
+    {
+      "score": 0.08278781920671463,
+      "window_idx": 58,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AGGFLM(UniMod:35)KK2",
+      "batch_num": 720,
+      "rank": 783
+    },
+    {
+      "score": 0.08190852403640747,
+      "window_idx": 92,
+      "is_decoy": false,
+      "precursor_id": "DFAANVYEAFSTPQQLEK2",
+      "batch_num": 720,
+      "rank": 784
+    },
+    {
+      "score": 0.08122311532497406,
+      "window_idx": 30,
+      "is_decoy": false,
+      "precursor_id": "INFDLPVDK2",
+      "batch_num": 720,
+      "rank": 785
+    },
+    {
+      "score": 0.08101433515548706,
+      "window_idx": 37,
+      "is_decoy": false,
+      "precursor_id": "DGLPLAASMQEDEQSGR2",
+      "batch_num": 720,
+      "rank": 786
+    },
+    {
+      "score": 0.07889656722545624,
+      "window_idx": 22,
+      "is_decoy": false,
+      "precursor_id": "VMRTPESQLFSIEDIQEVR2",
+      "batch_num": 720,
+      "rank": 787
+    },
+    {
+      "score": 0.0788077786564827,
+      "window_idx": 13,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ITNSSFVLIPFK2",
+      "batch_num": 720,
+      "rank": 788
+    },
+    {
+      "score": 0.07872802019119263,
+      "window_idx": 92,
+      "is_decoy": false,
+      "precursor_id": "MTSNM(UniMod:35)LAFLGENAEVK2",
+      "batch_num": 720,
+      "rank": 789
+    },
+    {
+      "score": 0.07754962891340256,
+      "window_idx": 71,
+      "is_decoy": false,
+      "precursor_id": "WAAPEVIAHG2",
+      "batch_num": 720,
+      "rank": 790
+    },
+    {
+      "score": 0.07528320699930191,
+      "window_idx": 46,
+      "is_decoy": false,
+      "precursor_id": "VQALEEANNDLENKIQDWYDKK3",
+      "batch_num": 720,
+      "rank": 791
+    },
+    {
+      "score": 0.07486826926469803,
+      "window_idx": 23,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VGQADDSTKPTNK3",
+      "batch_num": 720,
+      "rank": 792
+    },
+    {
+      "score": 0.07314828038215637,
+      "window_idx": 64,
+      "is_decoy": false,
+      "precursor_id": "LLLAAGPADHLLLQLYSGR3",
+      "batch_num": 720,
+      "rank": 793
+    },
+    {
+      "score": 0.07276128977537155,
+      "window_idx": 59,
+      "is_decoy": false,
+      "precursor_id": "SVALEFLDR2",
+      "batch_num": 720,
+      "rank": 794
+    },
+    {
+      "score": 0.07253873348236084,
+      "window_idx": 60,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TTRPSSISGYDIPEGTVIIPN2",
+      "batch_num": 720,
+      "rank": 795
+    },
+    {
+      "score": 0.06772825866937637,
+      "window_idx": 52,
+      "is_decoy": false,
+      "precursor_id": "VEYPIM(UniMod:35)YSTDPENGHIFNC(UniMod:4)IQR3",
+      "batch_num": 720,
+      "rank": 796
+    },
+    {
+      "score": 0.0665922611951828,
+      "window_idx": 89,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LTEYM(UniMod:35)EHTYLIHK4",
+      "batch_num": 720,
+      "rank": 797
+    },
+    {
+      "score": 0.06456707417964935,
+      "window_idx": 47,
+      "is_decoy": true,
+      "precursor_id": "DECOY_YQEVTNNLEFAKELQR2",
+      "batch_num": 720,
+      "rank": 798
+    },
+    {
+      "score": 0.0641121044754982,
+      "window_idx": 97,
+      "is_decoy": false,
+      "precursor_id": "RNEPPPPR2",
+      "batch_num": 720,
+      "rank": 799
+    },
+    {
+      "score": 0.06348854303359985,
+      "window_idx": 55,
+      "is_decoy": true,
+      "precursor_id": "DECOY_MGELYRGAMTSSMER3",
+      "batch_num": 720,
+      "rank": 800
+    },
+    {
+      "score": 0.06266321986913681,
+      "window_idx": 96,
+      "is_decoy": false,
+      "precursor_id": "RAQLADSFHLQQFFR2",
+      "batch_num": 720,
+      "rank": 801
+    },
+    {
+      "score": 0.06251481920480728,
+      "window_idx": 36,
+      "is_decoy": true,
+      "precursor_id": "DECOY_QM(UniMod:35)HQALQDFLSAQQV2",
+      "batch_num": 720,
+      "rank": 802
+    },
+    {
+      "score": 0.06089720129966736,
+      "window_idx": 28,
+      "is_decoy": false,
+      "precursor_id": "ISGGSVVEM(UniMod:35)QGDEMTR2",
+      "batch_num": 720,
+      "rank": 803
+    },
+    {
+      "score": 0.05794747546315193,
+      "window_idx": 68,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SLLSLPEK2",
+      "batch_num": 720,
+      "rank": 804
+    },
+    {
+      "score": 0.05770882964134216,
+      "window_idx": 33,
+      "is_decoy": true,
+      "precursor_id": "DECOY_PDTQWITKPVHK2",
+      "batch_num": 720,
+      "rank": 805
+    },
+    {
+      "score": 0.05757295340299606,
+      "window_idx": 79,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LAC(UniMod:4)HPNLDK2",
+      "batch_num": 720,
+      "rank": 806
+    },
+    {
+      "score": 0.05725706368684769,
+      "window_idx": 70,
+      "is_decoy": true,
+      "precursor_id": "DECOY_PSTFAYPAPLEVPK2",
+      "batch_num": 720,
+      "rank": 807
+    },
+    {
+      "score": 0.056727368384599686,
+      "window_idx": 55,
+      "is_decoy": true,
+      "precursor_id": "DECOY_C(UniMod:4)PLMLTEC(UniMod:4)PAC(UniMod:4)K2",
+      "batch_num": 720,
+      "rank": 808
+    },
+    {
+      "score": 0.05628299340605736,
+      "window_idx": 81,
+      "is_decoy": true,
+      "precursor_id": "DECOY_QPTIFQNKK2",
+      "batch_num": 720,
+      "rank": 809
+    },
+    {
+      "score": 0.05261775106191635,
+      "window_idx": 98,
+      "is_decoy": false,
+      "precursor_id": "LLPQFLLHLDK3",
+      "batch_num": 720,
+      "rank": 810
+    },
+    {
+      "score": 0.05170339718461037,
+      "window_idx": 69,
+      "is_decoy": true,
+      "precursor_id": "DECOY_FFTPSTLGLNDK2",
+      "batch_num": 720,
+      "rank": 811
+    },
+    {
+      "score": 0.05145615339279175,
+      "window_idx": 66,
+      "is_decoy": false,
+      "precursor_id": "SVPTSTVFYPSDGVATE2",
+      "batch_num": 720,
+      "rank": 812
+    },
+    {
+      "score": 0.04991087317466736,
+      "window_idx": 43,
+      "is_decoy": true,
+      "precursor_id": "DECOY_NLQFEDGK2",
+      "batch_num": 720,
+      "rank": 813
+    },
+    {
+      "score": 0.045566704124212265,
+      "window_idx": 77,
+      "is_decoy": false,
+      "precursor_id": "VAVPSTIHC(UniMod:4)DHLIEAQVGGEK2",
+      "batch_num": 720,
+      "rank": 814
+    },
+    {
+      "score": 0.044985510408878326,
+      "window_idx": 80,
+      "is_decoy": true,
+      "precursor_id": "DECOY_C(UniMod:4)EFIYSTQK2",
+      "batch_num": 720,
+      "rank": 815
+    },
+    {
+      "score": 0.04213690012693405,
+      "window_idx": 72,
+      "is_decoy": false,
+      "precursor_id": "QETHTMEAVK2",
+      "batch_num": 720,
+      "rank": 816
+    },
+    {
+      "score": 0.0411672368645668,
+      "window_idx": 73,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LEQEHLLEDIAH3",
+      "batch_num": 720,
+      "rank": 817
+    },
+    {
+      "score": 0.040816377848386765,
+      "window_idx": 34,
+      "is_decoy": true,
+      "precursor_id": "DECOY_FC(UniMod:4)SFQIYAVPWQGTMTLSK2",
+      "batch_num": 720,
+      "rank": 818
+    },
+    {
+      "score": 0.03983953595161438,
+      "window_idx": 82,
+      "is_decoy": false,
+      "precursor_id": "THLGLIM(UniMod:35)DGWNSMIR2",
+      "batch_num": 720,
+      "rank": 819
+    },
+    {
+      "score": 0.03932980075478554,
+      "window_idx": 42,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LESVGSGMLDHR2",
+      "batch_num": 720,
+      "rank": 820
+    },
+    {
+      "score": 0.03880980610847473,
+      "window_idx": 71,
+      "is_decoy": false,
+      "precursor_id": "LGSNPTSGKPTITC(UniMod:4)SSC(UniMod:4)SSHINSVHVHISK4",
+      "batch_num": 720,
+      "rank": 821
+    },
+    {
+      "score": 0.03781874105334282,
+      "window_idx": 51,
+      "is_decoy": true,
+      "precursor_id": "DECOY_APPSGGPGFLSIERPDSRPPR4",
+      "batch_num": 720,
+      "rank": 822
+    },
+    {
+      "score": 0.03776392713189125,
+      "window_idx": 73,
+      "is_decoy": true,
+      "precursor_id": "DECOY_MEYQVC(UniMod:4)AADMNVLK2",
+      "batch_num": 720,
+      "rank": 823
+    },
+    {
+      "score": 0.03732389584183693,
+      "window_idx": 47,
+      "is_decoy": false,
+      "precursor_id": "FKGFNDGLEELC(UniMod:4)K3",
+      "batch_num": 720,
+      "rank": 824
+    },
+    {
+      "score": 0.03717264160513878,
+      "window_idx": 43,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VYSNTIQSLAAIVR3",
+      "batch_num": 720,
+      "rank": 825
+    },
+    {
+      "score": 0.037136733531951904,
+      "window_idx": 91,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LIGPHYYTMR3",
+      "batch_num": 720,
+      "rank": 826
+    },
+    {
+      "score": 0.03692346811294556,
+      "window_idx": 76,
+      "is_decoy": true,
+      "precursor_id": "DECOY_DYHDAVNVNDR3",
+      "batch_num": 720,
+      "rank": 827
+    },
+    {
+      "score": 0.03560587018728256,
+      "window_idx": 39,
+      "is_decoy": false,
+      "precursor_id": "IM(UniMod:35)TAEGLYR2",
+      "batch_num": 720,
+      "rank": 828
+    },
+    {
+      "score": 0.03430476039648056,
+      "window_idx": 33,
+      "is_decoy": false,
+      "precursor_id": "SQPILLELEAPLK2",
+      "batch_num": 720,
+      "rank": 829
+    },
+    {
+      "score": 0.033832307904958725,
+      "window_idx": 82,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SPTSSNEPENR2",
+      "batch_num": 720,
+      "rank": 830
+    },
+    {
+      "score": 0.033609673380851746,
+      "window_idx": 81,
+      "is_decoy": true,
+      "precursor_id": "DECOY_KAGVETTTPSK2",
+      "batch_num": 720,
+      "rank": 831
+    },
+    {
+      "score": 0.033040132373571396,
+      "window_idx": 99,
+      "is_decoy": false,
+      "precursor_id": "KVLGNPSNEELN2",
+      "batch_num": 720,
+      "rank": 832
+    },
+    {
+      "score": 0.031551823019981384,
+      "window_idx": 9,
+      "is_decoy": false,
+      "precursor_id": "YARDETEFYLGK2",
+      "batch_num": 720,
+      "rank": 833
+    },
+    {
+      "score": 0.031346458941698074,
+      "window_idx": 58,
+      "is_decoy": false,
+      "precursor_id": "LYLEREEYGK3",
+      "batch_num": 720,
+      "rank": 834
+    },
+    {
+      "score": 0.031206371262669563,
+      "window_idx": 46,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EATHSSGFSGSSASVASTSSIK2",
+      "batch_num": 720,
+      "rank": 835
+    },
+    {
+      "score": 0.03086717613041401,
+      "window_idx": 49,
+      "is_decoy": false,
+      "precursor_id": "MAIEEQVAVIYAGVR2",
+      "batch_num": 720,
+      "rank": 836
+    },
+    {
+      "score": 0.030282191932201385,
+      "window_idx": 91,
+      "is_decoy": false,
+      "precursor_id": "DIVEYYNDSNGSHVLQGR2",
+      "batch_num": 720,
+      "rank": 837
+    },
+    {
+      "score": 0.029567165300250053,
+      "window_idx": 69,
+      "is_decoy": false,
+      "precursor_id": "SINQAPLEIVSK2",
+      "batch_num": 720,
+      "rank": 838
+    },
+    {
+      "score": 0.029476851224899292,
+      "window_idx": 50,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SLNELETGMEK2",
+      "batch_num": 720,
+      "rank": 839
+    },
+    {
+      "score": 0.028534788638353348,
+      "window_idx": 10,
+      "is_decoy": false,
+      "precursor_id": "NPSPTTRPVSR3",
+      "batch_num": 720,
+      "rank": 840
+    },
+    {
+      "score": 0.027917902916669846,
+      "window_idx": 22,
+      "is_decoy": true,
+      "precursor_id": "DECOY_QVEDDIQQLLKK3",
+      "batch_num": 720,
+      "rank": 841
+    },
+    {
+      "score": 0.02777935191988945,
+      "window_idx": 46,
+      "is_decoy": true,
+      "precursor_id": "DECOY_NTVTYTSLKTK2",
+      "batch_num": 720,
+      "rank": 842
+    },
+    {
+      "score": 0.027013981714844704,
+      "window_idx": 70,
+      "is_decoy": false,
+      "precursor_id": "KGILAADESTGSIAK3",
+      "batch_num": 720,
+      "rank": 843
+    },
+    {
+      "score": 0.025661645457148552,
+      "window_idx": 88,
+      "is_decoy": false,
+      "precursor_id": "AVSHEDQFLR3",
+      "batch_num": 720,
+      "rank": 844
+    },
+    {
+      "score": 0.02542850188910961,
+      "window_idx": 95,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EM(UniMod:35)SMDESK2",
+      "batch_num": 720,
+      "rank": 845
+    },
+    {
+      "score": 0.0250526275485754,
+      "window_idx": 1,
+      "is_decoy": true,
+      "precursor_id": "DECOY_KKEPLIFDEER3",
+      "batch_num": 720,
+      "rank": 846
+    },
+    {
+      "score": 0.024264641106128693,
+      "window_idx": 84,
+      "is_decoy": false,
+      "precursor_id": "ILSQRPPWSLIHR3",
+      "batch_num": 720,
+      "rank": 847
+    },
+    {
+      "score": 0.02385709248483181,
+      "window_idx": 54,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EAEAM(UniMod:35)KATEDGTPYDPYK2",
+      "batch_num": 720,
+      "rank": 848
+    },
+    {
+      "score": 0.022739185020327568,
+      "window_idx": 2,
+      "is_decoy": false,
+      "precursor_id": "TLAEINANRADAEEEAATR2",
+      "batch_num": 720,
+      "rank": 849
+    },
+    {
+      "score": 0.02272283472120762,
+      "window_idx": 6,
+      "is_decoy": false,
+      "precursor_id": "LAGGVAAAISK2",
+      "batch_num": 720,
+      "rank": 850
+    },
+    {
+      "score": 0.022359579801559448,
+      "window_idx": 81,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AKNNTVTPGGKPNK2",
+      "batch_num": 720,
+      "rank": 851
+    },
+    {
+      "score": 0.021645531058311462,
+      "window_idx": 41,
+      "is_decoy": false,
+      "precursor_id": "EMLDQSNQWGGTA2",
+      "batch_num": 720,
+      "rank": 852
+    },
+    {
+      "score": 0.021447855979204178,
+      "window_idx": 61,
+      "is_decoy": false,
+      "precursor_id": "EQKQAWVTPFTSGDK3",
+      "batch_num": 720,
+      "rank": 853
+    },
+    {
+      "score": 0.02140015736222267,
+      "window_idx": 40,
+      "is_decoy": false,
+      "precursor_id": "TTGSNIPMDQPC(UniMod:4)C(UniMod:4)R2",
+      "batch_num": 720,
+      "rank": 854
+    },
+    {
+      "score": 0.020839881151914597,
+      "window_idx": 74,
+      "is_decoy": false,
+      "precursor_id": "DAEAAM(UniMod:35)DISEGR2",
+      "batch_num": 720,
+      "rank": 855
+    },
+    {
+      "score": 0.020617926493287086,
+      "window_idx": 44,
+      "is_decoy": false,
+      "precursor_id": "WVPLHLDVVR2",
+      "batch_num": 720,
+      "rank": 856
+    },
+    {
+      "score": 0.020175974816083908,
+      "window_idx": 75,
+      "is_decoy": false,
+      "precursor_id": "EKVDSQYPPVQR2",
+      "batch_num": 720,
+      "rank": 857
+    },
+    {
+      "score": 0.01993056759238243,
+      "window_idx": 88,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AQGFTEDTIVFLP2",
+      "batch_num": 720,
+      "rank": 858
+    },
+    {
+      "score": 0.019676348194479942,
+      "window_idx": 81,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AGPGADIIGVNGQGPNLEGK2",
+      "batch_num": 720,
+      "rank": 859
+    },
+    {
+      "score": 0.019379083067178726,
+      "window_idx": 78,
+      "is_decoy": true,
+      "precursor_id": "DECOY_YLVYADADADAPAR2",
+      "batch_num": 720,
+      "rank": 860
+    },
+    {
+      "score": 0.018910761922597885,
+      "window_idx": 49,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AGGLPGAAQGPPNLPGQTTIQVR2",
+      "batch_num": 720,
+      "rank": 861
+    },
+    {
+      "score": 0.018767990171909332,
+      "window_idx": 16,
+      "is_decoy": false,
+      "precursor_id": "MMPTPVILLK2",
+      "batch_num": 720,
+      "rank": 862
+    },
+    {
+      "score": 0.017662612721323967,
+      "window_idx": 51,
+      "is_decoy": false,
+      "precursor_id": "GLDVDSLVIEHIQVNKAPK4",
+      "batch_num": 720,
+      "rank": 863
+    },
+    {
+      "score": 0.01731310412287712,
+      "window_idx": 1,
+      "is_decoy": false,
+      "precursor_id": "LVC(UniMod:4)YYTSWSQYREGDGS2",
+      "batch_num": 720,
+      "rank": 864
+    },
+    {
+      "score": 0.017014378681778908,
+      "window_idx": 46,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LC(UniMod:4)EETER2",
+      "batch_num": 720,
+      "rank": 865
+    },
+    {
+      "score": 0.01700543239712715,
+      "window_idx": 44,
+      "is_decoy": false,
+      "precursor_id": "MSEHPSQTVR2",
+      "batch_num": 720,
+      "rank": 866
+    },
+    {
+      "score": 0.016570355743169785,
+      "window_idx": 99,
+      "is_decoy": false,
+      "precursor_id": "IGMIEIVK2",
+      "batch_num": 720,
+      "rank": 867
+    },
+    {
+      "score": 0.016474131494760513,
+      "window_idx": 31,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LQADPQRFPHGIR2",
+      "batch_num": 720,
+      "rank": 868
+    },
+    {
+      "score": 0.01601414941251278,
+      "window_idx": 6,
+      "is_decoy": false,
+      "precursor_id": "GYLLNYDLSVLQKPQ2",
+      "batch_num": 720,
+      "rank": 869
+    },
+    {
+      "score": 0.015803255140781403,
+      "window_idx": 53,
+      "is_decoy": false,
+      "precursor_id": "VHHPDYNNELTQFLPR2",
+      "batch_num": 720,
+      "rank": 870
+    },
+    {
+      "score": 0.015430026687681675,
+      "window_idx": 64,
+      "is_decoy": false,
+      "precursor_id": "KPDVSHGEM(UniMod:35)VSGFGPIYN3",
+      "batch_num": 720,
+      "rank": 871
+    },
+    {
+      "score": 0.014932489022612572,
+      "window_idx": 81,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SETSGPQIKELTDEEAER2",
+      "batch_num": 720,
+      "rank": 872
+    },
+    {
+      "score": 0.014739535748958588,
+      "window_idx": 25,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SIGISFMGNYM(UniMod:35)DR2",
+      "batch_num": 720,
+      "rank": 873
+    },
+    {
+      "score": 0.014441661536693573,
+      "window_idx": 77,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GGIPHNC(UniMod:4)GETELR2",
+      "batch_num": 720,
+      "rank": 874
+    },
+    {
+      "score": 0.014438633807003498,
+      "window_idx": 64,
+      "is_decoy": false,
+      "precursor_id": "AENAWKPSQK2",
+      "batch_num": 720,
+      "rank": 875
+    },
+    {
+      "score": 0.014383363537490368,
+      "window_idx": 52,
+      "is_decoy": true,
+      "precursor_id": "DECOY_C(UniMod:4)HYLVDLDTMR3",
+      "batch_num": 720,
+      "rank": 876
+    },
+    {
+      "score": 0.014099176041781902,
+      "window_idx": 41,
+      "is_decoy": false,
+      "precursor_id": "GQTEIQVNC(UniMod:4)PPAVTENK2",
+      "batch_num": 720,
+      "rank": 877
+    },
+    {
+      "score": 0.013879211619496346,
+      "window_idx": 61,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ALAGQVFFVPGR2",
+      "batch_num": 720,
+      "rank": 878
+    },
+    {
+      "score": 0.013679025694727898,
+      "window_idx": 65,
+      "is_decoy": false,
+      "precursor_id": "QSEHRPSLPR3",
+      "batch_num": 720,
+      "rank": 879
+    },
+    {
+      "score": 0.013666274026036263,
+      "window_idx": 16,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EVLQALEELAVNYDQK2",
+      "batch_num": 720,
+      "rank": 880
+    },
+    {
+      "score": 0.013364437036216259,
+      "window_idx": 80,
+      "is_decoy": false,
+      "precursor_id": "YQMDFHPSPVVLK2",
+      "batch_num": 720,
+      "rank": 881
+    },
+    {
+      "score": 0.013125477358698845,
+      "window_idx": 81,
+      "is_decoy": false,
+      "precursor_id": "IQTVPASHLQQGTASGSSK2",
+      "batch_num": 720,
+      "rank": 882
+    },
+    {
+      "score": 0.013072753325104713,
+      "window_idx": 12,
+      "is_decoy": false,
+      "precursor_id": "M(UniMod:35)ETASELGR2",
+      "batch_num": 720,
+      "rank": 883
+    },
+    {
+      "score": 0.012943255715072155,
+      "window_idx": 29,
+      "is_decoy": true,
+      "precursor_id": "DECOY_RQADDLLK2",
+      "batch_num": 720,
+      "rank": 884
+    },
+    {
+      "score": 0.012453388422727585,
+      "window_idx": 0,
+      "is_decoy": false,
+      "precursor_id": "VRPSSDLNNSTGQSPHHK2",
+      "batch_num": 720,
+      "rank": 885
+    },
+    {
+      "score": 0.012217123992741108,
+      "window_idx": 49,
+      "is_decoy": false,
+      "precursor_id": "TLLGPAFAEC(UniMod:4)HALVDSTAYL2",
+      "batch_num": 720,
+      "rank": 886
+    },
+    {
+      "score": 0.011913354508578777,
+      "window_idx": 52,
+      "is_decoy": true,
+      "precursor_id": "DECOY_PPALTLVPAELVR2",
+      "batch_num": 720,
+      "rank": 887
+    },
+    {
+      "score": 0.011910032480955124,
+      "window_idx": 69,
+      "is_decoy": false,
+      "precursor_id": "RGYQLSDVDGVTC(UniMod:4)EDIDEC(UniMod:4)ALPTGGH3",
+      "batch_num": 720,
+      "rank": 888
+    },
+    {
+      "score": 0.0113156046718359,
+      "window_idx": 25,
+      "is_decoy": true,
+      "precursor_id": "DECOY_IPQPNQTLDPEPQHLSLTAL2",
+      "batch_num": 720,
+      "rank": 889
+    },
+    {
+      "score": 0.011064352467656136,
+      "window_idx": 84,
+      "is_decoy": false,
+      "precursor_id": "ATPQHTVSFTC(UniMod:4)ES2",
+      "batch_num": 720,
+      "rank": 890
+    },
+    {
+      "score": 0.010497428476810455,
+      "window_idx": 57,
+      "is_decoy": false,
+      "precursor_id": "EDGEEPPGTSQTSPEEFTDAK2",
+      "batch_num": 720,
+      "rank": 891
+    },
+    {
+      "score": 0.010475425980985165,
+      "window_idx": 62,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LVC(UniMod:4)SPQPDWGPF2",
+      "batch_num": 720,
+      "rank": 892
+    },
+    {
+      "score": 0.010074743069708347,
+      "window_idx": 94,
+      "is_decoy": false,
+      "precursor_id": "DGQVAELLLR2",
+      "batch_num": 720,
+      "rank": 893
+    },
+    {
+      "score": 0.01000087708234787,
+      "window_idx": 42,
+      "is_decoy": true,
+      "precursor_id": "DECOY_QSSVC(UniMod:4)MPVSC(UniMod:4)TR2",
+      "batch_num": 720,
+      "rank": 894
+    },
+    {
+      "score": 0.009153473190963268,
+      "window_idx": 0,
+      "is_decoy": false,
+      "precursor_id": "YIAIVSTTVETKEPE2",
+      "batch_num": 720,
+      "rank": 895
+    },
+    {
+      "score": 0.009098676964640617,
+      "window_idx": 55,
+      "is_decoy": true,
+      "precursor_id": "DECOY_RFTQSSNLQQHR3",
+      "batch_num": 720,
+      "rank": 896
+    },
+    {
+      "score": 0.009092384949326515,
+      "window_idx": 8,
+      "is_decoy": true,
+      "precursor_id": "DECOY_NPEVTTITK2",
+      "batch_num": 720,
+      "rank": 897
+    },
+    {
+      "score": 0.008729429915547371,
+      "window_idx": 43,
+      "is_decoy": true,
+      "precursor_id": "DECOY_PWTFLVR2",
+      "batch_num": 720,
+      "rank": 898
+    },
+    {
+      "score": 0.008236950263381004,
+      "window_idx": 70,
+      "is_decoy": false,
+      "precursor_id": "YYTSASGDEMVSLKDYC(UniMod:4)TR2",
+      "batch_num": 720,
+      "rank": 899
+    },
+    {
+      "score": 0.008227591402828693,
+      "window_idx": 94,
+      "is_decoy": false,
+      "precursor_id": "DFVDHLDKVDPV3",
+      "batch_num": 720,
+      "rank": 900
+    },
+    {
+      "score": 0.00806434452533722,
+      "window_idx": 58,
+      "is_decoy": false,
+      "precursor_id": "TGFLDTLK2",
+      "batch_num": 720,
+      "rank": 901
+    },
+    {
+      "score": 0.008011591620743275,
+      "window_idx": 15,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SQAIYLESKDNQK2",
+      "batch_num": 720,
+      "rank": 902
+    },
+    {
+      "score": 0.00788386445492506,
+      "window_idx": 2,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GPETNPRPGSC(UniMod:4)SVGPSSDK2",
+      "batch_num": 720,
+      "rank": 903
+    },
+    {
+      "score": 0.007867501117289066,
+      "window_idx": 80,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VVM(UniMod:35)TAFADR2",
+      "batch_num": 720,
+      "rank": 904
+    },
+    {
+      "score": 0.007536811754107475,
+      "window_idx": 35,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EKSPPDQPAVPHPPPSTPI2",
+      "batch_num": 720,
+      "rank": 905
+    },
+    {
+      "score": 0.0067984615452587605,
+      "window_idx": 5,
+      "is_decoy": false,
+      "precursor_id": "EEHAIYTADLAMGTR2",
+      "batch_num": 720,
+      "rank": 906
+    },
+    {
+      "score": 0.006094245705753565,
+      "window_idx": 76,
+      "is_decoy": false,
+      "precursor_id": "GLAGEPLLFVGR2",
+      "batch_num": 720,
+      "rank": 907
+    },
+    {
+      "score": 0.005999141372740269,
+      "window_idx": 2,
+      "is_decoy": false,
+      "precursor_id": "APEDTVAEM(UniMod:35)KDR2",
+      "batch_num": 720,
+      "rank": 908
+    },
+    {
+      "score": 0.005313392262905836,
+      "window_idx": 18,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LELPEDEEEKK3",
+      "batch_num": 720,
+      "rank": 909
+    },
+    {
+      "score": 0.005152187775820494,
+      "window_idx": 85,
+      "is_decoy": true,
+      "precursor_id": "DECOY_EPGSFIVR2",
+      "batch_num": 720,
+      "rank": 910
+    },
+    {
+      "score": 0.005096272565424442,
+      "window_idx": 85,
+      "is_decoy": true,
+      "precursor_id": "DECOY_QFHFHGWPEIGIPAEGK2",
+      "batch_num": 720,
+      "rank": 911
+    },
+    {
+      "score": 0.004912952892482281,
+      "window_idx": 25,
+      "is_decoy": false,
+      "precursor_id": "HIQEM(UniMod:35)LK2",
+      "batch_num": 720,
+      "rank": 912
+    },
+    {
+      "score": 0.004662993364036083,
+      "window_idx": 13,
+      "is_decoy": false,
+      "precursor_id": "APLIPMEH2",
+      "batch_num": 720,
+      "rank": 913
+    },
+    {
+      "score": 0.004646611399948597,
+      "window_idx": 67,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ALNLAFR2",
+      "batch_num": 720,
+      "rank": 914
+    },
+    {
+      "score": 0.00462369853630662,
+      "window_idx": 41,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HGEVC(UniMod:4)PAGWKPGSDTIKPD2",
+      "batch_num": 720,
+      "rank": 915
+    },
+    {
+      "score": 0.003886501071974635,
+      "window_idx": 20,
+      "is_decoy": false,
+      "precursor_id": "ALAINDEC(UniMod:4)YQVR2",
+      "batch_num": 720,
+      "rank": 916
+    },
+    {
+      "score": 0.0035717934370040894,
+      "window_idx": 80,
+      "is_decoy": false,
+      "precursor_id": "DEIYEGEYQGIPR2",
+      "batch_num": 720,
+      "rank": 917
+    },
+    {
+      "score": 0.0033897091634571552,
+      "window_idx": 95,
+      "is_decoy": true,
+      "precursor_id": "DECOY_NHANVVR2",
+      "batch_num": 720,
+      "rank": 918
+    },
+    {
+      "score": 0.0030542921740561724,
+      "window_idx": 70,
+      "is_decoy": true,
+      "precursor_id": "DECOY_YQEIPFYHVWSGSQR2",
+      "batch_num": 720,
+      "rank": 919
+    },
+    {
+      "score": 0.0027416327502578497,
+      "window_idx": 62,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GAAVDGGKLDVGNAEVKLEEENR2",
+      "batch_num": 720,
+      "rank": 920
+    },
+    {
+      "score": 0.0026480990927666426,
+      "window_idx": 55,
+      "is_decoy": false,
+      "precursor_id": "EMSQTLQGGNM(UniMod:35)LEGD2",
+      "batch_num": 720,
+      "rank": 921
+    },
+    {
+      "score": 0.0025313713122159243,
+      "window_idx": 76,
+      "is_decoy": true,
+      "precursor_id": "DECOY_DHSATTEPLDVTK2",
+      "batch_num": 720,
+      "rank": 922
+    },
+    {
+      "score": 0.0024155417922884226,
+      "window_idx": 18,
+      "is_decoy": false,
+      "precursor_id": "LLFFTDESGDSR2",
+      "batch_num": 720,
+      "rank": 923
+    },
+    {
+      "score": 0.002339715138077736,
+      "window_idx": 80,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GSEDFLVIHAR3",
+      "batch_num": 720,
+      "rank": 924
+    },
+    {
+      "score": 0.0023330096155405045,
+      "window_idx": 82,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GQDNQGTVTEGSSPAYLK2",
+      "batch_num": 720,
+      "rank": 925
+    },
+    {
+      "score": 0.0021657671313732862,
+      "window_idx": 60,
+      "is_decoy": false,
+      "precursor_id": "GAISYDSSDQTALYIR2",
+      "batch_num": 720,
+      "rank": 926
+    },
+    {
+      "score": 0.0017847592243924737,
+      "window_idx": 55,
+      "is_decoy": true,
+      "precursor_id": "DECOY_RHMQANPEPPKK3",
+      "batch_num": 720,
+      "rank": 927
+    },
+    {
+      "score": 0.001780679333023727,
+      "window_idx": 8,
+      "is_decoy": false,
+      "precursor_id": "EATAQKPTGSVGSTVTTPPPLVR2",
+      "batch_num": 720,
+      "rank": 928
+    },
+    {
+      "score": 0.0017082348931580782,
+      "window_idx": 2,
+      "is_decoy": true,
+      "precursor_id": "DECOY_YNYHLDSSGSYVFENTVATVM2",
+      "batch_num": 720,
+      "rank": 929
+    },
+    {
+      "score": 0.0015214296290650964,
+      "window_idx": 94,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GSSFIQHYYQLFDNDR2",
+      "batch_num": 720,
+      "rank": 930
+    },
+    {
+      "score": 0.0013401058968156576,
+      "window_idx": 52,
+      "is_decoy": false,
+      "precursor_id": "HSVC(UniMod:4)QGDSGSVY2",
+      "batch_num": 720,
+      "rank": 931
+    },
+    {
+      "score": 0.0011395285837352276,
+      "window_idx": 9,
+      "is_decoy": false,
+      "precursor_id": "IEGIENM(UniMod:35)C(UniMod:4)NLQK2",
+      "batch_num": 720,
+      "rank": 932
+    },
+    {
+      "score": 0.0008913840865716338,
+      "window_idx": 38,
+      "is_decoy": false,
+      "precursor_id": "VLPM(UniMod:35)YAGLPSFEQMK2",
+      "batch_num": 720,
+      "rank": 933
+    },
+    {
+      "score": 0.0008899226668290794,
+      "window_idx": 54,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LENRQEARPEPAR2",
+      "batch_num": 720,
+      "rank": 934
+    },
+    {
+      "score": 0.0008450328023172915,
+      "window_idx": 64,
+      "is_decoy": false,
+      "precursor_id": "TC(UniMod:4)HYYANK2",
+      "batch_num": 720,
+      "rank": 935
+    },
+    {
+      "score": 0.0008426302811130881,
+      "window_idx": 32,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TSAHFYRPAGAAGPEPK2",
+      "batch_num": 720,
+      "rank": 936
+    },
+    {
+      "score": 0.000801105925347656,
+      "window_idx": 82,
+      "is_decoy": true,
+      "precursor_id": "DECOY_REEEEENVQSEWR2",
+      "batch_num": 720,
+      "rank": 937
+    },
+    {
+      "score": 0.0005990831996314228,
+      "window_idx": 38,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VQAQYPGVC(UniMod:4)INNEVVEPSAEQIAK2",
+      "batch_num": 720,
+      "rank": 938
+    },
+    {
+      "score": 0.0005955389933660626,
+      "window_idx": 85,
+      "is_decoy": true,
+      "precursor_id": "DECOY_PALGNHHDPAVPR4",
+      "batch_num": 720,
+      "rank": 939
+    },
+    {
+      "score": 0.0005544548621401191,
+      "window_idx": 16,
+      "is_decoy": true,
+      "precursor_id": "DECOY_QTRPILKEQSSSSFSQ2",
+      "batch_num": 720,
+      "rank": 940
+    },
+    {
+      "score": 0.0005116859683766961,
+      "window_idx": 32,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SSPSLASSSSSSSSAVAGGAPEQQAL2",
+      "batch_num": 720,
+      "rank": 941
+    },
+    {
+      "score": 0.0005071536870673299,
+      "window_idx": 9,
+      "is_decoy": false,
+      "precursor_id": "ALSSMGANYSSYLAKADQK2",
+      "batch_num": 720,
+      "rank": 942
+    },
+    {
+      "score": 0.00044920234358869493,
+      "window_idx": 70,
+      "is_decoy": false,
+      "precursor_id": "KIKIIAPPER3",
+      "batch_num": 720,
+      "rank": 943
+    },
+    {
+      "score": 0.0004437999741639942,
+      "window_idx": 53,
+      "is_decoy": true,
+      "precursor_id": "DECOY_FGPVVAPKPK3",
+      "batch_num": 720,
+      "rank": 944
+    },
+    {
+      "score": 0.00041480749496258795,
+      "window_idx": 28,
+      "is_decoy": true,
+      "precursor_id": "DECOY_AENPSIQLLEGNPGPPADPDGGPRPQADRK3",
+      "batch_num": 720,
+      "rank": 945
+    },
+    {
+      "score": 0.0003927804355043918,
+      "window_idx": 15,
+      "is_decoy": false,
+      "precursor_id": "ILLANRNEVFHR4",
+      "batch_num": 720,
+      "rank": 946
+    },
+    {
+      "score": 0.00036384648410603404,
+      "window_idx": 92,
+      "is_decoy": true,
+      "precursor_id": "DECOY_YSLIKGNFHAVYR4",
+      "batch_num": 720,
+      "rank": 947
+    },
+    {
+      "score": 0.00034012130345217884,
+      "window_idx": 30,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ALTALFK2",
+      "batch_num": 720,
+      "rank": 948
+    },
+    {
+      "score": 0.00031744976877234876,
+      "window_idx": 87,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VFIRPSIK3",
+      "batch_num": 720,
+      "rank": 949
+    },
+    {
+      "score": 0.00023640839208383113,
+      "window_idx": 23,
+      "is_decoy": false,
+      "precursor_id": "GAGPQLLEELDNAPGSDAAELELAPAR2",
+      "batch_num": 720,
+      "rank": 950
+    },
+    {
+      "score": 0.00022283048019744456,
+      "window_idx": 5,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VMMDVKFR3",
+      "batch_num": 720,
+      "rank": 951
+    },
+    {
+      "score": 0.00021893400116823614,
+      "window_idx": 42,
+      "is_decoy": false,
+      "precursor_id": "RIDEIM(UniMod:35)KR3",
+      "batch_num": 720,
+      "rank": 952
+    },
+    {
+      "score": 0.00019199175585526973,
+      "window_idx": 45,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TPTPLM(UniMod:35)ANDSTETSEAGEEEEDHEGDSENK3",
+      "batch_num": 720,
+      "rank": 953
+    },
+    {
+      "score": 0.000175284527358599,
+      "window_idx": 91,
+      "is_decoy": false,
+      "precursor_id": "VILALGDYM(UniMod:35)GATC(UniMod:4)HAC(UniMod:4)IGGTNVR2",
+      "batch_num": 720,
+      "rank": 954
+    },
+    {
+      "score": 0.00017513049533590674,
+      "window_idx": 59,
+      "is_decoy": false,
+      "precursor_id": "QENSSNSSPAPEPNSAVPSDGTEAK2",
+      "batch_num": 720,
+      "rank": 955
+    },
+    {
+      "score": 0.00016312931256834418,
+      "window_idx": 95,
+      "is_decoy": true,
+      "precursor_id": "DECOY_ALFHASTLHR3",
+      "batch_num": 720,
+      "rank": 956
+    },
+    {
+      "score": 0.0001480497739976272,
+      "window_idx": 18,
+      "is_decoy": true,
+      "precursor_id": "DECOY_YEVPVPLNIPSMPSSTPEGQLYDVLIKK3",
+      "batch_num": 720,
+      "rank": 957
+    },
+    {
+      "score": 0.00014620066212955862,
+      "window_idx": 45,
+      "is_decoy": false,
+      "precursor_id": "PTDVAALRR3",
+      "batch_num": 720,
+      "rank": 958
+    },
+    {
+      "score": 0.00013533934543374926,
+      "window_idx": 1,
+      "is_decoy": true,
+      "precursor_id": "DECOY_HFDTYHR3",
+      "batch_num": 720,
+      "rank": 959
+    },
+    {
+      "score": 0.00013418629532679915,
+      "window_idx": 27,
+      "is_decoy": false,
+      "precursor_id": "PAEPAPFNKR3",
+      "batch_num": 720,
+      "rank": 960
+    },
+    {
+      "score": 0.00012826746387872845,
+      "window_idx": 24,
+      "is_decoy": false,
+      "precursor_id": "LYQNSPLSSHPVVALSELSTLC(UniMod:4)AN2",
+      "batch_num": 720,
+      "rank": 961
+    },
+    {
+      "score": 0.00012187113316031173,
+      "window_idx": 21,
+      "is_decoy": true,
+      "precursor_id": "DECOY_FLEANKIEFEEVDITMSEEQR2",
+      "batch_num": 720,
+      "rank": 962
+    },
+    {
+      "score": 0.000104290280432906,
+      "window_idx": 66,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GRPPPTPLFGDDDDDDDIDWLG2",
+      "batch_num": 720,
+      "rank": 963
+    },
+    {
+      "score": 9.982773917727172e-05,
+      "window_idx": 30,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SKKGIEESLR3",
+      "batch_num": 720,
+      "rank": 964
+    },
+    {
+      "score": 8.815475302981213e-05,
+      "window_idx": 10,
+      "is_decoy": false,
+      "precursor_id": "VFLEDTGQDFPLMPNEESSLPAVEK2",
+      "batch_num": 720,
+      "rank": 965
+    },
+    {
+      "score": 8.704327774466947e-05,
+      "window_idx": 8,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GDINIEGPSM(UniMod:35)NIEGPDLNVEGPEGGLK2",
+      "batch_num": 720,
+      "rank": 966
+    },
+    {
+      "score": 8.45592439873144e-05,
+      "window_idx": 48,
+      "is_decoy": false,
+      "precursor_id": "HMLGHHAEMEIAR4",
+      "batch_num": 720,
+      "rank": 967
+    },
+    {
+      "score": 8.244533819379285e-05,
+      "window_idx": 3,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LNNTPDSDWLQLKPLAGTDDSVVSEDR2",
+      "batch_num": 720,
+      "rank": 968
+    },
+    {
+      "score": 7.62066847528331e-05,
+      "window_idx": 30,
+      "is_decoy": false,
+      "precursor_id": "GPYSLVAVINSAQDAPSEAPTEVGVK2",
+      "batch_num": 720,
+      "rank": 969
+    },
+    {
+      "score": 7.394454587483779e-05,
+      "window_idx": 2,
+      "is_decoy": true,
+      "precursor_id": "DECOY_THLFDSRPR3",
+      "batch_num": 720,
+      "rank": 970
+    },
+    {
+      "score": 7.304104656213894e-05,
+      "window_idx": 35,
+      "is_decoy": false,
+      "precursor_id": "PVHM(UniMod:35)SPLEPR3",
+      "batch_num": 720,
+      "rank": 971
+    },
+    {
+      "score": 7.28990271454677e-05,
+      "window_idx": 70,
+      "is_decoy": false,
+      "precursor_id": "SSTPEEVKKR3",
+      "batch_num": 720,
+      "rank": 972
+    },
+    {
+      "score": 6.799941183999181e-05,
+      "window_idx": 32,
+      "is_decoy": false,
+      "precursor_id": "SVFQGHVTHQALVGTNTTGISEK2",
+      "batch_num": 720,
+      "rank": 973
+    },
+    {
+      "score": 6.237799243535846e-05,
+      "window_idx": 18,
+      "is_decoy": false,
+      "precursor_id": "EIETYHNLLEGGQEDFESSGAG2",
+      "batch_num": 720,
+      "rank": 974
+    },
+    {
+      "score": 6.15591270616278e-05,
+      "window_idx": 14,
+      "is_decoy": false,
+      "precursor_id": "IAGDGDTSNFETYPENDWDTAAPVPQK2",
+      "batch_num": 720,
+      "rank": 975
+    },
+    {
+      "score": 5.938740287092514e-05,
+      "window_idx": 71,
+      "is_decoy": true,
+      "precursor_id": "DECOY_GDDLQAIKK3",
+      "batch_num": 720,
+      "rank": 976
+    },
+    {
+      "score": 5.909070750931278e-05,
+      "window_idx": 68,
+      "is_decoy": false,
+      "precursor_id": "PKPSASEVLTR3",
+      "batch_num": 720,
+      "rank": 977
+    },
+    {
+      "score": 5.754624726250768e-05,
+      "window_idx": 16,
+      "is_decoy": false,
+      "precursor_id": "FAHTNVESLVNEYDDNGEGIILFR2",
+      "batch_num": 720,
+      "rank": 978
+    },
+    {
+      "score": 5.7353510783286765e-05,
+      "window_idx": 39,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VKDEFSVDK3",
+      "batch_num": 720,
+      "rank": 979
+    },
+    {
+      "score": 5.1204107876401395e-05,
+      "window_idx": 51,
+      "is_decoy": true,
+      "precursor_id": "DECOY_M(UniMod:35)LSASTMLVQWEPPEEPNGLVR2",
+      "batch_num": 720,
+      "rank": 980
+    },
+    {
+      "score": 4.957156488671899e-05,
+      "window_idx": 12,
+      "is_decoy": true,
+      "precursor_id": "DECOY_TPTFLEIWNDSVDGDSFSSLSSPETGK2",
+      "batch_num": 720,
+      "rank": 981
+    },
+    {
+      "score": 4.818224988412112e-05,
+      "window_idx": 13,
+      "is_decoy": false,
+      "precursor_id": "SDVEIPATVTAFSFEDDTVPLSPLK2",
+      "batch_num": 720,
+      "rank": 982
+    },
+    {
+      "score": 4.779345545102842e-05,
+      "window_idx": 44,
+      "is_decoy": false,
+      "precursor_id": "ENYSHHTQDDRR4",
+      "batch_num": 720,
+      "rank": 983
+    },
+    {
+      "score": 3.882884993799962e-05,
+      "window_idx": 33,
+      "is_decoy": false,
+      "precursor_id": "VM(UniMod:35)YMGEEHLFSVEQITAM(UniMod:35)LLTK2",
+      "batch_num": 720,
+      "rank": 984
+    },
+    {
+      "score": 3.696516068885103e-05,
+      "window_idx": 77,
+      "is_decoy": false,
+      "precursor_id": "AIVFEIM(UniMod:35)EAGEPTGPILGAEALPGGLR2",
+      "batch_num": 720,
+      "rank": 985
+    },
+    {
+      "score": 3.461233063717373e-05,
+      "window_idx": 69,
+      "is_decoy": false,
+      "precursor_id": "MVMPSWFDLM(UniMod:35)GLSPDAPEDEAGIK2",
+      "batch_num": 720,
+      "rank": 986
+    },
+    {
+      "score": 3.454446414252743e-05,
+      "window_idx": 2,
+      "is_decoy": false,
+      "precursor_id": "AFQYVQDNGGLDSEESYPYEATEESC(UniMod:4)K3",
+      "batch_num": 720,
+      "rank": 987
+    },
+    {
+      "score": 3.443208333919756e-05,
+      "window_idx": 15,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SMGGKEDLIWELLNQAQEHFGK2",
+      "batch_num": 720,
+      "rank": 988
+    },
+    {
+      "score": 3.365573502378538e-05,
+      "window_idx": 43,
+      "is_decoy": false,
+      "precursor_id": "GFAPEPAVVMGHSGEDLPMVAPGNVR2",
+      "batch_num": 720,
+      "rank": 989
+    },
+    {
+      "score": 3.1433643016498536e-05,
+      "window_idx": 23,
+      "is_decoy": false,
+      "precursor_id": "VGVDTIHVHK3",
+      "batch_num": 720,
+      "rank": 990
+    },
+    {
+      "score": 3.069792001042515e-05,
+      "window_idx": 43,
+      "is_decoy": true,
+      "precursor_id": "DECOY_LLTPNPGYGTQAGPSPAPPTPPEEEDLR2",
+      "batch_num": 720,
+      "rank": 991
+    },
+    {
+      "score": 3.0221544875530526e-05,
+      "window_idx": 3,
+      "is_decoy": false,
+      "precursor_id": "ISYFTFIGTPVQATNMNDFKR2",
+      "batch_num": 720,
+      "rank": 992
+    },
+    {
+      "score": 2.9801803975715302e-05,
+      "window_idx": 78,
+      "is_decoy": true,
+      "precursor_id": "DECOY_VGEAGLLSVDC(UniMod:4)SEAGPGALGLEAVSDSGTK2",
+      "batch_num": 720,
+      "rank": 993
+    },
+    {
+      "score": 2.6286803404218517e-05,
+      "window_idx": 72,
+      "is_decoy": false,
+      "precursor_id": "YM(UniMod:35)FPMGTPDPEYPADASQNGIR2",
+      "batch_num": 720,
+      "rank": 994
+    },
+    {
+      "score": 2.609209514048416e-05,
+      "window_idx": 2,
+      "is_decoy": false,
+      "precursor_id": "LISPESTVMLLEAQAATGGIIDPHRN2",
+      "batch_num": 720,
+      "rank": 995
+    },
+    {
+      "score": 2.489670987415593e-05,
+      "window_idx": 1,
+      "is_decoy": true,
+      "precursor_id": "DECOY_M(UniMod:35)HITLC(UniMod:4)DFIVPWDTLSTTQK2",
+      "batch_num": 720,
+      "rank": 996
+    },
+    {
+      "score": 1.75270779436687e-05,
+      "window_idx": 32,
+      "is_decoy": true,
+      "precursor_id": "DECOY_SLGPNSC(UniMod:4)SANGPGLYLIHGPNLY2",
+      "batch_num": 720,
+      "rank": 997
+    },
+    {
+      "score": 1.2532565961009823e-05,
+      "window_idx": 24,
+      "is_decoy": false,
+      "precursor_id": "IEVEQALAHPYLEQYYDPSDEPIAEAPFK3",
+      "batch_num": 720,
+      "rank": 998
+    },
+    {
+      "score": 9.060535376193002e-06,
+      "window_idx": 63,
+      "is_decoy": false,
+      "precursor_id": "GAEYAPLEEGPEEPLPLGNTSVR2",
+      "batch_num": 720,
+      "rank": 999
+    },
+    {
+      "score": 1.9136698483634973e-06,
+      "window_idx": 58,
+      "is_decoy": true,
+      "precursor_id": "DECOY_DM(UniMod:35)AIATGGAVFGEEGLTLNLEDVQPHDLGK3",
+      "batch_num": 720,
+      "rank": 1000
+    }
+  ]
+}
